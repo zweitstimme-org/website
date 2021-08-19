@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on zweitstimme.org</title>
-    <link>https://adityatelange.github.io/hugo-PaperMod/en/posts/</link>
+    <link>https://2021.zweitstimme.org/en/posts/</link>
     <description>Recent content in Posts on zweitstimme.org</description>
     <image>
-      <url>https://adityatelange.github.io/hugo-PaperMod/papermod-cover.png</url>
-      <link>https://adityatelange.github.io/hugo-PaperMod/papermod-cover.png</link>
+      <url>https://2021.zweitstimme.org/papermod-cover.png</url>
+      <link>https://2021.zweitstimme.org/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 19 Aug 2021 22:33:16 +0200</lastBuildDate><atom:link href="https://adityatelange.github.io/hugo-PaperMod/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Aug 2021 22:33:16 +0200</lastBuildDate><atom:link href="https://2021.zweitstimme.org/en/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The current numbers by zweitstimme.org</title>
-      <link>https://adityatelange.github.io/hugo-PaperMod/en/posts/forecast/</link>
+      <link>https://2021.zweitstimme.org/en/posts/forecast/</link>
       <pubDate>Thu, 19 Aug 2021 22:33:16 +0200</pubDate>
       
-      <guid>https://adityatelange.github.io/hugo-PaperMod/en/posts/forecast/</guid>
+      <guid>https://2021.zweitstimme.org/en/posts/forecast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Team behind zweitstimme.org</title>
-      <link>https://adityatelange.github.io/hugo-PaperMod/en/posts/team/</link>
+      <link>https://2021.zweitstimme.org/en/posts/team/</link>
       <pubDate>Thu, 19 Aug 2021 21:30:34 +0200</pubDate>
       
-      <guid>https://adityatelange.github.io/hugo-PaperMod/en/posts/team/</guid>
+      <guid>https://2021.zweitstimme.org/en/posts/team/</guid>
       <description>We are a team of political scientists from the University of Mannheim, LMU Munich, Hertie School Berlin and HU Berlin.
 Our goal is to use our statistical model to provide a broad audience with information and forecasts about the federal election that go beyond the snapshots of political sentiment provided by opinion polls (e.g., “Sunday polls“).
  table.fixed { table-layout: fixed; width: 100%; } table.fixed td { overflow: hidden; }  Thomas Gschwend    Thomas Gschwend is professor in the Department of Political Science, University of Mannheim.</description>
