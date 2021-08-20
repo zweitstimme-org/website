@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on zweitstimme.org</title>
-    <link>https://2021.zweitstimme.org/posts/</link>
+    <link>https://zweitstimme.org/posts/</link>
     <description>Recent content in Posts on zweitstimme.org</description>
     <image>
-      <url>https://2021.zweitstimme.org/papermod-cover.png</url>
-      <link>https://2021.zweitstimme.org/papermod-cover.png</link>
+      <url>https://zweitstimme.org/papermod-cover.png</url>
+      <link>https://zweitstimme.org/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 19 Aug 2021 22:33:16 +0200</lastBuildDate><atom:link href="https://2021.zweitstimme.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Aug 2021 22:33:16 +0200</lastBuildDate><atom:link href="https://zweitstimme.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Die aktuellen Zahlen von zweitstimme.org</title>
-      <link>https://2021.zweitstimme.org/posts/forecast/</link>
+      <link>https://zweitstimme.org/posts/forecast/</link>
       <pubDate>Thu, 19 Aug 2021 22:33:16 +0200</pubDate>
       
-      <guid>https://2021.zweitstimme.org/posts/forecast/</guid>
+      <guid>https://zweitstimme.org/posts/forecast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Über die Prognosemodelle</title>
-      <link>https://2021.zweitstimme.org/posts/publications/</link>
+      <link>https://zweitstimme.org/posts/publications/</link>
       <pubDate>Wed, 18 Aug 2021 22:33:16 +0200</pubDate>
       
-      <guid>https://2021.zweitstimme.org/posts/publications/</guid>
+      <guid>https://zweitstimme.org/posts/publications/</guid>
       <description>Für uns als Wissenschaftler:innen ist es wichtig, dass unsere Prognosen transparent und nachvollziehbar sind.
 Seit 2017 haben wir zu unserem Modell mehrere (peer-reviewed) wissenschaftliche Artikel veröffentlicht. Mit den Veröffentlichungen stellen wir auch unseren Code öffentlich zur Verfügung.
 Um sowohl längerfristige Parteineigungen als auch aktuelle politische Stimmungen abzubilden, besteht unser Zweitstimmenmodell aus zwei Komponenten – einer strukturellen Komponente und einer Umfragekomponente. Zusätzlich können wir mit unserem Wahlkreismodell berechnen, wie wahrscheinlich eine Kandidatin oder ein Kandidat jeder Partei einen Wahlkreis gewinnen kann.</description>
@@ -32,10 +32,10 @@ Um sowohl längerfristige Parteineigungen als auch aktuelle politische Stimmunge
     
     <item>
       <title>Das Team hinter zweitstimme.org</title>
-      <link>https://2021.zweitstimme.org/posts/team/</link>
+      <link>https://zweitstimme.org/posts/team/</link>
       <pubDate>Wed, 18 Aug 2021 21:30:34 +0200</pubDate>
       
-      <guid>https://2021.zweitstimme.org/posts/team/</guid>
+      <guid>https://zweitstimme.org/posts/team/</guid>
       <description>Wir sind ein Team von Wahlforscher:innen der Universität Mannheim, der LMU München, der Hertie School Berlin und der HU Berlin.
 Unser Ziel ist es, einem breiten Publikum mithilfe unseres statistischen Modells Informationen und Prognosen zur Bundestagswahl an die Hand zu geben, die über die Momentaufnahmen der politischen Stimmung durch Meinungsumfragen (bspw. „Sonntagsfragen“) hinausgehen.
  table.fixed { table-layout: fixed; width: 100%; } table.fixed td { overflow: hidden; }  Thomas Gschwend    Thomas Gschwend ist Professor am Fachbereich für Politikwissenschaft der Universität Mannheim.</description>
