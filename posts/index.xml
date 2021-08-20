@@ -20,9 +20,20 @@
     </item>
     
     <item>
+      <title>Über die Prognosemodelle</title>
+      <link>https://2021.zweitstimme.org/posts/publications/</link>
+      <pubDate>Wed, 18 Aug 2021 22:33:16 +0200</pubDate>
+      
+      <guid>https://2021.zweitstimme.org/posts/publications/</guid>
+      <description>Für uns als Wissenschaftler:innen ist es wichtig, dass unsere Prognosen transparent und nachvollziehbar sind.
+Seit 2017 haben wir zu unserem Modell mehrere (peer-reviewed) wissenschaftliche Artikel veröffentlicht. Mit den Veröffentlichungen stellen wir auch unseren Code öffentlich zur Verfügung.
+Um sowohl längerfristige Parteineigungen als auch aktuelle politische Stimmungen abzubilden, besteht unser Zweitstimmenmodell aus zwei Komponenten – einer strukturellen Komponente und einer Umfragekomponente. Zusätzlich können wir mit unserem Wahlkreismodell berechnen, wie wahrscheinlich eine Kandidatin oder ein Kandidat jeder Partei einen Wahlkreis gewinnen kann.</description>
+    </item>
+    
+    <item>
       <title>Das Team hinter zweitstimme.org</title>
       <link>https://2021.zweitstimme.org/posts/team/</link>
-      <pubDate>Thu, 19 Aug 2021 21:30:34 +0200</pubDate>
+      <pubDate>Wed, 18 Aug 2021 21:30:34 +0200</pubDate>
       
       <guid>https://2021.zweitstimme.org/posts/team/</guid>
       <description>Wir sind ein Team von Wahlforscher:innen der Universität Mannheim, der LMU München, der Hertie School Berlin und der HU Berlin.
