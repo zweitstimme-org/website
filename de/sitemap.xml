@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zweitstimme.org/posts/evaluation/</loc>
+    <lastmod>2021-10-05T19:30:00+02:00</lastmod>
+  </url><url>
     <loc>https://zweitstimme.org/posts/</loc>
-    <lastmod>2021-09-23T16:00:00+02:00</lastmod>
+    <lastmod>2021-10-05T19:30:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +16,19 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://zweitstimme.org/posts/"
+                />
+  </url><url>
+    <loc>https://zweitstimme.org/</loc>
+    <lastmod>2021-10-05T19:30:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zweitstimme.org/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://zweitstimme.org/"
                 />
   </url><url>
     <loc>https://zweitstimme.org/posts/presentation/</loc>
@@ -26,19 +42,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://zweitstimme.org/posts/presentation/"
-                />
-  </url><url>
-    <loc>https://zweitstimme.org/</loc>
-    <lastmod>2021-09-23T16:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zweitstimme.org/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://zweitstimme.org/"
                 />
   </url><url>
     <loc>https://zweitstimme.org/posts/candidates/</loc>
