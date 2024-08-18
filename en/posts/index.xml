@@ -40,14 +40,14 @@ In order to reflect both longer-term party leanings and current political sentim
     </item>
     
     <item>
-      <title>The Team behind zweitstimme.org</title>
+      <title>The Team Behind zweitstimme.org</title>
       <link>https://zweitstimme.org/en/posts/team/</link>
       <pubDate>Wed, 18 Aug 2021 21:30:34 +0200</pubDate>
       
       <guid>https://zweitstimme.org/en/posts/team/</guid>
-      <description>We are a team of political scientists from the University of Mannheim, LMU Munich, Hertie School Berlin and HU Berlin.
-Our goal is to use our statistical model to provide a broad audience with information and forecasts about the federal election that go beyond the snapshots of political sentiment provided by opinion polls (e.g., “Sunday polls“).
- table.fixed { table-layout: fixed; width: 100%; } table.fixed td { overflow: hidden; }  Thomas Gschwend    Thomas Gschwend is professor in the Department of Political Science, University of Mannheim.</description>
+      <description>We are a team of election researchers from the University of Mannheim, LMU Munich, the Hertie School Berlin, and the University of Witten/Herdecke.
+Our goal is to provide a broad audience with information and forecasts about the Bundestag election using our statistical model, which goes beyond the snapshots of political sentiment provided by opinion polls (e.g., &amp;ldquo;Sunday Questions&amp;rdquo;).
+ table.fixed { table-layout: fixed; width: 100%; } table.fixed td { overflow: hidden; }  Thomas Gschwend   Thomas Gschwend is a Professor at the Department of Political Science at the University of Mannheim.</description>
     </item>
     
   </channel>
