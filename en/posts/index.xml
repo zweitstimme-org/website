@@ -9,7 +9,17 @@
       <link>https://zweitstimme.org/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Sep 2021 16:00:00 +0200</lastBuildDate><atom:link href="https://zweitstimme.org/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 May 2024 21:30:34 +0200</lastBuildDate><atom:link href="https://zweitstimme.org/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DFG Funding for Forecasting the 2025 German Federal Elections</title>
+      <link>https://zweitstimme.org/en/posts/dfg-funding/</link>
+      <pubDate>Sat, 18 May 2024 21:30:34 +0200</pubDate>
+      
+      <guid>https://zweitstimme.org/en/posts/dfg-funding/</guid>
+      <description>We are pleased to announce that our project has received funding from the German Science Foundation (DFG) to develop election forecasts for the upcoming 2025 German Federal Elections. This support will enable us to advance our research and develop more accurate election forcasting models.
+Stay tuned for more updates as we continue our work on this exciting project!</description>
+    </item>
+    
     <item>
       <title>Presentation of zweitstimme.org at the Hertie School</title>
       <link>https://zweitstimme.org/en/posts/presentation/</link>

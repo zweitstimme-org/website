@@ -9,7 +9,17 @@
       <link>https://zweitstimme.org/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 Oct 2021 19:30:00 +0200</lastBuildDate><atom:link href="https://zweitstimme.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 May 2024 21:30:34 +0200</lastBuildDate><atom:link href="https://zweitstimme.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DFG-Förderung für die Prognose der Bundestagswahl 2025</title>
+      <link>https://zweitstimme.org/posts/dfg-funding/</link>
+      <pubDate>Sat, 18 May 2024 21:30:34 +0200</pubDate>
+      
+      <guid>https://zweitstimme.org/posts/dfg-funding/</guid>
+      <description>Wir freuen uns, bekannt geben zu können, dass unser Projekt eine Förderung von der Deutschen Forschungsgemeinschaft (DFG) erhalten hat, um Wahlprognosen für die bevorstehende Bundestagswahl 2025 zu entwickeln. Diese Unterstützung ermöglicht es uns, unsere Forschung voranzutreiben und akuratere Vorhersagen für die Bundestagswahlen zu entwicklen.
+Bleiben Sie auf dem Laufenden für weitere Updates, während wir an diesem spannenden Projekt weiterarbeiten!</description>
+    </item>
+    
     <item>
       <title>Eine Evaluation der Wahlkreisprognosen zur Bundestagswahl 2021</title>
       <link>https://zweitstimme.org/posts/evaluation/</link>
