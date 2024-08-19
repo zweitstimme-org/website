@@ -9,7 +9,17 @@
       <link>https://zweitstimme.org/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 May 2024 21:30:34 +0200</lastBuildDate><atom:link href="https://zweitstimme.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Aug 2024 12:30:34 +0200</lastBuildDate><atom:link href="https://zweitstimme.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vorhersage der Landtagswahlen in Sachsen und Thüringen</title>
+      <link>https://zweitstimme.org/posts/state_election_forecast/</link>
+      <pubDate>Sun, 18 Aug 2024 12:30:34 +0200</pubDate>
+      
+      <guid>https://zweitstimme.org/posts/state_election_forecast/</guid>
+      <description>In zwei Wochen finden die Landtagswahlen in Sachsen und Thüringen statt. Wir von Zweitstimme haben nun auch ein Vorhersagemodell für Landtagswahlen entwickelt und freuen uns, die Vorhersagen mit zwei Wochen Vorlaufzeit auf dieser Seite präsentieren zu können.
+Die Vorhersage Sachsen In Sachsen zeigt unsere aktuelle Vorhersage ein spannendes Kopf-an-Kopf-Rennen zwischen der CDU und der AfD. Für die CDU, die bei der letzten Wahl die größte Partei wurde, erwarten wir 30,0% der Stimmen, wobei unsere Vorhersage zwei Wochen vor der Wahl noch eine 5/6-Wahrscheinlichkeit zulässt, dass dieser Wert im Kredibilitätsintervall zwischen 23,5% und 37,0% liegen wird.</description>
+    </item>
+    
     <item>
       <title>DFG-Förderung für die Prognose der Bundestagswahl 2025</title>
       <link>https://zweitstimme.org/posts/dfg-funding/</link>
