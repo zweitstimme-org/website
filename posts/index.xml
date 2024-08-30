@@ -9,7 +9,16 @@
       <link>https://zweitstimme.org/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 18 Aug 2024 12:30:34 +0200</lastBuildDate><atom:link href="https://zweitstimme.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Aug 2024 12:30:34 +0200</lastBuildDate><atom:link href="https://zweitstimme.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vorhersage der Landtagswahlen in Sachsen und Thüringen - 2 Tage vor der Wahl</title>
+      <link>https://zweitstimme.org/posts/state_election_forecast_2days/</link>
+      <pubDate>Fri, 30 Aug 2024 12:30:34 +0200</pubDate>
+      
+      <guid>https://zweitstimme.org/posts/state_election_forecast_2days/</guid>
+      <description>Vor zwei Wochen haben wir Vorhersagen für die Landtagswahlen in Sachsen und Thüringen hier publiziert. Diese aktualisieren wir heute – zwei Tage vor der Wahl – mit unserem Vorhersagemodell, basierend auf den in der Zwischenzeit veröffentlichten Umfragen für Sachsen und Thüringen. Anhand der vorherigen Landtagswahlen von 2010 bis 2023 wissen wir, dass unsere Vorhersagen zwei Tage vorher bereits sehr genau sind. Wir liegen mit einer durchschnittlichen absoluten Abweichung von 1,46 Prozentpunkten für alle Parteien sehr nahe am Endergebnis.</description>
+    </item>
+    
     <item>
       <title>Vorhersage der Landtagswahlen in Sachsen und Thüringen</title>
       <link>https://zweitstimme.org/posts/state_election_forecast/</link>
