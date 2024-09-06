@@ -5,97 +5,187 @@
     <link>https://zweitstimme.org/posts/</link>
     <description>Recent content in Posts on zweitstimme.org</description>
     <image>
+      <title>zweitstimme.org</title>
       <url>https://zweitstimme.org/papermod-cover.png</url>
       <link>https://zweitstimme.org/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Aug 2024 12:30:34 +0200</lastBuildDate><atom:link href="https://zweitstimme.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.134.1</generator>
+    <language>de</language>
+    <lastBuildDate>Fri, 06 Sep 2024 10:00:00 +0200</lastBuildDate>
+    <atom:link href="https://zweitstimme.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vorhersage der Landtagswahl in Brandenburg</title>
+      <link>https://zweitstimme.org/posts/brandenburg_election_forecast/</link>
+      <pubDate>Fri, 06 Sep 2024 10:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/posts/brandenburg_election_forecast/</guid>
+      <description>&lt;p&gt;In zwei Wochen findet die Landtagswahl in Brandenburg statt. Wir von Zweitstimme haben nun auch ein Vorhersagemodell für Landtagswahlen entwickelt und freuen uns, die Vorhersage mit zwei Wochen Vorlaufzeit auf dieser Seite präsentieren zu können &amp;ndash; wie bereits für Sachsen und Thüringen.&lt;/p&gt;
+&lt;h1 id=&#34;die-vorhersage&#34;&gt;Die Vorhersage&lt;/h1&gt;
+&lt;h2 id=&#34;brandenburg&#34;&gt;Brandenburg&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;./fig/fig_fcst_bb_2weekslead_de.png&#34; alt=&#34;Wahlprognose Brandenburg&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;In Brandenburg zeigt unsere aktuelle Vorhersage ein &lt;strong&gt;enges Rennen&lt;/strong&gt; zwischen vier Parteien; AfD, SPD, BSW und CDU liegen alle um die 20%. Für die &lt;strong&gt;SPD&lt;/strong&gt;, die bei der letzten Wahl die stärkste Partei wurde, erwarten wir &lt;strong&gt;21,0%&lt;/strong&gt; der Stimmen, wobei unsere Vorhersage zwei Wochen vor der Wahl noch eine 5/6-Wahrscheinlichkeit zulässt, dass dieser Wert im Intervall zwischen &lt;strong&gt;15,8%&lt;/strong&gt; und &lt;strong&gt;26,6%&lt;/strong&gt; liegen wird (in bayesscher Sprache: 5/6-Kredibilitätsintervall). &lt;strong&gt;Die AfD&lt;/strong&gt; dürfte sich hingegen deutlich verbessern und wird unseren Erwartungen nach mit &lt;strong&gt;24,3%&lt;/strong&gt; knapp vor der SPD liegen. Hier reicht das Intervall allerdings ebenfalls noch von &lt;strong&gt;18,5%&lt;/strong&gt; bis &lt;strong&gt;30,5%&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vorhersage der Landtagswahlen in Sachsen und Thüringen - 2 Tage vor der Wahl</title>
       <link>https://zweitstimme.org/posts/state_election_forecast_2days/</link>
       <pubDate>Fri, 30 Aug 2024 12:30:34 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/posts/state_election_forecast_2days/</guid>
-      <description>Vor zwei Wochen haben wir Vorhersagen für die Landtagswahlen in Sachsen und Thüringen hier publiziert. Diese aktualisieren wir heute – zwei Tage vor der Wahl – mit unserem Vorhersagemodell, basierend auf den in der Zwischenzeit veröffentlichten Umfragen für Sachsen und Thüringen. Anhand der vorherigen Landtagswahlen von 2010 bis 2023 wissen wir, dass unsere Vorhersagen zwei Tage vorher bereits sehr genau sind. Wir liegen mit einer durchschnittlichen absoluten Abweichung von 1,46 Prozentpunkten für alle Parteien sehr nahe am Endergebnis.</description>
+      <description>&lt;p&gt;Vor zwei Wochen haben wir Vorhersagen für die Landtagswahlen in Sachsen und Thüringen hier publiziert. Diese aktualisieren wir heute – zwei Tage vor der Wahl – mit unserem Vorhersagemodell, basierend auf den in der Zwischenzeit veröffentlichten Umfragen für Sachsen und Thüringen. Anhand der vorherigen Landtagswahlen von 2010 bis 2023 wissen wir, dass unsere Vorhersagen zwei Tage vorher bereits sehr genau sind. Wir liegen mit einer durchschnittlichen absoluten Abweichung von 1,46 Prozentpunkten für alle Parteien sehr nahe am Endergebnis.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Vorhersage der Landtagswahlen in Sachsen und Thüringen</title>
       <link>https://zweitstimme.org/posts/state_election_forecast/</link>
       <pubDate>Sun, 18 Aug 2024 12:30:34 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/posts/state_election_forecast/</guid>
-      <description>In zwei Wochen finden die Landtagswahlen in Sachsen und Thüringen statt. Wir von Zweitstimme haben nun auch ein Vorhersagemodell für Landtagswahlen entwickelt und freuen uns, die Vorhersagen mit zwei Wochen Vorlaufzeit auf dieser Seite präsentieren zu können.
-Die Vorhersage Sachsen In Sachsen zeigt unsere aktuelle Vorhersage ein spannendes Kopf-an-Kopf-Rennen zwischen der CDU und der AfD. Für die CDU, die bei der letzten Wahl die größte Partei wurde, erwarten wir 30,0% der Stimmen, wobei unsere Vorhersage zwei Wochen vor der Wahl noch eine 5/6-Wahrscheinlichkeit zulässt, dass dieser Wert im Kredibilitätsintervall zwischen 23,5% und 37,0% liegen wird.</description>
+      <description>&lt;p&gt;In zwei Wochen finden die Landtagswahlen in Sachsen und Thüringen statt. Wir von Zweitstimme haben nun auch ein Vorhersagemodell für Landtagswahlen entwickelt und freuen uns, die Vorhersagen mit zwei Wochen Vorlaufzeit auf dieser Seite präsentieren zu können.&lt;/p&gt;
+&lt;h1 id=&#34;die-vorhersage&#34;&gt;Die Vorhersage&lt;/h1&gt;
+&lt;h2 id=&#34;sachsen&#34;&gt;Sachsen&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;./fig/fig_fcst_sn_2weekslead_de.png&#34; alt=&#34;Wahlprognose Sachsen&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;In Sachsen zeigt unsere aktuelle Vorhersage ein spannendes Kopf-an-Kopf-Rennen zwischen der CDU und der AfD. Für die CDU, die bei der letzten Wahl die größte Partei wurde, erwarten wir &lt;strong&gt;30,0%&lt;/strong&gt; der Stimmen, wobei unsere Vorhersage zwei Wochen vor der Wahl noch eine 5/6-Wahrscheinlichkeit zulässt, dass dieser Wert im Kredibilitätsintervall zwischen &lt;strong&gt;23,5%&lt;/strong&gt; und &lt;strong&gt;37,0%&lt;/strong&gt; liegen wird. Die AfD dürfte sich hingegen deutlich verbessern und in unseren Erwartungen überholt sie mit &lt;strong&gt;30,6%&lt;/strong&gt; sogar knapp die CDU. Hier reicht das Intervall allerdings ebenfalls noch von &lt;strong&gt;24,0%&lt;/strong&gt; bis &lt;strong&gt;37,6%&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DFG-Förderung für die Prognose der Bundestagswahl 2025</title>
       <link>https://zweitstimme.org/posts/dfg-funding/</link>
       <pubDate>Sat, 18 May 2024 21:30:34 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/posts/dfg-funding/</guid>
-      <description>Wir freuen uns, bekannt geben zu können, dass unser Projekt eine Förderung von der Deutschen Forschungsgemeinschaft (DFG) erhalten hat, um Wahlprognosen für die bevorstehende Bundestagswahl 2025 zu entwickeln. Diese Unterstützung ermöglicht es uns, unsere Forschung voranzutreiben und akuratere Vorhersagen für die Bundestagswahlen zu entwicklen.
-Bleiben Sie auf dem Laufenden für weitere Updates, während wir an diesem spannenden Projekt weiterarbeiten!</description>
+      <description>&lt;p&gt;Wir freuen uns, bekannt geben zu können, dass unser Projekt eine Förderung von der Deutschen Forschungsgemeinschaft (DFG) erhalten hat, um Wahlprognosen für die bevorstehende Bundestagswahl 2025 zu entwickeln. Diese Unterstützung ermöglicht es uns, unsere Forschung voranzutreiben und akuratere Vorhersagen für die Bundestagswahlen zu entwicklen.&lt;/p&gt;
+&lt;p&gt;Bleiben Sie auf dem Laufenden für weitere Updates, während wir an diesem spannenden Projekt weiterarbeiten!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Eine Evaluation der Wahlkreisprognosen zur Bundestagswahl 2021</title>
       <link>https://zweitstimme.org/posts/evaluation/</link>
       <pubDate>Tue, 05 Oct 2021 19:30:00 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/posts/evaluation/</guid>
-      <description>Wer gewinnt die Bundestagswahl 2021 in den Wahlkreisen? Das war 2021 eine besonders spannende Frage. Nicht nur, weil viele Wahlkreise prominent besetzt waren - z. B. 061 Potsdam, wo die Kanzlerkandidat:innen Scholz und Baerbock um das Direktmandat rangen –, in einigen Wahlkreisen ein sehr knapper Ausgang erwartet wurde, die Grünen auf mehr und die AfD auf den Wiedergewinn von Direktmandaten hofften, sondern auch weil die Verteilung der Direktmandate ganz entscheidenden Einfluss auf die Gesamtmandatszahl hat.</description>
+      <description>&lt;p&gt;Wer gewinnt die Bundestagswahl 2021 in den Wahlkreisen? Das war 2021
+eine besonders spannende Frage. Nicht nur, weil viele Wahlkreise
+prominent besetzt waren - z. B. 061 Potsdam, wo die
+Kanzlerkandidat:innen Scholz und Baerbock um das Direktmandat rangen –,
+in einigen Wahlkreisen ein sehr knapper Ausgang erwartet wurde, die
+Grünen auf mehr und die AfD auf den Wiedergewinn von Direktmandaten
+hofften, sondern auch weil die Verteilung der Direktmandate ganz
+entscheidenden Einfluss auf die Gesamtmandatszahl hat.[1]&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Präsentation von zweitstimme.org an der Hertie School</title>
       <link>https://zweitstimme.org/posts/presentation/</link>
       <pubDate>Thu, 23 Sep 2021 16:00:00 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/posts/presentation/</guid>
-      <description></description>
+      <description>&lt;iframe src=&#34;https://zweitstimme-org.github.io/presentation_hertie/01_presentation.html#1&#34; height=&#34;750px&#34; width=&#34;100%&#34; title=&#34;Präsentation&#34; frameBorder=&#34;0&#34;&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>Einzugswahrscheinlichkeiten von zweitstimme.org</title>
       <link>https://zweitstimme.org/posts/candidates/</link>
       <pubDate>Wed, 08 Sep 2021 19:00:00 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/posts/candidates/</guid>
-      <description>Basierend auf unseren Modellen können wir für alle Kandidierenden eine Wahrscheinlichkeit für den Einzug in den Bundestag berechnen. Die Daten zu den Kandiderenden sind öffentlich beim Bundeswahlleiter verfügbar.</description>
+      <description>&lt;p&gt;Basierend auf unseren Modellen können wir für alle Kandidierenden eine Wahrscheinlichkeit für den Einzug in den Bundestag berechnen. Die Daten zu den Kandiderenden sind öffentlich beim &lt;a href=&#34;https://www.bundeswahlleiter.de/bundestagswahlen/2021/wahlbewerber.html&#34;&gt;Bundeswahlleiter&lt;/a&gt; verfügbar.&lt;/p&gt;
+&lt;iframe src=&#34;https://api.zweitstimme.org/cand_prob&#34; height=&#34;750px&#34; width=&#34;100%&#34; title=&#34;Einzugswahrscheinlichkeiten&#34; frameBorder=&#34;0&#34;&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>Die aktuellen Zahlen von zweitstimme.org</title>
       <link>https://zweitstimme.org/posts/forecast/</link>
       <pubDate>Thu, 19 Aug 2021 22:33:16 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/posts/forecast/</guid>
-      <description></description>
+      <description>&lt;iframe src=&#34;https://gfx.sueddeutsche.de/apps/e342301/www/index.html&#34; height=&#34;750px&#34; width=&#34;100%&#34; title=&#34;Die aktuellen Zahlen&#34;&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>Über die Prognosemodelle</title>
       <link>https://zweitstimme.org/posts/publications/</link>
       <pubDate>Wed, 18 Aug 2021 22:33:16 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/posts/publications/</guid>
-      <description>Für uns als Wissenschaftler:innen ist es wichtig, dass unsere Prognosen transparent und nachvollziehbar sind.
-Seit 2017 haben wir zu unserem Modell mehrere (peer-reviewed) wissenschaftliche Artikel veröffentlicht. Mit den Veröffentlichungen stellen wir auch unseren Code öffentlich zur Verfügung.
-Um sowohl längerfristige Parteineigungen als auch aktuelle politische Stimmungen abzubilden, besteht unser Zweitstimmenmodell aus zwei Komponenten – einer strukturellen Komponente und einer Umfragekomponente. Zusätzlich können wir mit unserem Wahlkreismodell berechnen, wie wahrscheinlich eine Kandidatin oder ein Kandidat jeder Partei einen Wahlkreis gewinnen kann.</description>
+      <description>&lt;p&gt;Für uns als Wissenschaftler:innen ist es wichtig, dass unsere Prognosen transparent und nachvollziehbar sind.&lt;/p&gt;
+&lt;p&gt;Seit 2017 haben wir zu unserem Modell mehrere (peer-reviewed) wissenschaftliche Artikel veröffentlicht. Mit den Veröffentlichungen stellen wir auch unseren Code öffentlich zur Verfügung.&lt;/p&gt;
+&lt;p&gt;Um sowohl längerfristige Parteineigungen als auch aktuelle politische Stimmungen abzubilden, besteht unser &lt;a href=&#34;https://zweitstimme.org/posts/publications/#das-zweitstimmenmodell&#34;&gt;Zweitstimmenmodell&lt;/a&gt; aus zwei Komponenten – einer strukturellen Komponente und einer Umfragekomponente. Zusätzlich können wir mit unserem &lt;a href=&#34;https://zweitstimme.org/posts/publications/#das-wahlkreismodell&#34;&gt;Wahlkreismodell&lt;/a&gt; berechnen, wie wahrscheinlich eine Kandidatin oder ein Kandidat jeder Partei einen Wahlkreis gewinnen kann.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Das Team hinter zweitstimme.org</title>
       <link>https://zweitstimme.org/posts/team/</link>
       <pubDate>Wed, 18 Aug 2021 21:30:34 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/posts/team/</guid>
-      <description>Wir sind ein Team von Wahlforscher:innen der Universität Mannheim, der LMU München, der Hertie School Berlin und der Universität Witten/Herdecke.
-Unser Ziel ist es, einem breiten Publikum mithilfe unseres statistischen Modells Informationen und Prognosen zur Bundestagswahl an die Hand zu geben, die über die Momentaufnahmen der politischen Stimmung durch Meinungsumfragen (bspw. „Sonntagsfragen“) hinausgehen.
- table.fixed { table-layout: fixed; width: 100%; } table.fixed td { overflow: hidden; }  Thomas Gschwend    Thomas Gschwend ist Professor am Fachbereich für Politikwissenschaft der Universität Mannheim.</description>
+      <description>&lt;p&gt;Wir sind ein Team von Wahlforscher:innen der Universität Mannheim, der LMU München, der Hertie School Berlin und der Universität Witten/Herdecke.&lt;/p&gt;
+&lt;p&gt;Unser Ziel ist es, einem breiten Publikum mithilfe unseres statistischen Modells Informationen und Prognosen zur Bundestagswahl an die Hand zu geben, die über die Momentaufnahmen der politischen Stimmung durch Meinungsumfragen (bspw. „Sonntagsfragen“) hinausgehen.&lt;/p&gt;
+&lt;style&gt;
+table.fixed {
+      table-layout: fixed;
+      width: 100%;
+    }
+table.fixed td {
+      overflow: hidden;
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;thomas-gschwend&#34;&gt;Thomas Gschwend&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+	&lt;col width=50% /&gt;
+     &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt; &lt;img src=&#34;./img/gschwend.jpg&#34;  alt=&#34;Thomas Gschwend&#34; width = 250px &gt;&lt;/td&gt;
+    &lt;td&gt;Thomas Gschwend ist Professor am Fachbereich für Politikwissenschaft der Universität Mannheim. Seine Forschungsinteressen liegen in den Bereichen Wahlprognose, vergleichendes politisches Verhalten und Justizpolitik.&lt;/td&gt;
+   &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;simon-munzert&#34;&gt;Simon Munzert&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+	&lt;col width=50% /&gt;
+     &lt;col width=50% /&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Simon Munzert ist Professor of Data Science and Public Policy an der Hertie School. Zu seinen Forschungsinteressen gehören Meinungsbildung im digitalen Zeitalter, öffentliche Meinung und die Nutzung von Online-Daten in der Sozialforschung.&lt;/td&gt;
+    &lt;td&gt; &lt;img src=&#34;img/munzert.jpg&#34;  alt=&#34;Simon Munzert&#34; width = 250px &gt;&lt;/td&gt;
+   &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;lukas-f-stoetzer&#34;&gt;Lukas F. Stoetzer&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+	&lt;col width=50% /&gt;
+     &lt;col width=50% /&gt;
+  &lt;tr&gt;
+  	&lt;td&gt; &lt;img src=&#34;img/stoetzer.jpg&#34;  alt=&#34;Lukas F. Stoetzer&#34; width = 250px &gt;&lt;/td&gt;
+  	&lt;td&gt;Lukas F. Stoetzer ist Professor für Quantitative Methoden am Fachbereich Wirtschaft und Gesellschaft der Universität Witten/Herdecke. Seine Forschungsinteressen liegen im Bereich des vergleichenden politischen Verhaltens und der politischen Methodologie.&lt;/td&gt;
+   &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;cornelius-erfort&#34;&gt;Cornelius Erfort&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+     &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Cornelius Erfort ist wissenschaftlicher Mitarbeiter im DFG Projekt &#34;Wahlprognosen für die Bundestagswahl 2025&#34; an der Universität Witten/Herdecke. Seine Forschungsinteressen liegen in den Bereichen politischen Wettbewerb und vergleichendes politisches Verhalten.&lt;/td&gt;
+    &lt;td&gt; &lt;img src=&#34;./img/erfort.jpg&#34;  alt=&#34;Cornelius Erfort&#34; width = 250px &gt;&lt;/td&gt;
+   &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;hannah-rajski&#34;&gt;Hannah Rajski&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+     &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt; &lt;img src=&#34;./img/rajski.jpg&#34;  alt=&#34;Hannah Rajski&#34; width = 250px &gt;&lt;/td&gt;
+    &lt;td&gt;Hannah Rajski promoviert im Rahmen des DFG Projekts &#34;Wahlprognosen für die Bundestagswahl 2025&#34; an der Universität Mannheim zu Bürgervorhersagen.  &lt;/td&gt;
+   &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;elias-koch&#34;&gt;Elias Koch&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+     &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Elias Koch promoviert im Rahmen des DFG Projekts &#34;Wahlprognosen für die Bundestagswahl 2025&#34; an der Hertie School.&lt;/td&gt;
+    &lt;td&gt; &lt;img src=&#34;img/koch.jpg&#34;  alt=&#34;Elias Koch&#34; width = 250px &gt;&lt;/td&gt;
+   &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h2 id=&#34;assoziierte-und-ehemalige-mitglieder&#34;&gt;Assoziierte und ehemalige Mitglieder&lt;/h2&gt;
+&lt;h3 id=&#34;marcel-neunhoeffer&#34;&gt;Marcel Neunhoeffer&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+     &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt; &lt;img src=&#34;img/neunhoeffer.jpg&#34;  alt=&#34;Marcel Neunhoeffer&#34; width = 250px &gt;&lt;/td&gt;
+    &lt;td&gt;Marcel Neunhoeffer ist wissenschaftlicher Mitarbeiter am Arbeitsbereich Statistische Methoden des Instituts für Arbeitsmarkt- und Berufsforschung in Nürnberg und am Lehrstuhl für Statistik und Datenwissenschaft in den Sozial- und Geisteswissenschaften an der Ludwig-Maximilians-Universität München. In seiner Forschung konzentriert er sich auf die Anwendung von Deep-Learning-Algorithmen auf sozialwissenschaftliche Fragestellungen mit einem Schwerpunkt auf Datenschutz.&lt;/td&gt;
+   &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;klara-müller&#34;&gt;Klara Müller&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+     &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Klara Müller ist assoziiertes Mitglied am Promotionszentrum für Sozial- und Verhaltenswissenschaften an der GESS, Universität Mannheim. Ihre Forschungsinteressen liegen im Bereich der politischen Psychologie und der Wahlprognose.&lt;/td&gt; 
+    &lt;td&gt; &lt;img src=&#34;img/mueller.jpg&#34;  alt=&#34;Klara Müller&#34; width = 250px &gt;&lt;/td&gt;
+   &lt;/tr&gt; 
+&lt;/table&gt;</description>
     </item>
-    
   </channel>
 </rss>

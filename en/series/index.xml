@@ -5,9 +5,12 @@
     <link>https://zweitstimme.org/en/series/</link>
     <description>Recent content in Series on zweitstimme.org</description>
     <image>
+      <title>zweitstimme.org</title>
       <url>https://zweitstimme.org/papermod-cover.png</url>
       <link>https://zweitstimme.org/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://zweitstimme.org/en/series/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.134.1</generator>
+    <language>en</language>
+    <atom:link href="https://zweitstimme.org/en/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

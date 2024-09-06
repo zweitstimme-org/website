@@ -5,79 +5,165 @@
     <link>https://zweitstimme.org/en/posts/</link>
     <description>Recent content in Posts on zweitstimme.org</description>
     <image>
+      <title>zweitstimme.org</title>
       <url>https://zweitstimme.org/papermod-cover.png</url>
       <link>https://zweitstimme.org/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Aug 2024 12:30:34 +0200</lastBuildDate><atom:link href="https://zweitstimme.org/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.134.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Sep 2024 12:00:34 +0200</lastBuildDate>
+    <atom:link href="https://zweitstimme.org/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forecast for the State Elections in Brandenburg</title>
+      <link>https://zweitstimme.org/en/posts/brandenburg_election_forecast/</link>
+      <pubDate>Thu, 05 Sep 2024 12:00:34 +0200</pubDate>
+      <guid>https://zweitstimme.org/en/posts/brandenburg_election_forecast/</guid>
+      <description>&lt;p&gt;In two weeks, German state elections will be held in Brandenburg. We at Zweitstimme have now developed a forecasting model for state elections and are pleased to present our forecasts on this page, two weeks ahead of the elections &amp;ndash; as we did for Saxony and Thuringia.&lt;/p&gt;
+&lt;h1 id=&#34;the-forecast&#34;&gt;The Forecast&lt;/h1&gt;
+&lt;h2 id=&#34;brandenburg&#34;&gt;Brandenburg&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;./fig/fig_fcst_bb_2weekslead.png&#34; alt=&#34;Brandenburg Election Forecast&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;In Brandenburg, our current forecast shows a &lt;strong&gt;tight race&lt;/strong&gt; between four parties; AfD, SPD, BSW, and CDU, all polling around 20%. For the &lt;strong&gt;SPD&lt;/strong&gt;, which was the largest party in the last election, we expect &lt;strong&gt;19.9%&lt;/strong&gt; of the votes. However, our forecast two weeks before the election still allows for a 5/6 probability that this value will fall within the credibility interval of &lt;strong&gt;14.8%&lt;/strong&gt; to &lt;strong&gt;25.4%&lt;/strong&gt;. The &lt;strong&gt;AfD&lt;/strong&gt;, on the other hand, is expected to significantly improve, and in our estimation, it might narrowly surpass the SPD with &lt;strong&gt;22.8%&lt;/strong&gt;. However, this interval also ranges from &lt;strong&gt;17.1%&lt;/strong&gt; to &lt;strong&gt;28.9%&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Forecast for the State Elections in Saxony and Thuringia - 2 Days Before the Election</title>
       <link>https://zweitstimme.org/en/posts/state_election_forecast_2days/</link>
       <pubDate>Fri, 30 Aug 2024 12:30:34 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/en/posts/state_election_forecast_2days/</guid>
-      <description>Two weeks ago, we published forecasts for the state elections in Saxony and Thuringia. Today, two days before the election, we are updating these forecasts using our prediction model, based on the polls published in the meantime for Saxony and Thuringia. Based on previous state elections from 2010 to 2023, we know that our forecasts two days before the election are already very accurate. We have an average absolute deviation of 1.</description>
+      <description>&lt;p&gt;Two weeks ago, we published forecasts for the state elections in Saxony and Thuringia. Today, two days before the election, we are updating these forecasts using our prediction model, based on the polls published in the meantime for Saxony and Thuringia. Based on previous state elections from 2010 to 2023, we know that our forecasts two days before the election are already very accurate. We have an average absolute deviation of 1.46 percentage points across all parties, which is very close to the final result.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Forecast for the State Elections in Saxony and Thuringia</title>
       <link>https://zweitstimme.org/en/posts/state_election_forecast/</link>
       <pubDate>Sun, 18 Aug 2024 12:30:34 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/en/posts/state_election_forecast/</guid>
-      <description>In two weeks, German state elections will be held in Saxony and Thuringia. We at Zweitstimme have now developed a forecasting model for state elections and are pleased to present our forecasts on this page, two weeks ahead of the elections.
-The Forecast Saxony In Saxony, our current forecast shows a close race between the CDU and the AfD. For the CDU, which was the largest party in the last election, we expect 30.</description>
+      <description>&lt;p&gt;In two weeks, German state elections will be held in Saxony and Thuringia. We at Zweitstimme have now developed a forecasting model for state elections and are pleased to present our forecasts on this page, two weeks ahead of the elections.&lt;/p&gt;
+&lt;h1 id=&#34;the-forecast&#34;&gt;The Forecast&lt;/h1&gt;
+&lt;h2 id=&#34;saxony&#34;&gt;Saxony&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;./fig/fig_fcst_sn_2weekslead.png&#34; alt=&#34;Saxony Election Forecast&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;In Saxony, our current forecast shows a close race between the CDU and the AfD. For the CDU, which was the largest party in the last election, we expect &lt;strong&gt;30.0%&lt;/strong&gt; of the votes. However, our forecast two weeks before the election still allows for a 5/6 probability that this value will fall within the credibility interval of &lt;strong&gt;23.5%&lt;/strong&gt; to &lt;strong&gt;37.0%&lt;/strong&gt;. The AfD, on the other hand, is expected to significantly improve, and in our estimation, it might narrowly surpass the CDU with &lt;strong&gt;30.6%&lt;/strong&gt;. However, this interval also ranges from &lt;strong&gt;24.0%&lt;/strong&gt; to &lt;strong&gt;37.6%&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DFG Funding for Forecasting the 2025 German Federal Elections</title>
       <link>https://zweitstimme.org/en/posts/dfg-funding/</link>
       <pubDate>Sat, 18 May 2024 21:30:34 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/en/posts/dfg-funding/</guid>
-      <description>We are pleased to announce that our project has received funding from the German Science Foundation (DFG) to develop election forecasts for the upcoming 2025 German Federal Elections. This support will enable us to advance our research and develop more accurate election forcasting models.
-Stay tuned for more updates as we continue our work on this exciting project!</description>
+      <description>&lt;p&gt;We are pleased to announce that our project has received funding from the German Science Foundation (DFG) to develop election forecasts for the upcoming 2025 German Federal Elections. This support will enable us to advance our research and develop more accurate election forcasting models.&lt;/p&gt;
+&lt;p&gt;Stay tuned for more updates as we continue our work on this exciting project!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Presentation of zweitstimme.org at the Hertie School</title>
       <link>https://zweitstimme.org/en/posts/presentation/</link>
       <pubDate>Thu, 23 Sep 2021 16:00:00 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/en/posts/presentation/</guid>
-      <description></description>
+      <description>&lt;iframe src=&#34;https://zweitstimme-org.github.io/presentation_hertie/01_presentation.html#1&#34; height=&#34;750px&#34; width=&#34;100%&#34; title=&#34;Presentation&#34; frameBorder=&#34;0&#34;&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>The current numbers by zweitstimme.org</title>
       <link>https://zweitstimme.org/en/posts/forecast/</link>
       <pubDate>Thu, 19 Aug 2021 22:33:16 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/en/posts/forecast/</guid>
-      <description></description>
+      <description>&lt;iframe src=&#34;https://gfx.sueddeutsche.de/apps/e342301/www/index.html&#34; height=&#34;750px&#34; width=&#34;100%&#34; title=&#34;Die aktuellen Zahlen&#34;&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>About our forecast models</title>
       <link>https://zweitstimme.org/en/posts/publications/</link>
       <pubDate>Wed, 18 Aug 2021 22:33:16 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/en/posts/publications/</guid>
-      <description>For us as scientists, it is important that our forecasts are transparent and comprehensible.
-Since 2017, we have published several (peer-reviewed) scientific articles on our model. With the publications, we also make our code publicly available.
-In order to reflect both longer-term party leanings and current political sentiments, our second vote model consists of two components - a structural component and a survey component. In addition, our constituency model allows us to calculate how likely a candidate from each party is to win a constituency.</description>
+      <description>&lt;p&gt;For us as scientists, it is important that our forecasts are transparent and comprehensible.&lt;/p&gt;
+&lt;p&gt;Since 2017, we have published several (peer-reviewed) scientific articles on our model. With the publications, we also make our code publicly available.&lt;/p&gt;
+&lt;p&gt;In order to reflect both longer-term party leanings and current political sentiments, our &lt;a href=&#34;https://zweitstimme.org/en/posts/publications/#the-second-vote-model&#34;&gt;second vote model&lt;/a&gt; consists of two components - a structural component and a survey component. In addition, our &lt;a href=&#34;https://zweitstimme.org/en/posts/publications/#the-constituency-model&#34;&gt;constituency model&lt;/a&gt; allows us to calculate how likely a candidate from each party is to win a constituency.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Team Behind zweitstimme.org</title>
       <link>https://zweitstimme.org/en/posts/team/</link>
       <pubDate>Wed, 18 Aug 2021 21:30:34 +0200</pubDate>
-      
       <guid>https://zweitstimme.org/en/posts/team/</guid>
-      <description>We are a team of election researchers from the University of Mannheim, LMU Munich, the Hertie School Berlin, and the University of Witten/Herdecke.
-Our goal is to provide a broad audience with information and forecasts about the Bundestag election using our statistical model, which goes beyond the snapshots of political sentiment provided by opinion polls (e.g., &amp;ldquo;Sunday Questions&amp;rdquo;).
- table.fixed { table-layout: fixed; width: 100%; } table.fixed td { overflow: hidden; }  Thomas Gschwend   Thomas Gschwend is a Professor at the Department of Political Science at the University of Mannheim.</description>
+      <description>&lt;p&gt;We are a team of election researchers from the University of Mannheim, LMU Munich, the Hertie School Berlin, and the University of Witten/Herdecke.&lt;/p&gt;
+&lt;p&gt;Our goal is to provide a broad audience with information and forecasts about the Bundestag election using our statistical model, which goes beyond the snapshots of political sentiment provided by opinion polls (e.g., &amp;ldquo;Sunday Questions&amp;rdquo;).&lt;/p&gt;
+&lt;style&gt;
+table.fixed {
+      table-layout: fixed;
+      width: 100%;
+    }
+table.fixed td {
+      overflow: hidden;
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;thomas-gschwend&#34;&gt;Thomas Gschwend&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+    &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;./img/gschwend.jpg&#34; alt=&#34;Thomas Gschwend&#34; width = 250px&gt;&lt;/td&gt;
+    &lt;td&gt;Thomas Gschwend is a Professor at the Department of Political Science at the University of Mannheim. His research interests are in the areas of election forecasting, comparative political behavior, and judicial politics.&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;simon-munzert&#34;&gt;Simon Munzert&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+    &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Simon Munzert is a Professor of Data Science and Public Policy at the Hertie School. His research interests include opinion formation in the digital age, public opinion, and the use of online data in social research.&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;img/munzert.jpg&#34; alt=&#34;Simon Munzert&#34; width = 250px&gt;&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;lukas-f-stoetzer&#34;&gt;Lukas F. Stoetzer&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+    &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;img/stoetzer.jpg&#34; alt=&#34;Lukas F. Stoetzer&#34; width = 250px&gt;&lt;/td&gt;
+    &lt;td&gt;Lukas F. Stoetzer is a Professor of Quantitative Methods at the Department of Economy and Society at the University of Witten/Herdecke. His research interests are in the field of comparative political behavior and political methodology.&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;cornelius-erfort&#34;&gt;Cornelius Erfort&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+    &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Cornelius Erfort is a research associate in the DFG project &#34;Election Forecasts for the 2025 Bundestag Election&#34; at the University of Witten/Herdecke. His research interests are in the areas of political competition and comparative political behavior.&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;./img/erfort.jpg&#34; alt=&#34;Cornelius Erfort&#34; width = 250px&gt;&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;hannah-rajski&#34;&gt;Hannah Rajski&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+    &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;./img/rajski.jpg&#34; alt=&#34;Hannah Rajski&#34; width = 250px&gt;&lt;/td&gt;
+    &lt;td&gt;Hannah Rajski is pursuing a PhD in the DFG project &#34;Election Forecasts for the 2025 Bundestag Election&#34; at the University of Mannheim, focusing on citizen forecasts.&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;elias-koch&#34;&gt;Elias Koch&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+    &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Elias Koch is pursuing a PhD in the DFG project &#34;Election Forecasts for the 2025 Bundestag Election&#34; at the Hertie School.&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;img/koch.jpg&#34; alt=&#34;Elias Koch&#34; width = 250px&gt;&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h2 id=&#34;associated-and-former-members&#34;&gt;Associated and Former Members&lt;/h2&gt;
+&lt;h3 id=&#34;marcel-neunhoeffer&#34;&gt;Marcel Neunhoeffer&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+    &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;img/neunhoeffer.jpg&#34; alt=&#34;Marcel Neunhoeffer&#34; width = 250px&gt;&lt;/td&gt;
+    &lt;td&gt;Marcel Neunhoeffer is a research associate at the Statistical Methods Unit at the Institute for Employment Research in Nuremberg and at the Chair of Statistics and Data Science in the Social and Humanities at the Ludwig Maximilian University of Munich. His research focuses on the application of deep learning algorithms to social science questions with a focus on data privacy.&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;h3 id=&#34;klara-müller&#34;&gt;Klara Müller&lt;/h3&gt;
+&lt;table class=&#34;fixed&#34;&gt;
+  &lt;col width=50% /&gt;
+    &lt;col width=50% /&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Klara Müller is an associated member of the PhD Center for Social and Behavioral Sciences at GESS, University of Mannheim. Her research interests are in the field of political psychology and election forecasting.&lt;/td&gt; 
+    &lt;td&gt;&lt;img src=&#34;img/mueller.jpg&#34; alt=&#34;Klara Müller&#34; width = 250px&gt;&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/table&gt;</description>
     </item>
-    
   </channel>
 </rss>
