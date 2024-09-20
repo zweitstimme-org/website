@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Sep 2024 12:00:34 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 11:00:00 +0200</lastBuildDate>
     <atom:link href="https://zweitstimme.org/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forecast for the State Election in Brandenburg - 2 Days Before the Election</title>
+      <link>https://zweitstimme.org/en/posts/brandenburg_election_forecast_2days/</link>
+      <pubDate>Fri, 20 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/en/posts/brandenburg_election_forecast_2days/</guid>
+      <description>&lt;p&gt;Two weeks ago, we published forecasts for the state election in Brandenburg. Today, two days before the election, we are updating these forecasts using our prediction model, based on the polls published in the meantime. Based on previous state elections from 2010 to 2023, we know that our forecasts two days before the election are already very accurate. We have an average absolute deviation of 1.46 percentage points across all parties, which is very close to the final result.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Forecast for the State Elections in Brandenburg</title>
       <link>https://zweitstimme.org/en/posts/brandenburg_election_forecast/</link>
