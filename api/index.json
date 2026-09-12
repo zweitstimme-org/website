@@ -1,0 +1,62 @@
+{
+  "name": "Zweitstimme Forecast API",
+  "generated_at": "2026-09-12T07:44:03Z",
+  "docs": "https://zweitstimme.org/docs/api/",
+  "openapi": "/api/openapi.json",
+  "versions": {
+    "v1": {
+      "status": "legacy",
+      "description": "Legacy contract from when only federal forecasts existed. Unchanged for compatibility. Prefer v2.",
+      "index": "/api/v1/federal/index.json",
+      "archive_index": "/api/v1/federal/archive/index.json",
+      "successor": "/api/v2/federal/index.json",
+      "endpoints": [
+        "/api/v1/federal/forecast.json",
+        "/api/v1/federal/pred_probabilities.json",
+        "/api/v1/federal/forecast_districts.json"
+      ]
+    },
+    "v2": {
+      "status": "current",
+      "description": "Current contract: federal and state election-day forecasts (including districts, candidate entry probabilities, and parliament-size sims), posterior draws, and Aktuelle Stimmung.",
+      "federal_index": "/api/v2/federal/index.json",
+      "federal_archive_index": "/api/v2/federal/archive/index.json",
+      "state_index": "/api/v2/state/index.json",
+      "state_archive_index": "/api/v2/state/archive/index.json",
+      "stimmung_federal": "/api/v2/stimmung/federal.json",
+      "stimmung_federal_current": "/api/v2/stimmung/federal/current.json",
+      "stimmung_federal_index": "/api/v2/stimmung/federal/index.json",
+      "stimmung_state_index": "/api/v2/stimmung/state/index.json",
+      "forecast_window_days": 90
+    }
+  },
+  "election_envelope": {
+    "fields": [
+      "id",
+      "name",
+      "date",
+      "scope",
+      "state_code"
+    ],
+    "note": "Every versioned response includes an election object naming the vote."
+  },
+  "legacy_root": {
+    "note": "Root /forecast.json etc. redirect to /api/v1/federal/* (HTTP 301 via _redirects where supported; otherwise same enveloped JSON).",
+    "redirects": {
+      "/forecast.json": "/api/v1/federal/forecast.json",
+      "/pred_probabilities.json": "/api/v1/federal/pred_probabilities.json",
+      "/forecast_districts.json": "/api/v1/federal/forecast_districts.json"
+    }
+  },
+  "policy": {
+    "active_forecast_window_days": 90,
+    "archive": "After election day, forecasts move to /api/v2/federal/archive/ and /api/v2/state/archive/ (v1 federal archive remains for the legacy contract). No backfill of earlier elections."
+  },
+  "counts": {
+    "v1_federal_endpoints": 3,
+    "v2_federal_endpoints": 3,
+    "v2_state_forecasts": 3,
+    "v2_state_archive": 2,
+    "v2_stimmung_states": 16
+  }
+}

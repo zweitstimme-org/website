@@ -1,0 +1,81 @@
+{
+  "api_version": "v2",
+  "generated_at": "2026-09-12T07:35:17",
+  "election": {
+    "id": "nw_2027-04-25",
+    "name": "Landtagswahl Nordrhein-Westfalen",
+    "date": "2027-04-25",
+    "scope": "state",
+    "state_code": "NW",
+    "date_is_estimated": false
+  },
+  "data": {
+    "as_of": "2026-09-12",
+    "parties": {
+      "CDU/CSU": 32.3,
+      "AfD": 17.2,
+      "SPD": 17,
+      "GRÜNE": 15.1,
+      "LINKE": 6.4,
+      "BSW": null,
+      "FDP": 4.7,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": 7.3
+    },
+    "uncertainty_low": {
+      "CDU/CSU": 29.6,
+      "AfD": 14.5,
+      "SPD": 14.3,
+      "GRÜNE": 12.4,
+      "LINKE": 3.7,
+      "BSW": null,
+      "FDP": 2,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": null
+    },
+    "uncertainty_high": {
+      "CDU/CSU": 35,
+      "AfD": 19.9,
+      "SPD": 19.7,
+      "GRÜNE": 17.8,
+      "LINKE": 9.1,
+      "BSW": null,
+      "FDP": 7.4,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": null
+    },
+    "active_parties": [
+      "CDU/CSU",
+      "AfD",
+      "SPD",
+      "GRÜNE",
+      "LINKE",
+      "FDP"
+    ],
+    "note": "Kalman latent support for this calendar day (filled on days without a new poll).",
+    "trends": {
+      "CDU/CSU": 0,
+      "AfD": 0,
+      "SPD": 0,
+      "GRÜNE": 0,
+      "LINKE": 0,
+      "BSW": null,
+      "FDP": 0,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": 0
+    }
+  },
+  "as_of": "2026-09-12"
+}

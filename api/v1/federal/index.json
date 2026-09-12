@@ -1,0 +1,30 @@
+{
+  "api_version": "v1",
+  "generated_at": "2026-09-12T07:43:48Z",
+  "election": {
+    "id": "bund_2025-02-23",
+    "name": "Bundestagswahl",
+    "date": "2025-02-23",
+    "scope": "federal",
+    "state_code": null,
+    "date_is_estimated": false
+  },
+  "data": {
+    "description": "Legacy federal-only contract from when the API published Bundestag forecasts only. Prefer /api/v2/federal/.",
+    "status": "legacy",
+    "successor": "/api/v2/federal/index.json",
+    "endpoints": [
+      "/api/v1/federal/forecast.json",
+      "/api/v1/federal/pred_probabilities.json",
+      "/api/v1/federal/forecast_districts.json"
+    ],
+    "archive_index": "/api/v1/federal/archive/index.json",
+    "archive_count": 0,
+    "legacy_redirects": {
+      "/forecast.json": "/api/v1/federal/forecast.json",
+      "/pred_probabilities.json": "/api/v1/federal/pred_probabilities.json",
+      "/forecast_districts.json": "/api/v1/federal/forecast_districts.json"
+    },
+    "note": "Unchanged compatibility layer. Root /forecast.json etc. still alias these files. New clients should use /api/v2/federal/ (same data, improved contract, plus state and Stimmung under /api/v2/)."
+  }
+}

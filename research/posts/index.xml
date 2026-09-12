@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Forschung on zweitstimme.org</title>
+    <link>https://zweitstimme.org/research/posts/</link>
+    <description>Recent content in Forschung on zweitstimme.org</description>
+    <image>
+      <title>zweitstimme.org</title>
+      <url>https://zweitstimme.org/papermod-cover.png</url>
+      <link>https://zweitstimme.org/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 16 Jun 2026 12:00:00 +0200</lastBuildDate>
+    <atom:link href="https://zweitstimme.org/research/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How swing model assumptions shape vote-to-seat predictions</title>
+      <link>https://zweitstimme.org/research/posts/es-swing-models-2026/</link>
+      <pubDate>Tue, 16 Jun 2026 12:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/research/posts/es-swing-models-2026/</guid>
+      <description>Vergleich uniformer und proportionaler Swing-Modelle: Wie Annahmen die Übertragung nationaler Trends auf Wahlkreise und Sitzprognosen beeinflussen.</description>
+    </item>
+    <item>
+      <title>An election forecasting model for subnational elections</title>
+      <link>https://zweitstimme.org/research/posts/new-publication-2025/</link>
+      <pubDate>Tue, 25 Feb 2025 14:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/research/posts/new-publication-2025/</guid>
+      <description>Bayesianisches Prognosemodell für Landtagswahlen – evaluiert an deutschen Landtagswahlen 1990–2024 und angewendet auf die Wahlen im September 2024.</description>
+    </item>
+    <item>
+      <title>The Zweitstimme Forecast for the German Federal Election 2025: Coalition Majorities and Vacant Districts</title>
+      <link>https://zweitstimme.org/research/posts/ps-publication-2025/</link>
+      <pubDate>Fri, 21 Feb 2025 11:20:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/research/posts/ps-publication-2025/</guid>
+      <description>Zweitstimme-Prognose zur Bundestagswahl 2025: Koalitionsmehrheiten, Wahlkreisgewinner und vakante Wahlkreise im Rahmen des PS-Symposiums.</description>
+    </item>
+    <item>
+      <title>The Zweitstimme Model: A Dynamic Forecast of the 2021 German Federal Election</title>
+      <link>https://zweitstimme.org/research/posts/ps2021-zweitstimme-model/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/research/posts/ps2021-zweitstimme-model/</guid>
+      <description>Dynamische Zweitstimme-Prognose zur Bundestagswahl 2021: Kombination aus Strukturfaktoren und Umfragen mit Wahrscheinlichkeiten für Mehrheiten und Koalitionen.</description>
+    </item>
+    <item>
+      <title>Ein Ansatz zur Vorhersage der Erststimmenanteile bei Bundestagswahlen</title>
+      <link>https://zweitstimme.org/research/posts/pvs2020-erststimmen/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/research/posts/pvs2020-erststimmen/</guid>
+      <description>Erweiterung um Erststimmen- und Wahlkreisprognosen – Direktmandate, Kompetitivität und personelle Zusammensetzung des Bundestags.</description>
+    </item>
+    <item>
+      <title>Forecasting Elections in Multiparty Systems: A Bayesian Approach Combining Polls and Fundamentals</title>
+      <link>https://zweitstimme.org/research/posts/pa2019-bayesian-approach/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/research/posts/pa2019-bayesian-approach/</guid>
+      <description>Bayesianischer Ansatz zur Wahlprognose in Vielparteiensystemen – Kombination aus Umfragen und fundamentalen Faktoren.</description>
+    </item>
+    <item>
+      <title>Zweitstimme.org. Ein strukturell-dynamisches Vorhersagemodell für Bundestagswahlen</title>
+      <link>https://zweitstimme.org/research/posts/pvs2017-zweitstimme-model/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/research/posts/pvs2017-zweitstimme-model/</guid>
+      <description>Erstvorstellung des strukturell-dynamischen Zweitstimme-Modells zur ex-ante Prognose der Bundestagswahl 2017.</description>
+    </item>
+  </channel>
+</rss>

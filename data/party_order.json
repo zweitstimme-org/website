@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "last_update": "2026-09-12T07:41:23",
+    "source": "data/last_election_results.json (+ state-election-results.csv fallback)",
+    "note": "Bars/tables/forecasts: parties ordered by last-election vote share; Sonstige always far right when shown."
+  },
+  "fallback_order": ["CDU/CSU", "AfD", "SPD", "GRÜNE", "LINKE", "BSW", "FDP", "FW", "SSW", "PIRATEN", "REP"],
+  "federal": {
+    "election_date": "2025-02-23",
+    "election_name": "Bundestagswahl 2025",
+    "shares": {
+      "CDU/CSU": 28.5,
+      "AfD": 20.8,
+      "SPD": 16.4,
+      "GRÜNE": 11.6,
+      "LINKE": 8.8,
+      "BSW": 4.98,
+      "FDP": 4.3,
+      "FW": 1.5
+    },
+    "order": ["CDU/CSU", "AfD", "SPD", "GRÜNE", "LINKE", "BSW", "FDP", "FW"]
+  },
+  "states": {
+    "BB": {
+      "election_date": "2024-09-22",
+      "shares": {
+        "SPD": 30.89,
+        "AfD": 29.23,
+        "BSW": 13.48,
+        "CDU/CSU": 12.1,
+        "GRÜNE": 4.13,
+        "LINKE": 2.98,
+        "FW": 2.57,
+        "FDP": 0.83
+      },
+      "order": ["SPD", "AfD", "BSW", "CDU/CSU", "GRÜNE", "LINKE", "FW", "FDP"]
+    },
+    "BE": {
+      "election_date": "2023-02-12",
+      "shares": {
+        "CDU/CSU": 28.2,
+        "GRÜNE": 18.4,
+        "SPD": 18.4,
+        "LINKE": 12.2,
+        "AfD": 9.1,
+        "FDP": 4.6
+      },
+      "order": ["CDU/CSU", "GRÜNE", "SPD", "LINKE", "AfD", "FDP"]
+    },
+    "BW": {
+      "election_date": "2021-03-14",
+      "shares": {
+        "GRÜNE": 32.6,
+        "CDU/CSU": 24.1,
+        "SPD": 11,
+        "FDP": 10.5,
+        "AfD": 9.7,
+        "LINKE": 3.6
+      },
+      "order": ["GRÜNE", "CDU/CSU", "SPD", "FDP", "AfD", "LINKE"]
+    },
+    "BY": {
+      "election_date": "2023-10-08",
+      "shares": {
+        "CDU/CSU": 37,
+        "FW": 15.8,
+        "AfD": 14.6,
+        "GRÜNE": 14.4,
+        "SPD": 8.4,
+        "FDP": 3,
+        "LINKE": 1.5
+      },
+      "order": ["CDU/CSU", "FW", "AfD", "GRÜNE", "SPD", "FDP", "LINKE"]
+    },
+    "HB": {
+      "election_date": "2023-05-14",
+      "shares": {
+        "SPD": 29.8,
+        "CDU/CSU": 26.2,
+        "GRÜNE": 11.9,
+        "LINKE": 10.9,
+        "FDP": 5.1,
+        "AfD": 1.1
+      },
+      "order": ["SPD", "CDU/CSU", "GRÜNE", "LINKE", "FDP", "AfD"]
+    },
+    "HE": {
+      "election_date": "2023-10-08",
+      "shares": {
+        "CDU/CSU": 34.6,
+        "AfD": 18.4,
+        "SPD": 15.1,
+        "GRÜNE": 14.8,
+        "FDP": 5,
+        "FW": 3.5,
+        "LINKE": 3.1
+      },
+      "order": ["CDU/CSU", "AfD", "SPD", "GRÜNE", "FDP", "FW", "LINKE"]
+    },
+    "HH": {
+      "election_date": "2025-03-02",
+      "shares": {
+        "SPD": 33.5,
+        "CDU/CSU": 19.8,
+        "GRÜNE": 18.5,
+        "LINKE": 11.2,
+        "AfD": 7.5,
+        "FDP": 2.3,
+        "BSW": 1.8
+      },
+      "order": ["SPD", "CDU/CSU", "GRÜNE", "LINKE", "AfD", "FDP", "BSW"]
+    },
+    "MV": {
+      "election_date": "2021-09-26",
+      "shares": {
+        "SPD": 39.6,
+        "AfD": 16.7,
+        "CDU/CSU": 13.3,
+        "LINKE": 9.9,
+        "GRÜNE": 6.3,
+        "FDP": 5.8
+      },
+      "order": ["SPD", "AfD", "CDU/CSU", "LINKE", "GRÜNE", "FDP"]
+    },
+    "NI": {
+      "election_date": "2022-10-09",
+      "shares": {
+        "SPD": 33.4,
+        "CDU/CSU": 28.1,
+        "GRÜNE": 14.5,
+        "AfD": 11,
+        "FDP": 4.7,
+        "LINKE": 2.7
+      },
+      "order": ["SPD", "CDU/CSU", "GRÜNE", "AfD", "FDP", "LINKE"]
+    },
+    "NW": {
+      "election_date": "2022-05-15",
+      "shares": {
+        "CDU/CSU": 35.7,
+        "SPD": 26.7,
+        "GRÜNE": 18.2,
+        "FDP": 5.9,
+        "AfD": 5.4,
+        "LINKE": 2.1
+      },
+      "order": ["CDU/CSU", "SPD", "GRÜNE", "FDP", "AfD", "LINKE"]
+    },
+    "RP": {
+      "election_date": "2021-03-14",
+      "shares": {
+        "SPD": 35.7,
+        "CDU/CSU": 27.7,
+        "GRÜNE": 9.3,
+        "AfD": 8.3,
+        "FDP": 5.5,
+        "FW": 5.4,
+        "LINKE": 2.5
+      },
+      "order": ["SPD", "CDU/CSU", "GRÜNE", "AfD", "FDP", "FW", "LINKE"]
+    },
+    "SH": {
+      "election_date": "2022-05-08",
+      "shares": {
+        "CDU/CSU": 43.4,
+        "GRÜNE": 18.3,
+        "SPD": 16,
+        "FDP": 6.4,
+        "AfD": 4.4,
+        "SSW": 5.7,
+        "LINKE": 1.7
+      },
+      "order": ["CDU/CSU", "GRÜNE", "SPD", "FDP", "SSW", "AfD", "LINKE"]
+    },
+    "SL": {
+      "election_date": "2022-03-27",
+      "shares": {
+        "SPD": 43.5,
+        "CDU/CSU": 28.5,
+        "AfD": 5.7,
+        "GRÜNE": 5,
+        "FDP": 4.8,
+        "LINKE": 2.6
+      },
+      "order": ["SPD", "CDU/CSU", "AfD", "GRÜNE", "FDP", "LINKE"]
+    },
+    "SN": {
+      "election_date": "2024-09-01",
+      "shares": {
+        "CDU/CSU": 31.9,
+        "AfD": 30.6,
+        "BSW": 11.8,
+        "SPD": 7.3,
+        "GRÜNE": 5.1,
+        "LINKE": 4.5,
+        "FW": 2.3,
+        "FDP": 0.9
+      },
+      "order": ["CDU/CSU", "AfD", "BSW", "SPD", "GRÜNE", "LINKE", "FW", "FDP"]
+    },
+    "ST": {
+      "election_date": "2021-06-06",
+      "shares": {
+        "CDU/CSU": 37.1,
+        "AfD": 20.8,
+        "LINKE": 11,
+        "SPD": 8.4,
+        "FDP": 6.4,
+        "GRÜNE": 5.9,
+        "FW": 3.1
+      },
+      "order": ["CDU/CSU", "AfD", "LINKE", "SPD", "FDP", "GRÜNE", "FW"]
+    },
+    "TH": {
+      "election_date": "2024-09-01",
+      "shares": {
+        "AfD": 32.8,
+        "CDU/CSU": 23.6,
+        "BSW": 15.8,
+        "LINKE": 13.1,
+        "SPD": 6.1,
+        "GRÜNE": 3.2,
+        "FDP": 1.1
+      },
+      "order": ["AfD", "CDU/CSU", "BSW", "LINKE", "SPD", "GRÜNE", "FDP"]
+    }
+  }
+}

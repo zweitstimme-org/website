@@ -1,0 +1,51 @@
+{
+  "api_version": "v1",
+  "generated_at": "2026-09-12T07:43:48Z",
+  "election": {
+    "id": "bund_2025-02-23",
+    "name": "Bundestagswahl",
+    "date": "2025-02-23",
+    "scope": "federal",
+    "state_code": null,
+    "date_is_estimated": false
+  },
+  "data": [
+    {
+      "hurdle_lin": 0.967,
+      "hurdle_bsw": 0.241,
+      "hurdle_fdp": 0.144,
+      "hurdle_spd": 1,
+      "hurdle_cdu": 1,
+      "hurdle_csu": 1,
+      "hurdle_gru": 0.999,
+      "hurdle_afd": 1,
+      "block_min_afd_bsw": 0.039,
+      "maj_cdu_csu_gru": 0.343,
+      "maj_cdu_csu_spd": 0.609,
+      "maj_cdu_csu_gru_spd": 0.995,
+      "maj_cdu_csu_afd": 0.911,
+      "maj_spd_gru_lin": 0.022,
+      "maj_cdu_csu_spd_fdp": 0.686,
+      "maj_cdu_csu_spd_fdp_and_fdp_above5": 0.119,
+      "prob_lin_largest": 0,
+      "prob_bsw_largest": 0,
+      "prob_fdp_largest": 0,
+      "prob_spd_largest": 0.016,
+      "prob_cdu_csu_largest": 0.921,
+      "prob_gru_largest": 0.003,
+      "prob_afd_largest": 0.06,
+      "grundmandat_lin": 0.721,
+      "grundmandat_bsw": 0.002,
+      "grundmandat_fdp": 0,
+      "grundmandat_spd": 0.944,
+      "grundmandat_cdu": 1,
+      "grundmandat_csu": 1,
+      "grundmandat_gru": 0.986,
+      "grundmandat_afd": 1,
+      "prob_afd_above25": 0.24,
+      "block_min_afd": 0.016,
+      "maj_cdu_csu_spd_fdp_if_fdp_above5": 0.8264,
+      "maj_cdu_csu_spd_fdp_if_fdp_bsw_above5": 0.6216
+    }
+  ]
+}

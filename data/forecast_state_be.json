@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "state_code": "BE",
+    "election_date": "2026-09-20",
+    "election_id": "be_2026-09-20",
+    "election_name": "Landtagswahl Berlin",
+    "model": "state-models lr 9_polls (exact lead; polls-only; Sonstige modeled + normalize; no new_party)",
+    "lead": "9",
+    "lead_model": "9_polls",
+    "lead_horizon_days": 9,
+    "poll_window_days": null,
+    "last_poll_date": "2026-09-11",
+    "asof_date": "2026-09-11",
+    "last_update": "2026-09-12T07:41:24Z",
+    "scenario_config_md5": "3feeeb440701645a2f93d20e7ce45c1a",
+    "predictor_encoding": "state_models_exact_lead_v1",
+    "shares_normalized_to_100": true,
+    "n_draws": 4000,
+    "draws_path": "/api/v2/state/be/draws.json",
+    "source_repo": "zweitstimme-org/state-models"
+  },
+  "parties": [
+    {
+      "party": "CDU",
+      "party_code": "cdu",
+      "fit": 20,
+      "low": 15,
+      "high": 25
+    },
+    {
+      "party": "GRÜNE",
+      "party_code": "gru",
+      "fit": 16,
+      "low": 12,
+      "high": 20
+    },
+    {
+      "party": "SPD",
+      "party_code": "spd",
+      "fit": 12,
+      "low": 9,
+      "high": 16
+    },
+    {
+      "party": "LINKE",
+      "party_code": "lin",
+      "fit": 21,
+      "low": 16,
+      "high": 26
+    },
+    {
+      "party": "AfD",
+      "party_code": "afd",
+      "fit": 18,
+      "low": 13,
+      "high": 22
+    },
+    {
+      "party": "FDP",
+      "party_code": "fdp",
+      "fit": 3,
+      "low": 2,
+      "high": 4
+    },
+    {
+      "party": "BSW",
+      "party_code": "bsw",
+      "fit": 3,
+      "low": 2,
+      "high": 5
+    },
+    {
+      "party": "Sonstige",
+      "party_code": "oth",
+      "fit": 7,
+      "low": 5,
+      "high": 9
+    }
+  ],
+  "scenarios": {
+    "min_probability_pct": 1,
+    "hurdle_pct": 5,
+    "items": [
+      {
+        "id": "coal_spd_gru_lin",
+        "category": "coalition",
+        "label_de": "Parlamentsmehrheit SPD, Grüne und Linke",
+        "probability": 93
+      },
+      {
+        "id": "coal_cdu_spd_gru",
+        "category": "coalition",
+        "label_de": "Parlamentsmehrheit CDU, SPD und Grüne",
+        "probability": 90
+      },
+      {
+        "id": "coal_spd_gru_lin_lead_lin",
+        "category": "coalition",
+        "label_de": "Parlamentsmehrheit SPD, Grüne und Linke (unter Führung der Linken)",
+        "probability": 76
+      },
+      {
+        "id": "largest_party_lin",
+        "category": "largest_party",
+        "label_de": "Linke stärkste Kraft",
+        "probability": 46
+      },
+      {
+        "id": "largest_party_cdu",
+        "category": "largest_party",
+        "label_de": "CDU stärkste Kraft",
+        "probability": 34
+      },
+      {
+        "id": "coal_spd_gru_lin_lead_gru",
+        "category": "coalition",
+        "label_de": "Parlamentsmehrheit SPD, Grüne und Linke (unter Führung der Grünen)",
+        "probability": 16
+      },
+      {
+        "id": "largest_party_afd",
+        "category": "largest_party",
+        "label_de": "AfD stärkste Kraft",
+        "probability": 13
+      },
+      {
+        "id": "largest_party_gru",
+        "category": "largest_party",
+        "label_de": "Grüne stärkste Kraft",
+        "probability": 7
+      },
+      {
+        "id": "above_hurdle_bsw",
+        "category": "above_hurdle",
+        "label_de": "BSW über 5%-Hürde",
+        "probability": 5
+      },
+      {
+        "id": "coal_gru_lin",
+        "category": "coalition",
+        "label_de": "Parlamentsmehrheit Grüne und Linke",
+        "probability": 5
+      },
+      {
+        "id": "coal_cdu_gru",
+        "category": "coalition",
+        "label_de": "Parlamentsmehrheit CDU und Grüne",
+        "probability": 3
+      },
+      {
+        "id": "coal_spd_gru_lin_lead_spd",
+        "category": "coalition",
+        "label_de": "Parlamentsmehrheit SPD, Grüne und Linke (unter Führung der SPD)",
+        "probability": 2
+      },
+      {
+        "id": "above_hurdle_fdp",
+        "category": "above_hurdle",
+        "label_de": "FDP über 5%-Hürde",
+        "probability": 1
+      }
+    ]
+  }
+}

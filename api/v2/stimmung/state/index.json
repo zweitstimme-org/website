@@ -1,0 +1,311 @@
+{
+  "api_version": "v2",
+  "generated_at": "2026-09-12T07:44:03Z",
+  "description": "Aktuelle Stimmung (Kalman) per Land. Daily series includes days without a new poll. Use `current` for today, `day` for one date, `month` / `year` for a range; `path` is the full ~10-year series.",
+  "states": [
+    {
+      "state_code": "BB",
+      "path": "/api/v2/stimmung/state/bb.json",
+      "current": "/api/v2/stimmung/state/bb/current.json",
+      "day": "/api/v2/stimmung/state/bb/day/{date}.json",
+      "month": "/api/v2/stimmung/state/bb/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/bb/year/{YYYY}.json",
+      "from": "2016-09-30",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "bb_2029-10-21",
+        "name": "Landtagswahl Brandenburg",
+        "date": "2029-10-21",
+        "scope": "state",
+        "state_code": "BB",
+        "date_is_estimated": true
+      }
+    },
+    {
+      "state_code": "BE",
+      "path": "/api/v2/stimmung/state/be.json",
+      "current": "/api/v2/stimmung/state/be/current.json",
+      "day": "/api/v2/stimmung/state/be/day/{date}.json",
+      "month": "/api/v2/stimmung/state/be/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/be/year/{YYYY}.json",
+      "from": "2016-09-15",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "be_2026-09-20",
+        "name": "Landtagswahl Berlin",
+        "date": "2026-09-20",
+        "scope": "state",
+        "state_code": "BE",
+        "date_is_estimated": false
+      }
+    },
+    {
+      "state_code": "BW",
+      "path": "/api/v2/stimmung/state/bw.json",
+      "current": "/api/v2/stimmung/state/bw/current.json",
+      "day": "/api/v2/stimmung/state/bw/day/{date}.json",
+      "month": "/api/v2/stimmung/state/bw/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/bw/year/{YYYY}.json",
+      "from": "2016-09-15",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "bw_2031-04-20",
+        "name": "Landtagswahl Baden-Württemberg",
+        "date": "2031-04-20",
+        "scope": "state",
+        "state_code": "BW",
+        "date_is_estimated": true
+      }
+    },
+    {
+      "state_code": "BY",
+      "path": "/api/v2/stimmung/state/by.json",
+      "current": "/api/v2/stimmung/state/by/current.json",
+      "day": "/api/v2/stimmung/state/by/day/{date}.json",
+      "month": "/api/v2/stimmung/state/by/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/by/year/{YYYY}.json",
+      "from": "2016-09-15",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "by_2028-10-15",
+        "name": "Landtagswahl Bayern",
+        "date": "2028-10-15",
+        "scope": "state",
+        "state_code": "BY",
+        "date_is_estimated": true
+      }
+    },
+    {
+      "state_code": "HB",
+      "path": "/api/v2/stimmung/state/hb.json",
+      "current": "/api/v2/stimmung/state/hb/current.json",
+      "day": "/api/v2/stimmung/state/hb/day/{date}.json",
+      "month": "/api/v2/stimmung/state/hb/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/hb/year/{YYYY}.json",
+      "from": "2017-01-19",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "hb_2027-05-30",
+        "name": "Landtagswahl Bremen",
+        "date": "2027-05-30",
+        "scope": "state",
+        "state_code": "HB",
+        "date_is_estimated": false
+      }
+    },
+    {
+      "state_code": "HE",
+      "path": "/api/v2/stimmung/state/he.json",
+      "current": "/api/v2/stimmung/state/he/current.json",
+      "day": "/api/v2/stimmung/state/he/day/{date}.json",
+      "month": "/api/v2/stimmung/state/he/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/he/year/{YYYY}.json",
+      "from": "2017-01-12",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "he_2028-10-15",
+        "name": "Landtagswahl Hessen",
+        "date": "2028-10-15",
+        "scope": "state",
+        "state_code": "HE",
+        "date_is_estimated": true
+      }
+    },
+    {
+      "state_code": "HH",
+      "path": "/api/v2/stimmung/state/hh.json",
+      "current": "/api/v2/stimmung/state/hh/current.json",
+      "day": "/api/v2/stimmung/state/hh/day/{date}.json",
+      "month": "/api/v2/stimmung/state/hh/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/hh/year/{YYYY}.json",
+      "from": "2016-11-24",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "hh_2030-01-20",
+        "name": "Landtagswahl Hamburg",
+        "date": "2030-01-20",
+        "scope": "state",
+        "state_code": "HH",
+        "date_is_estimated": true
+      }
+    },
+    {
+      "state_code": "MV",
+      "path": "/api/v2/stimmung/state/mv.json",
+      "current": "/api/v2/stimmung/state/mv/current.json",
+      "day": "/api/v2/stimmung/state/mv/day/{date}.json",
+      "month": "/api/v2/stimmung/state/mv/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/mv/year/{YYYY}.json",
+      "from": "2017-01-19",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "mv_2026-09-20",
+        "name": "Landtagswahl Mecklenburg-Vorpommern",
+        "date": "2026-09-20",
+        "scope": "state",
+        "state_code": "MV",
+        "date_is_estimated": false
+      }
+    },
+    {
+      "state_code": "NI",
+      "path": "/api/v2/stimmung/state/ni.json",
+      "current": "/api/v2/stimmung/state/ni/current.json",
+      "day": "/api/v2/stimmung/state/ni/day/{date}.json",
+      "month": "/api/v2/stimmung/state/ni/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/ni/year/{YYYY}.json",
+      "from": "2016-10-19",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "ni_2027-09-26",
+        "name": "Landtagswahl Niedersachsen",
+        "date": "2027-09-26",
+        "scope": "state",
+        "state_code": "NI",
+        "date_is_estimated": false
+      }
+    },
+    {
+      "state_code": "NW",
+      "path": "/api/v2/stimmung/state/nw.json",
+      "current": "/api/v2/stimmung/state/nw/current.json",
+      "day": "/api/v2/stimmung/state/nw/day/{date}.json",
+      "month": "/api/v2/stimmung/state/nw/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/nw/year/{YYYY}.json",
+      "from": "2016-10-30",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "nw_2027-04-25",
+        "name": "Landtagswahl Nordrhein-Westfalen",
+        "date": "2027-04-25",
+        "scope": "state",
+        "state_code": "NW",
+        "date_is_estimated": false
+      }
+    },
+    {
+      "state_code": "RP",
+      "path": "/api/v2/stimmung/state/rp.json",
+      "current": "/api/v2/stimmung/state/rp/current.json",
+      "day": "/api/v2/stimmung/state/rp/day/{date}.json",
+      "month": "/api/v2/stimmung/state/rp/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/rp/year/{YYYY}.json",
+      "from": "2016-12-15",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "rp_2031-04-20",
+        "name": "Landtagswahl Rheinland-Pfalz",
+        "date": "2031-04-20",
+        "scope": "state",
+        "state_code": "RP",
+        "date_is_estimated": true
+      }
+    },
+    {
+      "state_code": "SH",
+      "path": "/api/v2/stimmung/state/sh.json",
+      "current": "/api/v2/stimmung/state/sh/current.json",
+      "day": "/api/v2/stimmung/state/sh/day/{date}.json",
+      "month": "/api/v2/stimmung/state/sh/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/sh/year/{YYYY}.json",
+      "from": "2016-10-19",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "sh_2027-04-18",
+        "name": "Landtagswahl Schleswig-Holstein",
+        "date": "2027-04-18",
+        "scope": "state",
+        "state_code": "SH",
+        "date_is_estimated": false
+      }
+    },
+    {
+      "state_code": "SL",
+      "path": "/api/v2/stimmung/state/sl.json",
+      "current": "/api/v2/stimmung/state/sl/current.json",
+      "day": "/api/v2/stimmung/state/sl/day/{date}.json",
+      "month": "/api/v2/stimmung/state/sl/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/sl/year/{YYYY}.json",
+      "from": "2016-11-15",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "sl_2027-04-18",
+        "name": "Landtagswahl Saarland",
+        "date": "2027-04-18",
+        "scope": "state",
+        "state_code": "SL",
+        "date_is_estimated": false
+      }
+    },
+    {
+      "state_code": "SN",
+      "path": "/api/v2/stimmung/state/sn.json",
+      "current": "/api/v2/stimmung/state/sn/current.json",
+      "day": "/api/v2/stimmung/state/sn/day/{date}.json",
+      "month": "/api/v2/stimmung/state/sn/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/sn/year/{YYYY}.json",
+      "from": "2016-10-05",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "sn_2029-10-21",
+        "name": "Landtagswahl Sachsen",
+        "date": "2029-10-21",
+        "scope": "state",
+        "state_code": "SN",
+        "date_is_estimated": true
+      }
+    },
+    {
+      "state_code": "ST",
+      "path": "/api/v2/stimmung/state/st.json",
+      "current": "/api/v2/stimmung/state/st/current.json",
+      "day": "/api/v2/stimmung/state/st/day/{date}.json",
+      "month": "/api/v2/stimmung/state/st/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/st/year/{YYYY}.json",
+      "from": "2017-06-22",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "st_2026-09-06",
+        "name": "Landtagswahl Sachsen-Anhalt",
+        "date": "2026-09-06",
+        "scope": "state",
+        "state_code": "ST",
+        "date_is_estimated": false
+      }
+    },
+    {
+      "state_code": "TH",
+      "path": "/api/v2/stimmung/state/th.json",
+      "current": "/api/v2/stimmung/state/th/current.json",
+      "day": "/api/v2/stimmung/state/th/day/{date}.json",
+      "month": "/api/v2/stimmung/state/th/month/{YYYY-MM}.json",
+      "year": "/api/v2/stimmung/state/th/year/{YYYY}.json",
+      "from": "2016-11-22",
+      "to": "2026-09-12",
+      "as_of": "2026-09-12",
+      "election": {
+        "id": "th_2029-10-21",
+        "name": "Landtagswahl Thüringen",
+        "date": "2029-10-21",
+        "scope": "state",
+        "state_code": "TH",
+        "date_is_estimated": true
+      }
+    }
+  ]
+}

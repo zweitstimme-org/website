@@ -1,0 +1,140 @@
+{
+  "api_version": "v2",
+  "generated_at": "2026-09-12T07:43:48Z",
+  "election": {
+    "id": "bund_2025-02-23",
+    "name": "Bundestagswahl",
+    "date": "2025-02-23",
+    "scope": "federal",
+    "state_code": null,
+    "date_is_estimated": false
+  },
+  "data": {
+    "metadata": {
+      "scope": "federal",
+      "election_id": "bund_2025-02-23",
+      "election_name": "Bundestagswahl",
+      "election_date": "2025-02-23",
+      "last_update": "2025-02-21T19:41:35",
+      "asof_date": "2025-02-21",
+      "draws_path": "/api/v2/federal/draws.json",
+      "n_draws": 10000
+    },
+    "parties": [
+      {
+        "party": "CDU/CSU",
+        "party_code": "cdu",
+        "fit": 29.3,
+        "low": 24.2,
+        "high": 34.5,
+        "name_eng": "CDU/CSU",
+        "low95": 20.9,
+        "high95": 38.5,
+        "color": "#000000"
+      },
+      {
+        "party": "AfD",
+        "party_code": "afd",
+        "fit": 20.4,
+        "low": 16.4,
+        "high": 24.5,
+        "name_eng": "AfD",
+        "low95": 13.9,
+        "high95": 27.8,
+        "color": "#009EE0"
+      },
+      {
+        "party": "SPD",
+        "party_code": "spd",
+        "fit": 15.6,
+        "low": 12.3,
+        "high": 18.9,
+        "name_eng": "SPD",
+        "low95": 10.5,
+        "high95": 22.1,
+        "color": "#DD0000"
+      },
+      {
+        "party": "Grüne",
+        "party_code": "gru",
+        "fit": 13,
+        "low": 10.3,
+        "high": 15.9,
+        "name_eng": "Greens",
+        "low95": 8.6,
+        "high95": 18.4,
+        "color": "#4C9A2A"
+      },
+      {
+        "party": "Linke",
+        "party_code": "lin",
+        "fit": 7.5,
+        "low": 5.8,
+        "high": 9.4,
+        "name_eng": "Left",
+        "low95": 4.9,
+        "high95": 10.9,
+        "color": "purple"
+      },
+      {
+        "party": "FDP",
+        "party_code": "fdp",
+        "fit": 4.4,
+        "low": 3.4,
+        "high": 5.5,
+        "name_eng": "FDP",
+        "low95": 2.9,
+        "high95": 6.4,
+        "color": "#FFCC00"
+      },
+      {
+        "party": "BSW",
+        "party_code": "bsw",
+        "fit": 4.3,
+        "low": 3,
+        "high": 5.8,
+        "name_eng": "BSW",
+        "low95": 2.5,
+        "high95": 6.8,
+        "color": "#FF6A13"
+      }
+    ],
+    "probabilities": {
+      "hurdle_lin": 0.967,
+      "hurdle_bsw": 0.241,
+      "hurdle_fdp": 0.144,
+      "hurdle_spd": 1,
+      "hurdle_cdu": 1,
+      "hurdle_csu": 1,
+      "hurdle_gru": 0.999,
+      "hurdle_afd": 1,
+      "block_min_afd_bsw": 0.039,
+      "maj_cdu_csu_gru": 0.343,
+      "maj_cdu_csu_spd": 0.609,
+      "maj_cdu_csu_gru_spd": 0.995,
+      "maj_cdu_csu_afd": 0.911,
+      "maj_spd_gru_lin": 0.022,
+      "maj_cdu_csu_spd_fdp": 0.686,
+      "maj_cdu_csu_spd_fdp_and_fdp_above5": 0.119,
+      "prob_lin_largest": 0,
+      "prob_bsw_largest": 0,
+      "prob_fdp_largest": 0,
+      "prob_spd_largest": 0.016,
+      "prob_cdu_csu_largest": 0.921,
+      "prob_gru_largest": 0.003,
+      "prob_afd_largest": 0.06,
+      "grundmandat_lin": 0.721,
+      "grundmandat_bsw": 0.002,
+      "grundmandat_fdp": 0,
+      "grundmandat_spd": 0.944,
+      "grundmandat_cdu": 1,
+      "grundmandat_csu": 1,
+      "grundmandat_gru": 0.986,
+      "grundmandat_afd": 1,
+      "prob_afd_above25": 0.24,
+      "block_min_afd": 0.016,
+      "maj_cdu_csu_spd_fdp_if_fdp_above5": 0.8264,
+      "maj_cdu_csu_spd_fdp_if_fdp_bsw_above5": 0.6216
+    }
+  }
+}

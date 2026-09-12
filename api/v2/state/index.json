@@ -1,0 +1,61 @@
+{
+  "api_version": "v2",
+  "generated_at": "2026-09-12T07:43:48Z",
+  "description": "Active state (Landtag) forecasts within the ~90-day window before election day. Includes party forecasts, draws, districts, candidate entry probabilities, and parliament-size sims when published. Past elections (once archived by the pipeline) are under /api/v2/state/archive/.",
+  "forecast_window_days": 90,
+  "states": [
+    {
+      "state_code": "BE",
+      "path": "/api/v2/state/be.json",
+      "election": {
+        "id": "be_2026-09-20",
+        "name": "Landtagswahl Berlin",
+        "date": "2026-09-20",
+        "scope": "state",
+        "state_code": "BE",
+        "date_is_estimated": false
+      },
+      "active": true,
+      "draws": "/api/v2/state/be/draws.json",
+      "districts": "/api/v2/state/be/districts.json",
+      "candidates": "/api/v2/state/be/candidates.json",
+      "parliament": "/api/v2/state/be/parliament.json"
+    },
+    {
+      "state_code": "MV",
+      "path": "/api/v2/state/mv.json",
+      "election": {
+        "id": "mv_2026-09-20",
+        "name": "Landtagswahl Mecklenburg-Vorpommern",
+        "date": "2026-09-20",
+        "scope": "state",
+        "state_code": "MV",
+        "date_is_estimated": false
+      },
+      "active": true,
+      "draws": "/api/v2/state/mv/draws.json",
+      "districts": "/api/v2/state/mv/districts.json",
+      "candidates": "/api/v2/state/mv/candidates.json",
+      "parliament": "/api/v2/state/mv/parliament.json"
+    },
+    {
+      "state_code": "ST",
+      "path": "/api/v2/state/st.json",
+      "election": {
+        "id": "st_2026-09-06",
+        "name": "Landtagswahl Sachsen-Anhalt",
+        "date": "2026-09-06",
+        "scope": "state",
+        "state_code": "ST",
+        "date_is_estimated": false
+      },
+      "active": true,
+      "draws": "/api/v2/state/st/draws.json",
+      "districts": "/api/v2/state/st/districts.json",
+      "candidates": "/api/v2/state/st/candidates.json",
+      "parliament": "/api/v2/state/st/parliament.json"
+    }
+  ],
+  "archive_index": "/api/v2/state/archive/index.json",
+  "archive_count": 2
+}

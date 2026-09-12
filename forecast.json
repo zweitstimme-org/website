@@ -1,0 +1,105 @@
+{
+  "api_version": "v1",
+  "generated_at": "2026-09-12T07:43:48Z",
+  "election": {
+    "id": "bund_2025-02-23",
+    "name": "Bundestagswahl",
+    "date": "2025-02-23",
+    "scope": "federal",
+    "state_code": null,
+    "date_is_estimated": false
+  },
+  "data": [
+    {
+      "value": 29.3,
+      "low": 24.2,
+      "high": 34.5,
+      "low95": 20.9,
+      "high95": 38.5,
+      "name": "CDU/CSU",
+      "name_eng": "CDU/CSU",
+      "color": "#000000",
+      "y": 29.3,
+      "x": 0,
+      "_row": "cdu"
+    },
+    {
+      "value": 20.4,
+      "low": 16.4,
+      "high": 24.5,
+      "low95": 13.9,
+      "high95": 27.8,
+      "name": "AfD",
+      "name_eng": "AfD",
+      "color": "#009EE0",
+      "y": 20.4,
+      "x": 1,
+      "_row": "afd"
+    },
+    {
+      "value": 15.6,
+      "low": 12.3,
+      "high": 18.9,
+      "low95": 10.5,
+      "high95": 22.1,
+      "name": "SPD",
+      "name_eng": "SPD",
+      "color": "#DD0000",
+      "y": 15.6,
+      "x": 2,
+      "_row": "spd"
+    },
+    {
+      "value": 13,
+      "low": 10.3,
+      "high": 15.9,
+      "low95": 8.6,
+      "high95": 18.4,
+      "name": "Grüne",
+      "name_eng": "Greens",
+      "color": "#4C9A2A",
+      "y": 13,
+      "x": 3,
+      "_row": "gru"
+    },
+    {
+      "value": 7.5,
+      "low": 5.8,
+      "high": 9.4,
+      "low95": 4.9,
+      "high95": 10.9,
+      "name": "Linke",
+      "name_eng": "Left",
+      "color": "purple",
+      "y": 7.5,
+      "x": 4,
+      "_row": "lin"
+    },
+    {
+      "value": 4.4,
+      "low": 3.4,
+      "high": 5.5,
+      "low95": 2.9,
+      "high95": 6.4,
+      "name": "FDP",
+      "name_eng": "FDP",
+      "color": "#FFCC00",
+      "y": 4.4,
+      "x": 5,
+      "_row": "fdp"
+    },
+    {
+      "value": 4.3,
+      "low": 3,
+      "high": 5.8,
+      "low95": 2.5,
+      "high95": 6.8,
+      "name": "BSW",
+      "name_eng": "BSW",
+      "color": "#FF6A13",
+      "y": 4.3,
+      "x": 6,
+      "_row": "bsw"
+    }
+  ]
+}

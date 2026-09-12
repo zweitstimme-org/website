@@ -1,0 +1,81 @@
+{
+  "api_version": "v2",
+  "generated_at": "2026-09-12T07:35:15",
+  "election": {
+    "id": "ni_2027-09-26",
+    "name": "Landtagswahl Niedersachsen",
+    "date": "2027-09-26",
+    "scope": "state",
+    "state_code": "NI",
+    "date_is_estimated": false
+  },
+  "data": {
+    "as_of": "2026-09-12",
+    "parties": {
+      "CDU/CSU": 22.2,
+      "AfD": 20.9,
+      "SPD": 25.9,
+      "GRÜNE": 14.8,
+      "LINKE": 6.1,
+      "BSW": null,
+      "FDP": 4.9,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": 5.2
+    },
+    "uncertainty_low": {
+      "CDU/CSU": 21.4,
+      "AfD": 20.1,
+      "SPD": 25.1,
+      "GRÜNE": 14,
+      "LINKE": 5.3,
+      "BSW": null,
+      "FDP": 4.1,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": null
+    },
+    "uncertainty_high": {
+      "CDU/CSU": 23,
+      "AfD": 21.7,
+      "SPD": 26.7,
+      "GRÜNE": 15.6,
+      "LINKE": 6.9,
+      "BSW": null,
+      "FDP": 5.7,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": null
+    },
+    "active_parties": [
+      "CDU/CSU",
+      "AfD",
+      "SPD",
+      "GRÜNE",
+      "LINKE",
+      "FDP"
+    ],
+    "note": "Kalman latent support for this calendar day (filled on days without a new poll).",
+    "trends": {
+      "CDU/CSU": -0.2,
+      "AfD": 0,
+      "SPD": 0,
+      "GRÜNE": 0.2,
+      "LINKE": 0,
+      "BSW": null,
+      "FDP": 0.1,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": -0.1
+    }
+  },
+  "as_of": "2026-09-12"
+}

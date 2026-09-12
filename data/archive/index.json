@@ -1,0 +1,14 @@
+{
+  "forecasts": [
+    {
+      "key": "st_2026-09-06",
+      "scope": "state",
+      "state_code": "ST",
+      "election_date": "2026-09-06",
+      "election_name": "Landtagswahl Sachsen-Anhalt",
+      "date_is_estimated": false,
+      "forecast_file": "archive/forecast_state_st_2026-09-06.json",
+      "show_on_homepage": false
+    }
+  ]
+}

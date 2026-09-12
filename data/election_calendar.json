@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "last_updated": "2026-09-12T07:41:26",
+    "source": "website-pipeline/data/election_calendar.json",
+    "forecast_window_days": 90
+  },
+  "elections": [
+    {
+      "scope": "bund",
+      "state_code": null,
+      "state_name": "Deutschland",
+      "election_name": "Bundestagswahl",
+      "election_date": "2029-02-25",
+      "date_is_estimated": true
+    },
+    {
+      "scope": "st",
+      "state_code": "ST",
+      "state_name": "Sachsen-Anhalt",
+      "election_name": "Landtagswahl Sachsen-Anhalt",
+      "election_date": "2026-09-06",
+      "date_is_estimated": false
+    },
+    {
+      "scope": "be",
+      "state_code": "BE",
+      "state_name": "Berlin",
+      "election_name": "Landtagswahl Berlin",
+      "election_date": "2026-09-20",
+      "date_is_estimated": false
+    },
+    {
+      "scope": "mv",
+      "state_code": "MV",
+      "state_name": "Mecklenburg-Vorpommern",
+      "election_name": "Landtagswahl Mecklenburg-Vorpommern",
+      "election_date": "2026-09-20",
+      "date_is_estimated": false
+    },
+    {
+      "scope": "sl",
+      "state_code": "SL",
+      "state_name": "Saarland",
+      "election_name": "Landtagswahl Saarland",
+      "election_date": "2027-04-18",
+      "date_is_estimated": false
+    },
+    {
+      "scope": "sh",
+      "state_code": "SH",
+      "state_name": "Schleswig-Holstein",
+      "election_name": "Landtagswahl Schleswig-Holstein",
+      "election_date": "2027-04-18",
+      "date_is_estimated": false
+    },
+    {
+      "scope": "nrw",
+      "state_code": "NW",
+      "state_name": "Nordrhein-Westfalen",
+      "election_name": "Landtagswahl Nordrhein-Westfalen",
+      "election_date": "2027-04-25",
+      "date_is_estimated": false
+    },
+    {
+      "scope": "hb",
+      "state_code": "HB",
+      "state_name": "Bremen",
+      "election_name": "Landtagswahl Bremen",
+      "election_date": "2027-05-30",
+      "date_is_estimated": false
+    },
+    {
+      "scope": "ni",
+      "state_code": "NI",
+      "state_name": "Niedersachsen",
+      "election_name": "Landtagswahl Niedersachsen",
+      "election_date": "2027-09-26",
+      "date_is_estimated": false
+    },
+    {
+      "scope": "by",
+      "state_code": "BY",
+      "state_name": "Bayern",
+      "election_name": "Landtagswahl Bayern",
+      "election_date": "2028-10-15",
+      "date_is_estimated": true
+    },
+    {
+      "scope": "he",
+      "state_code": "HE",
+      "state_name": "Hessen",
+      "election_name": "Landtagswahl Hessen",
+      "election_date": "2028-10-15",
+      "date_is_estimated": true
+    },
+    {
+      "scope": "bb",
+      "state_code": "BB",
+      "state_name": "Brandenburg",
+      "election_name": "Landtagswahl Brandenburg",
+      "election_date": "2029-10-21",
+      "date_is_estimated": true
+    },
+    {
+      "scope": "sn",
+      "state_code": "SN",
+      "state_name": "Sachsen",
+      "election_name": "Landtagswahl Sachsen",
+      "election_date": "2029-10-21",
+      "date_is_estimated": true
+    },
+    {
+      "scope": "th",
+      "state_code": "TH",
+      "state_name": "Thüringen",
+      "election_name": "Landtagswahl Thüringen",
+      "election_date": "2029-10-21",
+      "date_is_estimated": true
+    },
+    {
+      "scope": "hh",
+      "state_code": "HH",
+      "state_name": "Hamburg",
+      "election_name": "Landtagswahl Hamburg",
+      "election_date": "2030-01-20",
+      "date_is_estimated": true
+    },
+    {
+      "scope": "bw",
+      "state_code": "BW",
+      "state_name": "Baden-Württemberg",
+      "election_name": "Landtagswahl Baden-Württemberg",
+      "election_date": "2031-04-20",
+      "date_is_estimated": true
+    },
+    {
+      "scope": "rp",
+      "state_code": "RP",
+      "state_name": "Rheinland-Pfalz",
+      "election_name": "Landtagswahl Rheinland-Pfalz",
+      "election_date": "2031-04-20",
+      "date_is_estimated": true
+    }
+  ]
+}

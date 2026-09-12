@@ -1,0 +1,35 @@
+{
+  "api_version": "v2",
+  "generated_at": "2026-09-12T07:43:48Z",
+  "description": "Archived Landtag forecasts (frozen after election day), including districts / candidates / parliament sidecars when archived. Populated going forward by the pipeline; past elections are not backfilled.",
+  "forecasts": [
+    {
+      "state_code": "ST",
+      "path": "/api/v2/state/archive/st_2021-06-06.json",
+      "election": {
+        "id": "st_2026-09-13",
+        "name": "Landtagswahl Sachsen-Anhalt",
+        "date": "2026-09-13",
+        "scope": "state",
+        "state_code": "ST",
+        "date_is_estimated": false
+      },
+      "archived": true,
+      "archived_at": null
+    },
+    {
+      "state_code": "ST",
+      "path": "/api/v2/state/archive/st_2026-09-06.json",
+      "election": {
+        "id": "st_2026-09-06",
+        "name": "Landtagswahl Sachsen-Anhalt",
+        "date": "2026-09-06",
+        "scope": "state",
+        "state_code": "ST",
+        "date_is_estimated": false
+      },
+      "archived": true,
+      "archived_at": null
+    }
+  ]
+}

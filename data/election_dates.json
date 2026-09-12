@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "last_updated": "2026-09-12T07:34:46.511646",
+    "source": "https://www.wahlrecht.de/umfragen/landtage/",
+    "total_states": 16
+  },
+  "elections": [
+    {
+      "state_code": "ST",
+      "state_name": "Sachsen-Anhalt",
+      "display_date": "6. September 2026",
+      "estimated_date": "2026-09-06",
+      "year": 2026,
+      "date_is_estimated": false
+    },
+    {
+      "state_code": "BE",
+      "state_name": "Berlin",
+      "display_date": "20. September 2026",
+      "estimated_date": "2026-09-20",
+      "year": 2026,
+      "date_is_estimated": false
+    },
+    {
+      "state_code": "MV",
+      "state_name": "Mecklenburg-Vorpommern",
+      "display_date": "20. September 2026",
+      "estimated_date": "2026-09-20",
+      "year": 2026,
+      "date_is_estimated": false
+    },
+    {
+      "state_code": "SL",
+      "state_name": "Saarland",
+      "display_date": "18. April 2027",
+      "estimated_date": "2027-04-18",
+      "year": 2027,
+      "date_is_estimated": false
+    },
+    {
+      "state_code": "SH",
+      "state_name": "Schleswig-Holstein",
+      "display_date": "18. April 2027",
+      "estimated_date": "2027-04-18",
+      "year": 2027,
+      "date_is_estimated": false
+    },
+    {
+      "state_code": "NW",
+      "state_name": "Nordrhein-Westfalen",
+      "display_date": "25. April 2027",
+      "estimated_date": "2027-04-25",
+      "year": 2027,
+      "date_is_estimated": false
+    },
+    {
+      "state_code": "HB",
+      "state_name": "Bremen",
+      "display_date": "30. Mai 2027",
+      "estimated_date": "2027-05-30",
+      "year": 2027,
+      "date_is_estimated": false
+    },
+    {
+      "state_code": "NI",
+      "state_name": "Niedersachsen",
+      "display_date": "26. September 2027",
+      "estimated_date": "2027-09-26",
+      "year": 2027,
+      "date_is_estimated": false
+    },
+    {
+      "state_code": "BY",
+      "state_name": "Bayern",
+      "display_date": "Herbst 2028",
+      "estimated_date": "2028-10-15",
+      "year": 2028,
+      "date_is_estimated": true
+    },
+    {
+      "state_code": "HE",
+      "state_name": "Hessen",
+      "display_date": "Herbst 2028",
+      "estimated_date": "2028-10-15",
+      "year": 2028,
+      "date_is_estimated": true
+    },
+    {
+      "state_code": "BB",
+      "state_name": "Brandenburg",
+      "display_date": "Herbst 2029",
+      "estimated_date": "2029-10-21",
+      "year": 2029,
+      "date_is_estimated": true
+    },
+    {
+      "state_code": "SN",
+      "state_name": "Sachsen",
+      "display_date": "Herbst 2029",
+      "estimated_date": "2029-10-21",
+      "year": 2029,
+      "date_is_estimated": true
+    },
+    {
+      "state_code": "TH",
+      "state_name": "Thüringen",
+      "display_date": "Herbst 2029",
+      "estimated_date": "2029-10-21",
+      "year": 2029,
+      "date_is_estimated": true
+    },
+    {
+      "state_code": "HH",
+      "state_name": "Hamburg",
+      "display_date": "Winter 2030",
+      "estimated_date": "2030-01-20",
+      "year": 2030,
+      "date_is_estimated": true
+    },
+    {
+      "state_code": "BW",
+      "state_name": "Baden-Württemberg",
+      "display_date": "Frühjahr 2031",
+      "estimated_date": "2031-04-20",
+      "year": 2031,
+      "date_is_estimated": true
+    },
+    {
+      "state_code": "RP",
+      "state_name": "Rheinland-Pfalz",
+      "display_date": "Frühjahr 2031",
+      "estimated_date": "2031-04-20",
+      "year": 2031,
+      "date_is_estimated": true
+    }
+  ]
+}

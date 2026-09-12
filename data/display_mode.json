@@ -1,0 +1,163 @@
+{
+  "last_update": "2026-09-12T07:41:27",
+  "forecast_window_days": 90,
+  "forecast_archive_days": 7,
+  "federal": {
+    "mode": "stimmung",
+    "election_date": "2029-02-25",
+    "days_to_election": 897,
+    "election_name": "Bundestagswahl",
+    "date_is_estimated": true,
+    "forecast_available": false
+  },
+  "states": {
+    "ST": {
+      "mode": "stimmung",
+      "election_date": "2026-09-06",
+      "days_to_election": -6,
+      "election_name": "Landtagswahl Sachsen-Anhalt",
+      "date_is_estimated": false,
+      "forecast_available": false
+    },
+    "BE": {
+      "mode": "forecast",
+      "election_date": "2026-09-20",
+      "days_to_election": 8,
+      "election_name": "Landtagswahl Berlin",
+      "date_is_estimated": false,
+      "forecast_available": true
+    },
+    "MV": {
+      "mode": "forecast",
+      "election_date": "2026-09-20",
+      "days_to_election": 8,
+      "election_name": "Landtagswahl Mecklenburg-Vorpommern",
+      "date_is_estimated": false,
+      "forecast_available": true
+    },
+    "SL": {
+      "mode": "stimmung",
+      "election_date": "2027-04-18",
+      "days_to_election": 218,
+      "election_name": "Landtagswahl Saarland",
+      "date_is_estimated": false,
+      "forecast_available": false
+    },
+    "SH": {
+      "mode": "stimmung",
+      "election_date": "2027-04-18",
+      "days_to_election": 218,
+      "election_name": "Landtagswahl Schleswig-Holstein",
+      "date_is_estimated": false,
+      "forecast_available": false
+    },
+    "NW": {
+      "mode": "stimmung",
+      "election_date": "2027-04-25",
+      "days_to_election": 225,
+      "election_name": "Landtagswahl Nordrhein-Westfalen",
+      "date_is_estimated": false,
+      "forecast_available": false
+    },
+    "HB": {
+      "mode": "stimmung",
+      "election_date": "2027-05-30",
+      "days_to_election": 260,
+      "election_name": "Landtagswahl Bremen",
+      "date_is_estimated": false,
+      "forecast_available": false
+    },
+    "NI": {
+      "mode": "stimmung",
+      "election_date": "2027-09-26",
+      "days_to_election": 379,
+      "election_name": "Landtagswahl Niedersachsen",
+      "date_is_estimated": false,
+      "forecast_available": false
+    },
+    "BY": {
+      "mode": "stimmung",
+      "election_date": "2028-10-15",
+      "days_to_election": 764,
+      "election_name": "Landtagswahl Bayern",
+      "date_is_estimated": true,
+      "forecast_available": false
+    },
+    "HE": {
+      "mode": "stimmung",
+      "election_date": "2028-10-15",
+      "days_to_election": 764,
+      "election_name": "Landtagswahl Hessen",
+      "date_is_estimated": true,
+      "forecast_available": false
+    },
+    "BB": {
+      "mode": "stimmung",
+      "election_date": "2029-10-21",
+      "days_to_election": 1135,
+      "election_name": "Landtagswahl Brandenburg",
+      "date_is_estimated": true,
+      "forecast_available": false
+    },
+    "SN": {
+      "mode": "stimmung",
+      "election_date": "2029-10-21",
+      "days_to_election": 1135,
+      "election_name": "Landtagswahl Sachsen",
+      "date_is_estimated": true,
+      "forecast_available": false
+    },
+    "TH": {
+      "mode": "stimmung",
+      "election_date": "2029-10-21",
+      "days_to_election": 1135,
+      "election_name": "Landtagswahl Thüringen",
+      "date_is_estimated": true,
+      "forecast_available": false
+    },
+    "HH": {
+      "mode": "stimmung",
+      "election_date": "2030-01-20",
+      "days_to_election": 1226,
+      "election_name": "Landtagswahl Hamburg",
+      "date_is_estimated": true,
+      "forecast_available": false
+    },
+    "BW": {
+      "mode": "stimmung",
+      "election_date": "2031-04-20",
+      "days_to_election": 1681,
+      "election_name": "Landtagswahl Baden-Württemberg",
+      "date_is_estimated": true,
+      "forecast_available": false
+    },
+    "RP": {
+      "mode": "stimmung",
+      "election_date": "2031-04-20",
+      "days_to_election": 1681,
+      "election_name": "Landtagswahl Rheinland-Pfalz",
+      "date_is_estimated": true,
+      "forecast_available": false
+    }
+  },
+  "archive": {
+    "forecasts": [
+      {
+        "key": "st_2026-09-06",
+        "scope": "state",
+        "state_code": "ST",
+        "election_date": "2026-09-06",
+        "election_name": "Landtagswahl Sachsen-Anhalt",
+        "date_is_estimated": false,
+        "forecast_file": "archive/forecast_state_st_2026-09-06.json",
+        "show_on_homepage": false
+      }
+    ]
+  },
+  "homepage_hide": [
+    {
+      "state_code": "ST",
+      "election_date": "2026-09-06"
+    }
+  ]
+}

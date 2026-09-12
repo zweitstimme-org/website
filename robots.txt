@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /
+
+# Prevent all search engines from indexing this site
+# This is a private site for invited users only
+
+
