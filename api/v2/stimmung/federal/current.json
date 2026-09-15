@@ -1,0 +1,82 @@
+{
+  "api_version": "v2",
+  "generated_at": "2026-09-15T07:40:15",
+  "election": {
+    "id": "bund_2029-02-25",
+    "name": "Bundestagswahl",
+    "date": "2029-02-25",
+    "scope": "federal",
+    "state_code": null,
+    "date_is_estimated": true
+  },
+  "data": {
+    "as_of": "2026-09-15",
+    "parties": {
+      "CDU/CSU": 19.4,
+      "AfD": 29.1,
+      "SPD": 12.4,
+      "GRÜNE": 14.7,
+      "LINKE": 10.5,
+      "BSW": 3.4,
+      "FDP": 4.4,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": 6.1
+    },
+    "uncertainty_low": {
+      "CDU/CSU": 18.8,
+      "AfD": 28.5,
+      "SPD": 11.8,
+      "GRÜNE": 14.1,
+      "LINKE": 9.9,
+      "BSW": 2.8,
+      "FDP": 3.8,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": null
+    },
+    "uncertainty_high": {
+      "CDU/CSU": 20,
+      "AfD": 29.7,
+      "SPD": 13,
+      "GRÜNE": 15.3,
+      "LINKE": 11.1,
+      "BSW": 4,
+      "FDP": 5,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": null
+    },
+    "active_parties": [
+      "CDU/CSU",
+      "AfD",
+      "SPD",
+      "GRÜNE",
+      "LINKE",
+      "BSW",
+      "FDP"
+    ],
+    "note": "Kalman latent support for this calendar day (filled on days without a new poll).",
+    "trends": {
+      "CDU/CSU": -1.2,
+      "AfD": 1,
+      "SPD": 0,
+      "GRÜNE": 0.2,
+      "LINKE": -0.9,
+      "BSW": 0.4,
+      "FDP": 0,
+      "FW": null,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": 0.5
+    }
+  },
+  "as_of": "2026-09-15"
+}
