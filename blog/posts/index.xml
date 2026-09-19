@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on zweitstimme.org</title>
+    <link>https://zweitstimme.org/blog/posts/</link>
+    <description>Recent content in Blog on zweitstimme.org</description>
+    <image>
+      <title>zweitstimme.org</title>
+      <url>https://zweitstimme.org/papermod-cover.png</url>
+      <link>https://zweitstimme.org/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 07 Sep 2026 18:00:00 +0200</lastBuildDate>
+    <atom:link href="https://zweitstimme.org/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sachsen-Anhalt 2026: Evaluation der Vorhersagen</title>
+      <link>https://zweitstimme.org/blog/posts/st-2026-evaluation/</link>
+      <pubDate>Mon, 07 Sep 2026 18:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/st-2026-evaluation/</guid>
+      <description>Was unsere letzte Vorhersage vor der Landtagswahl in Sachsen-Anhalt getroffen hat — und wo Umfragen und Wahlergebnis auseinanderlagen.</description>
+    </item>
+    <item>
+      <title>Wie funktioniert unsere Wahlkreis-Vorhersage?</title>
+      <link>https://zweitstimme.org/blog/posts/district-forecast-methodology/</link>
+      <pubDate>Thu, 30 Jul 2026 10:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/district-forecast-methodology/</guid>
+      <description>&lt;style&gt;
+.meth-fig {
+  margin: 1.35rem 0 1.75rem;
+  padding: 1rem 1.1rem 1.05rem;
+  border: 1px solid var(--border, #e6e6e6);
+  border-radius: 12px;
+  background: #fff;
+}
+.meth-fig-title {
+  margin: 0 0 0.15rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: -0.01em;
+}
+.meth-fig-cap {
+  margin: 0.85rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--secondary, #666);
+}
+.meth-fig-cap strong { color: #444; font-weight: 600; }
+.meth-pipeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.65rem;
+}
+.meth-pipeline-step {
+  position: relative;
+  padding: 0.85rem 0.75rem 0.8rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  background: #fafafa;
+  min-width: 0;
+}
+.meth-pipeline-step:not(:last-child)::after {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 1.35rem;
+  right: -0.55rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid #c5c9ce;
+  border-top: 2px solid #c5c9ce;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+.meth-pipeline-n {
+  width: 1.45rem;
+  height: 1.45rem;
+  border-radius: 999px;
+  background: #3a4654;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.45rem;
+}
+.meth-pipeline-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.2rem;
+}
+.meth-pipeline-text {
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: #666;
+}
+.meth-formula {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border-left: 3px solid #3a4654;
+  background: #f7f8f9;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: #222;
+}
+.meth-formula code {
+  font-size: 0.88em;
+  background: transparent;
+  padding: 0;
+}
+@media (max-width: 900px) {
+  .meth-pipeline { grid-template-columns: 1fr 1fr; }
+  .meth-pipeline-step:nth-child(2)::after,
+  .meth-pipeline-step:nth-child(4)::after { display: none; }
+}
+@media (max-width: 480px) {
+  .meth-pipeline { grid-template-columns: 1fr; }
+  .meth-pipeline-step::after { display: none !important; }
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;die-wahlkreis-vorhersage-bei-zweitstimmeorg&#34;&gt;Die Wahlkreis-Vorhersage bei Zweitstimme.org&lt;/h2&gt;
+&lt;p&gt;Neben der &lt;a href=&#34;https://zweitstimme.org/blog/posts/state-forecast-methodology/&#34;&gt;landesweiten Stimmenprognose&lt;/a&gt; zeigen wir für anstehende Landtagswahlen (und das Berliner Abgeordnetenhaus) eine Karte der &lt;strong&gt;Direktmandate nach Wahlkreis&lt;/strong&gt;: Welche Partei gewinnt voraussichtlich wo das Direktmandat — und wie sicher ist das?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wie funktioniert unsere Landtagswahl-Vorhersage?</title>
+      <link>https://zweitstimme.org/blog/posts/state-forecast-methodology/</link>
+      <pubDate>Wed, 15 Jul 2026 10:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/state-forecast-methodology/</guid>
+      <description>&lt;style&gt;
+.meth-fig {
+  margin: 1.35rem 0 1.75rem;
+  padding: 1rem 1.1rem 1.05rem;
+  border: 1px solid var(--border, #e6e6e6);
+  border-radius: 12px;
+  background: #fff;
+}
+.meth-fig-title {
+  margin: 0 0 0.15rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: -0.01em;
+}
+.meth-fig-cap {
+  margin: 0.85rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--secondary, #666);
+}
+.meth-fig-cap strong { color: #444; font-weight: 600; }
+
+/* Bias */
+.meth-bias-axis {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  color: #888;
+  margin-bottom: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.meth-bias-axis span:first-child { text-align: left; }
+.meth-bias-axis span:nth-child(2) { text-align: center; text-transform: none; letter-spacing: 0; color: #666; }
+.meth-bias-axis span:last-child { text-align: right; }
+.meth-bias-row {
+  display: grid;
+  grid-template-columns: 5.2rem 1fr 3.2rem;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0.28rem 0;
+}
+.meth-bias-party {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-align: right;
+}
+.meth-bias-track {
+  position: relative;
+  height: 14px;
+  background: #f3f3f3;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.meth-bias-zero {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #bbb;
+}
+.meth-bias-bar {
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  border-radius: 2px;
+  transition: width 0.7s cubic-bezier(.2,.8,.2,1);
+}
+.meth-bias-bar--over { left: 50%; }
+.meth-bias-bar--under { right: 50%; }
+.meth-bias-val {
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+/* MAE */
+.meth-mae {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  align-items: end;
+  min-height: 180px;
+  padding: 0.25rem 0.25rem 0;
+}
+.meth-mae-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.meth-mae-val {
+  font-size: 1.35rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #1a1a1a;
+  line-height: 1;
+  margin-bottom: 0.45rem;
+}
+.meth-mae-bar-wrap {
+  flex: 1;
+  width: 100%;
+  max-width: 72px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 90px;
+}
+.meth-mae-bar {
+  width: 100%;
+  border-radius: 6px 6px 2px 2px;
+  background: linear-gradient(180deg, #3a4654 0%, #6b7785 100%);
+  transform-origin: bottom;
+  animation: meth-grow 0.75s cubic-bezier(.2,.8,.2,1) both;
+}
+@keyframes meth-grow {
+  from { transform: scaleY(0.08); opacity: 0.4; }
+  to { transform: scaleY(1); opacity: 1; }
+}
+.meth-mae-lead {
+  margin-top: 0.55rem;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #222;
+}
+.meth-mae-unit {
+  font-size: 0.72rem;
+  color: #888;
+  margin-top: 0.1rem;
+}
+
+/* Pipeline */
+.meth-pipeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.65rem;
+  counter-reset: none;
+}
+.meth-pipeline-step {
+  position: relative;
+  padding: 0.85rem 0.75rem 0.8rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  background: #fafafa;
+  min-width: 0;
+}
+.meth-pipeline-step:not(:last-child)::after {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 1.35rem;
+  right: -0.55rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid #c5c9ce;
+  border-top: 2px solid #c5c9ce;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+.meth-pipeline-n {
+  width: 1.45rem;
+  height: 1.45rem;
+  border-radius: 999px;
+  background: #3a4654;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.45rem;
+}
+.meth-pipeline-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.2rem;
+}
+.meth-pipeline-text {
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: #666;
+}
+
+/* Anatomy */
+.meth-anatomy-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 0.85rem;
+  margin-bottom: 1.6rem;
+}
+.meth-anatomy-party {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+.meth-anatomy-sub {
+  font-size: 0.8rem;
+  color: #777;
+}
+.meth-anatomy-track {
+  position: relative;
+  height: 28px;
+  margin: 2.6rem 0.5rem 2.8rem;
+  background: #f0f1f2;
+  border-radius: 6px;
+}
+.meth-anatomy-band {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border: 1px solid;
+  border-radius: 6px;
+}
+.meth-anatomy-point {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  margin-top: -6px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+  z-index: 2;
+}
+.meth-anatomy-callout {
+  position: absolute;
+  top: -2.35rem;
+  transform: translateX(-50%);
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0.72rem;
+  color: #666;
+  line-height: 1.15;
+}
+.meth-anatomy-callout strong {
+  display: block;
+  font-size: 0.92rem;
+  color: #111;
+  font-variant-numeric: tabular-nums;
+}
+.meth-anatomy-callout--low { top: auto; bottom: -2.35rem; }
+.meth-anatomy-callout--high { top: auto; bottom: -2.35rem; }
+.meth-anatomy-legend {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  color: #555;
+  line-height: 1.4;
+}
+.meth-swatch {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.25rem;
+}
+.meth-swatch--band {
+  width: 1.1rem;
+  height: 0.7rem;
+  border-radius: 2px;
+}
+.meth-swatch--dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+}
+
+/* Forecast chart */
+.meth-chart-wrap {
+  position: relative;
+  height: 280px;
+  width: 100%;
+}
+
+/* Scenarios */
+.meth-scenarios-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.75rem;
+  margin-bottom: 0.85rem;
+}
+.meth-scenarios-head strong { font-size: 0.95rem; }
+.meth-scenarios-head span { font-size: 0.8rem; color: #777; }
+.meth-scenarios-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem 1.1rem;
+}
+.meth-scenario-item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 0;
+}
+.meth-scenario-dots {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 1.5px 2.5px;
+  width: 132px;
+  flex-shrink: 0;
+  padding: 3px 5px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  background: #fafafa;
+  box-sizing: content-box;
+}
+.meth-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #dde1e6;
+}
+.meth-dot.is-filled { background: #3a4654; }
+.meth-scenario-pct {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #222;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.meth-scenario-label {
+  font-size: 0.8rem;
+  color: #444;
+  line-height: 1.25;
+  margin-top: 0.15rem;
+}
+
+@media (max-width: 720px) {
+  .meth-pipeline {
+    grid-template-columns: 1fr 1fr;
+  }
+  .meth-pipeline-step:nth-child(2)::after { display: none; }
+  .meth-scenarios-grid { grid-template-columns: 1fr; }
+  .meth-bias-row { grid-template-columns: 4.4rem 1fr 2.8rem; }
+  .meth-anatomy-callout span { display: none; }
+  .meth-chart-wrap { height: 240px; }
+}
+@media (max-width: 480px) {
+  .meth-pipeline { grid-template-columns: 1fr; }
+  .meth-pipeline-step::after { display: none !important; }
+  .meth-mae { gap: 0.4rem; }
+  .meth-mae-val { font-size: 1.1rem; }
+  .meth-scenario-dots { width: 110px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .meth-mae-bar, .meth-bias-bar { animation: none !important; transition: none !important; }
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;die-landtagswahl-vorhersage-bei-zweitstimmeorg&#34;&gt;Die Landtagswahl-Vorhersage bei Zweitstimme.org&lt;/h2&gt;
+&lt;p&gt;Sobald eine Landtagswahl näher rückt, erscheint auf der Startseite der Bereich &lt;strong&gt;Vorhersage&lt;/strong&gt;: eine Modellprognose des Wahlergebnisses mit Punktschätzung, Unsicherheitsintervall und Szenario-Wahrscheinlichkeiten. Dieser Artikel erklärt, wie diese Vorhersage berechnet wird — und was sie von der &lt;a href=&#34;https://zweitstimme.org/blog/posts/polling-calculation-methods/&#34;&gt;Stimmung&lt;/a&gt; (den Kalman-geglätteten Umfragewerten, aktualisiert wenn neue Umfragen vorliegen) unterscheidet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vorhersage der Landtagswahlen in Baden-Württemberg und Rheinland-Pfalz</title>
+      <link>https://zweitstimme.org/blog/posts/forecast-bw-rp-2026/</link>
+      <pubDate>Sat, 28 Feb 2026 12:00:00 +0100</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/forecast-bw-rp-2026/</guid>
+      <description>&lt;p&gt;Heute veröffentlichen wir unsere Vorhersage für die Landtagswahlen in Baden-Württemberg und Rheinland-Pfalz – &lt;strong&gt;8 bzw. 22 Tage vor der nächsten Wahl&lt;/strong&gt;. Unser Vorhersagemodell basiert auf unserem neuen Modell für Landtagswahlen (&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0261379425000459&#34;&gt;Stoetzer et al. (2025), &lt;em&gt;An election forecasting model for subnational elections&lt;/em&gt;, Electoral Studies&lt;/a&gt;). Wir schätzen Bayes&amp;rsquo;sche Regressionsmodelle (Log-Ratio-Stimmenanteil) auf allen deutschen Landtagswahlen von 1990 bis 2025 und erzeugen 5/6-Kredibilitätsintervalle sowie Szenario-Wahrscheinlichkeiten für bevorstehende Wahlen.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;die-vorhersage&#34;&gt;Die Vorhersage&lt;/h2&gt;
+&lt;p&gt;Die folgenden Werte sind &lt;strong&gt;Punktschätzungen&lt;/strong&gt; (Median unserer Posterior-Verteilung); die Intervalle in Klammern geben die Unsicherheit an. Unser Modell erwartet, dass das tatsächliche Wahlergebnis mit etwa &lt;strong&gt;83% Wahrscheinlichkeit&lt;/strong&gt; in diesem Bereich liegt (5/6-Kredibilitätsintervall). Dass das Endergebnis außerhalb des Intervalls liegt, ist etwa so wahrscheinlich wie eine 6 mit einem Würfel – möglich, aber nicht sehr wahrscheinlich.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wie werden die Werte für Bundes- und Landesdiagramme berechnet?</title>
+      <link>https://zweitstimme.org/blog/posts/polling-calculation-methods/</link>
+      <pubDate>Sun, 24 Aug 2025 10:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/polling-calculation-methods/</guid>
+      <description>&lt;h2 id=&#34;die-berechnung-der-umfragewerte-bei-zweitstimmeorg&#34;&gt;Die Berechnung der Umfragewerte bei Zweitstimme.org&lt;/h2&gt;
+&lt;p&gt;Die Balken und Linien auf der Startseite zeigen keine einzelne Umfrage, sondern eine &lt;strong&gt;latente Stimmung&lt;/strong&gt;: eine geglättete Schätzung der aktuellen Parteienunterstützung. Sie wird in unserer Datenpipeline mit einem &lt;strong&gt;Kalman-Filter&lt;/strong&gt; aus allen verfügbaren Umfragen berechnet — und aktualisiert, wenn neue Umfragen verfügbar sind. Die einzelnen Umfragen selbst erscheinen als &lt;strong&gt;Punkte&lt;/strong&gt; in den Verlaufsdiagrammen und in der Umfragenliste.&lt;/p&gt;
+&lt;h3 id=&#34;warum-kalman-filter-statt-einzelumfragen&#34;&gt;Warum Kalman-Filter statt Einzelumfragen?&lt;/h3&gt;
+&lt;p&gt;Einzelne Umfragen schwanken — wegen Stichprobenfehlern, unterschiedlicher Erhebungsmethoden und kurzfristiger Stimmungsänderungen. Der Kalman-Filter fasst viele Umfragen über die Zeit zu einer stabilen Schätzung zusammen, glättet zufälliges Rauschen und erzeugt eine durchgehende Zeitreihe auch an Tagen ohne neue Umfrage.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unser Erststimme-Modell 2025</title>
+      <link>https://zweitstimme.org/blog/posts/erststimme-model/</link>
+      <pubDate>Tue, 18 Feb 2025 13:00:02 +0200</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/erststimme-model/</guid>
+      <description>&lt;h2 id=&#34;unser-modell-zur-vorhersage-der-erststimme&#34;&gt;Unser Modell zur Vorhersage der Erststimme&lt;/h2&gt;
+&lt;p&gt;Im deutschen Wahlsystem können Parteien, die weniger als 5% der Zweitstimmen erhalten, dennoch Sitze im Parlament gewinnen, wenn sie mindestens drei Direktmandate erringen. Die Verteilung der Erststimmen in jedem Wahlkreis bestimmt die Wahrscheinlichkeit, dass ein Kandidat ein Direktmandat gewinnt. Unser Modell zielt darauf ab, diese Wahrscheinlichkeiten vorherzusagen.&lt;/p&gt;
+&lt;h3 id=&#34;grundlage-des-modells&#34;&gt;Grundlage des Modells&lt;/h3&gt;
+&lt;p&gt;Unser Ansatz basiert auf dem Zweitstimme-Modell, das wir erstmals für die Bundestagswahl 2017 entwickelt und 2021 erneut angewendet haben. Wir beginnen mit der Vorhersage der Stimmanteile auf Bundesebene und verwenden eine proportionale Veränderung, um die Parteistimmen auf Wahlkreisebene zu schätzen. Zum Beispiel, wenn die CDU/CSU national einen Anstieg von XX% erwartet, wird diese Veränderung proportional auf alle Wahlkreise angewendet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stimmzettel-Simulation</title>
+      <link>https://zweitstimme.org/blog/posts/ballot/</link>
+      <pubDate>Fri, 14 Feb 2025 10:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/ballot/</guid>
+      <description>&lt;style&gt;
+    .ballot {
+        max-width: 800px;
+        width: 95vw;
+        margin: 0 auto;
+        background-color: #f8f6ef;
+        padding: 2vw;
+        border: 1px solid #ccc;
+        position: relative;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    /* Add MUSTER watermark */
+    .ballot::before {
+        content: &#39;NICHT OFFIZIELL&#39;;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        font-size: min(100px, 25vw);
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.12);
+        white-space: nowrap;
+        z-index: 2;
+        pointer-events: none;
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ballot-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .ballot-header h1 {
+        font-size: min(24px, 3vw);
+        margin: 10px 0;
+    }
+    .ballot-header p {
+        font-size: min(16px, 2.5vw);
+        line-height: 1.3;
+    }
+    .large-text {
+        font-size: min(32px, 4vw);
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .large-text .number {
+        font-size: min(48px, 6vw);
+    }
+    .arrows {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 0;
+        height: 90px;
+        gap: 30px;
+    }
+    .arrow {
+        height: 90px;
+        width: auto;
+    }
+    @media screen and (max-width: 768px) {
+        .arrows {
+            height: 60px;
+            gap: 20px;
+        }
+        .arrow {
+            height: 60px;
+        }
+        .ballot-header p {
+            font-size: 11px;
+            line-height: 1.2;
+        }
+        .ballot-header h1 {
+            font-size: 16px;
+            margin: 6px 0;
+        }
+    }
+    .ballot-section {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+    .first-vote, .second-vote {
+        width: 48%;
+    }
+    .first-vote {
+        text-align: right;
+    }
+    .second-vote {
+        color: #2596be;
+    }
+    .vote-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .vote-item input {
+        margin-right: 10px;
+    }
+    .vote-description {
+        font-size: min(14px, 1.8vw);
+        margin-bottom: 20px;
+    }
+    .vote-description b {
+        font-weight: bold;
+    }
+    .candidate-row, .party-row {
+        display: flex;
+        align-items: stretch;
+        padding: min(8px, 1vw);
+        height: min(90px, 13vw);
+        position: relative;
+        box-sizing: border-box;
+    }
+    .candidate-row {
+        display: flex;
+        align-items: stretch;
+        border: 1px solid black;
+        border-bottom: none;
+        padding: 0;
+        height: min(90px, 13vw);
+        position: relative;
+        box-sizing: border-box;
+        background-color: #f8f6ef;
+    }
+    .candidate-row:last-child {
+        border-bottom: 1px solid black;
+    }
+    .party-row {
+        display: flex;
+        align-items: stretch;
+        border: 1px solid #2596be;
+        border-bottom: none;
+        border-right: none;
+        padding: 8px;
+        position: relative;
+        background-color: #f8f6ef;
+    }
+    .party-row:last-child {
+        border-bottom: 1px solid #2596be;
+    }
+    .candidate-number, .party-number {
+        width: 15px;
+        font-weight: bold;
+        text-align: center !important;
+        align-self: stretch;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 8px;
+        justify-content: center !important;
+        box-sizing: border-box;
+        font-size: min(14px, 1.8vw);
+    }
+    .candidate-number {
+        color: black;
+        border-right: 1px solid black;
+    }
+    .party-number {
+        color: #2596be;
+        border-right: 1px solid #2596be;
+    }
+    .candidate-info {
+        flex-grow: 1;
+        padding: 0px 10px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-right: 1px solid black;
+        align-self: stretch;
+        margin: 0;
+        min-height: min(80px, 10vw);
+    }
+    .party-info {
+        width: 60%;
+        font-size: min(14px, 1.8vw);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .party-info b {
+        margin-bottom: 2px;
+    }
+
+    .party-info-main {
+        flex-grow: 1;
+        display: flex;
+        align-items: stretch;
+        border-right: 1px solid #2596be;
+        margin: -8px 0;
+        padding: 8px 0;
+    }
+    .party-short-name {
+        width: 35%;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        font-weight: bold;
+        font-size: min(14px, 1.7vw);
+        white-space: normal;
+        word-wrap: normal;
+        overflow: hidden;
+        line-height: 1.2;
+    }
+    .party-details-column {
+        width: 75%;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .party-long-name {
+        font-weight: bold;
+        font-size: min(12px, 1.5vw);
+    }
+    /* Update font size for long party names */
+    .party-long-name.long {
+        font-size: min(10px, 1.3vw);
+        line-height: 1.1;
+    }
+    .party-long-name.very-long {
+        font-size: min(9px, 1.1vw);
+        line-height: 1.1;
+    }
+    .party-long-name.extra-long {
+        font-size: min(8.5px, 0.9vw);
+        line-height: 1;
+    }
+    .party-long-name.super-long {
+        font-size: min(8px, 0.8vw);
+        line-height: 1;
+    }
+    .party-candidates {
+        font-size: min(10px, 1.3vw);
+        line-height: 1.2;
+    }
+    .vote-circle-container {
+        width: min(35px, 4.2vw);
+        min-width: min(35px, 4.2vw);
+        max-width: min(35px, 4.2vw);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        border-right: 1px solid black;
+        box-sizing: border-box;
+    }
+    .vote-circle-container-left {
+        width: min(35px, 4.2vw);
+        min-width: min(35px, 4.2vw);
+        max-width: min(35px, 4.2vw);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .vote-circle-container {
+        width: min(35px, 4.2vw);
+        min-width: min(35px, 4.2vw);
+        max-width: min(35px, 4.2vw);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        border-right: 1px solid black;
+        box-sizing: border-box;
+    }
+    .vote-circle-container.blue-border {
+        border-right: 1px solid #2596be;
+        margin: -8px 8px -8px -8px;
+        width: min(45px, 5.4vw);
+    }
+    .vote-circle, .vote-circle-left {
+        width: min(25px, 3vw);
+        height: min(25px, 3vw);
+        border: min(2px, 0.25vw) solid black;
+        border-radius: 50%;
+        flex-shrink: 0;
+        margin: 0;
+        background-color: #f5f2e9;
+    }
+    .vote-circle-left {
+        border-color: #2596be;
+    }
+    .vote-circle-container &gt; div {
+        position: static;
+    }
+    .info-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: auto;
+        padding-top: 5px;
+        flex-shrink: 0;
+    }
+    .candidate-details, .party-details {
+        font-size: min(10px, 1.3vw);
+        width: 70%;
+        padding-right: min(10px, 1.2vw);
+    }
+    .party-short {
+        width: 50%;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .party-short b {
+        display: block;
+        font-size: min(14px, 1.8vw);
+    }
+    .party-long {
+        font-size: min(10px, 1.3vw);
+        line-height: 1.1;
+    }
+    /* Add font size scaling for long party names */
+    .party-long.long {
+        font-size: min(10px, 1.3vw);
+        line-height: 1.1;
+    }
+    .party-long.very-long {
+        font-size: min(8.5px, 1.1vw);
+        line-height: 1.1;
+    }
+    .party-long.extra-long {
+        font-size: min(7.5px, 0.9vw);
+        line-height: 1;
+    }
+    .party-long.super-long {
+        font-size: min(6.5px, 0.8vw);
+        line-height: 1;
+    }
+    .candidate-name {
+        font-size: min(14px, 1.8vw);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: min(5px, 0.6vw);
+        flex-shrink: 0;
+    }
+    .vote-section {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .vote-column {
+        width: 48%;
+    }
+    .vote-header {
+        margin-bottom: 10px;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .vote-header h2 {
+        margin: 0 0 10px 0;
+    }
+    .vote-explanation {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .vote-table {
+        width: 100%;
+    }
+    .ballot-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .first-vote h2, .second-vote h2 {
+        margin: 0;
+        padding-top: 5px;
+        font-size: min(18px, 2.2vw);
+    }
+    .second-vote h2 {
+        color: #2596be;
+    }
+    .candidate-row.empty {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: none;
+        background-color: transparent;
+    }
+    .candidate-row.empty:last-child {
+        border-bottom: 1px solid black;
+    }
+    .candidate-row.empty + .candidate-row.empty {
+        border-top: none;
+    }
+    /* Remove all internal borders in empty rows */
+    .candidate-row.empty .candidate-number,
+    .candidate-row.empty .candidate-info,
+    .candidate-row.empty .vote-circle-container-left {
+        border-right: none;
+        background-color: transparent;
+    }
+    .search-result-item {
+        padding: 10px 15px;
+        cursor: pointer;
+        border-bottom: 1px solid #eee;
+    }
+
+    .search-result-item:last-child {
+        border-bottom: none;
+    }
+
+    .search-result-item:hover {
+        background-color: #f5f5f5;
+    }
+
+    .search-result-type {
+        color: #666;
+        font-size: 0.8em;
+        margin-left: 8px;
+    }
+
+    .ballot::after {
+        content: &#39;&#39;;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        background-image: url(&#34;data:image/svg+xml,%3Csvg width=&#39;100&#39; height=&#39;100&#39; viewBox=&#39;0 0 100 100&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cfilter id=&#39;noise&#39;%3E%3CfeTurbulence type=&#39;fractalNoise&#39; baseFrequency=&#39;0.8&#39; numOctaves=&#39;4&#39; stitchTiles=&#39;stitch&#39;/%3E%3C/filter%3E%3Crect width=&#39;100&#39; height=&#39;100&#39; filter=&#39;url(%23noise)&#39; opacity=&#39;0.08&#39;/%3E%3C/svg%3E&#34;),
+            linear-gradient(90deg, rgba(0,0,0,.03) 1px, transparent 1px),
+            linear-gradient(0deg, rgba(0,0,0,.03) 1px, transparent 1px);
+        background-size: auto,
+            calc(100% / 20) 100%,
+            100% calc(100% / 30);
+        opacity: 0.5;
+        pointer-events: none;
+    }
+
+    /* Update the search container styles */
+    .search-container-wrapper {
+        max-width: 500px;
+        width: 70%;
+        margin: 0 auto 20px auto;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .search-container {
+        flex-grow: 1;
+        position: relative;
+    }
+
+    /* Update the warning box */
+    .warning-box {
+        max-width: 600px;
+        width: 85vw;
+        margin: 0 auto 20px auto;
+        background-color: #fff3cd;
+        color: #856404;
+        padding: 10px;
+        border: 1px solid #ffeeba;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    .nav-buttons {
+        display: flex;
+        gap: 5px;
+    }
+
+    /* Update mobile styles */
+    @media screen and (max-width: 600px) {
+        .search-container-wrapper {
+            width: calc(100% - 20px);  /* Take up almost full width */
+            min-width: 200px;
+            margin: 0 auto 20px auto;
+        }
+
+        /* Ensure the input text is readable */
+        .search-input {
+            font-size: 16px !important;  /* Prevent iOS zoom on focus */
+            padding: 8px 12px 8px 36px;
+        }
+
+        .party-number {
+            min-width: 12px;
+            color: #2596be;
+            border-right: 1px solid #2596be;
+        }
+
+        .candidate-number {
+            min-width: 12px;
+            font-size: min(12px, 1.5vw);
+            padding-top: 5px;
+        }
+
+        .party-candidates {
+            font-size: min(7px, 1.3vw);
+            line-height: 1;
+        }
+
+        .party-short-name {
+            width: 30%;
+            display: flex;
+            align-items: center;
+            padding: 0 0px;
+            font-weight: bold;
+            font-size: min(14px, 1.7vw);
+            word-wrap: break-word;
+            white-space: normal;
+            line-height: 1.2;
+        }
+
+        body {
+            margin: 5px;
+        }
+        
+        .ballot {
+            width: calc(100vw - 10px);
+            padding: 10px;
+            margin: 0 auto;
+        }
+
+        .warning-box {
+            width: calc(100vw - 20px);
+            margin: 0 auto 10px auto;
+            padding: 8px;
+        }
+
+        /* Update ballot header styles */
+        .ballot-header {
+            margin-bottom: 15px;
+        }
+
+        .ballot-header h1 {
+            font-size: 16px;
+            margin: 6px 0;
+        }
+
+        .ballot-header p {
+            font-size: 11px;
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        /* Also adjust the district text that gets dynamically added */
+        #ballot-header p {
+            font-size: 11px;
+            line-height: 1.2;
+            margin: 0;
+            padding: 0 10px;
+        }
+
+        /* Adjust the arrows section spacing */
+        .arrows {
+            margin-bottom: 15px;
+            margin-top: 0;
+            height: 50px;
+        }
+
+        /* Reduce vote description spacing */
+        .vote-description {
+            font-size: 11px;
+            margin-bottom: 10px;
+        }
+
+        /* Adjust ballot section spacing */
+        .ballot-section {
+            margin-bottom: 0;
+        }
+
+        /* Adjust the large text spacing */
+        .large-text {
+            font-size: 16px;
+            margin-bottom: 5px;
+            margin-top: 0;
+        }
+
+        .large-text .number {
+            font-size: 24px;
+        }
+
+        /* Adjust search input placeholder for mobile */
+        .search-input::placeholder {
+            content: &#34;Wahlkreis, PLZ oder Kandidat:in...&#34;;
+        }
+
+        /* Adjust number columns width for mobile */
+        .candidate-number {
+            width: 3px;
+            width-max: 3px;
+            font-size: min(12px, 1.5vw);
+            padding-top: 5px;
+        }
+
+        /* Adjust number columns width for mobile */
+        .party-number {
+            width: 5px;
+            font-size: min(12px, 1.5vw);
+            padding-top: 5px;
+        }
+
+        /* Keep circle containers the same size */
+        .vote-circle-container {
+            width: min(35px, 4.2vw);
+        }
+
+        .vote-circle-container.blue-border {
+            width: min(35px, 4.2vw);
+        }
+
+        /* Adjust info columns to use the extra space */
+        .candidate-info {
+            width: calc(100% - 45px);  /* 35px for circle + 10px for number */
+        }
+
+        .party-info-main {
+            width: calc(100% - 45px);
+        }
+    }
+
+    /* Update the empty party row styles */
+    .party-row.empty {
+        border-left: 1px solid #2596be;
+        border-right: 1px solid #2596be;
+        border-bottom: none;
+        height: min(90px, 13vw);
+        background-color: transparent;
+    }
+
+    .party-row.empty:last-child {
+        border-bottom: 1px solid #2596be;
+    }
+
+    .party-row.empty + .party-row.empty {
+        border-top: none;
+    }
+
+    /* Hide circle in empty rows */
+    .party-row.empty .vote-circle-left {
+        display: none;
+    }
+
+    /* Remove all internal borders in empty party rows */
+    .party-row.empty .party-number,
+    .party-row.empty .party-info-main,
+    .party-row.empty .vote-circle-container {
+        border-right: none;
+        background-color: transparent;
+    }
+
+    /* Only allow wrapping on mobile screens */
+    @media screen and (max-width: 768px) {
+        .party-short-name {
+            word-wrap: break-word;
+            white-space: normal;
+        }
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;warning-box&#34;&gt;
+    &lt;strong&gt;Hinweis:&lt;/strong&gt; Dies ist eine inoffizielle Simulation eines Stimmzettels. Die dargestellten Informationen dienen nur zu Demonstrationszwecken und erheben keinen Anspruch auf Vollständigkeit oder Richtigkeit. Für offizielle Wahlinformationen wenden Sie sich bitte an die zuständigen Wahlbehörden.
+&lt;/div&gt;
+
+&lt;div style=&#34;text-align: right; font-size: 0.9em; color: #666; margin-bottom: 20px;&#34;&gt;
+    Daten: &lt;a href=&#34;https://www.bundeswahlleiterin.de&#34; style=&#34;color: #2196f3; text-decoration: none;&#34;&gt;bundeswahlleiterin.de&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;search-container-wrapper&#34;&gt;
+    &lt;div class=&#34;nav-buttons&#34;&gt;
+        &lt;button onclick=&#34;navigateDistrict(-1)&#34; class=&#34;nav-button&#34; style=&#34;background: #333; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;&#34;&gt;&amp;larr;&lt;/button&gt;
+        &lt;button onclick=&#34;navigateDistrict(1)&#34; class=&#34;nav-button&#34; style=&#34;background: #333; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;&#34;&gt;&amp;rarr;&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;search-container&#34;&gt;
+        &lt;svg class=&#34;search-icon&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; style=&#34;position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #666;&#34;&gt;
+            &lt;circle cx=&#34;11&#34; cy=&#34;11&#34; r=&#34;8&#34;&gt;&lt;/circle&gt;
+            &lt;line x1=&#34;21&#34; y1=&#34;21&#34; x2=&#34;16.65&#34; y2=&#34;16.65&#34;&gt;&lt;/line&gt;
+        &lt;/svg&gt;
+        &lt;input type=&#34;text&#34; 
+               id=&#34;searchInput&#34; 
+               class=&#34;search-input&#34; 
+               placeholder=&#34;Suche nach Wahlkreis, PLZ oder Kandidat:in...&#34;
+               style=&#34;width: 100%; padding: 8px 12px 8px 36px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;&#34;&gt;
+        &lt;div id=&#34;searchResults&#34; class=&#34;search-results&#34; style=&#34;display: none; position: absolute; width: 100%; background: white; border: 1px solid #ddd; border-radius: 4px; margin-top: 4px; max-height: 300px; overflow-y: auto; z-index: 1000; box-shadow: 0 2px 4px rgba(0,0,0,0.1);&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;ballot&#34;&gt;
+   
+
+    &lt;div class=&#34;ballot-header&#34; id=&#34;ballot-header&#34;&gt;
+        &lt;h1&gt;Stimmzettel&lt;/h1&gt;
+        &lt;p&gt;für die Wahl zum Deutschen Bundestag am 23. Februar 2025&lt;br&gt;im Wahlkreis&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Berechnung von Wahrscheinlichkeiten</title>
+      <link>https://zweitstimme.org/blog/posts/probabilities/</link>
+      <pubDate>Wed, 08 Jan 2025 10:00:04 +0200</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/probabilities/</guid>
+      <description>&lt;p&gt;Mit einem neuartigen Ansatz berechnen wir Wahrscheinlichkeiten für Koalitionsmehrheiten unter Berücksichtigung der Grundmandatsklausel, die Parteien mit mindestens drei gewonnenen Wahlkreisen von der 5%-Hürde befreit. Dies ist besonders relevant für die Linke, die drei Wahlkreise gewinnen, aber an der 5%-Hürde scheitern könnte – ein Szenario, das die Sitzverteilung im Parlament erheblich beeinflussen würde.&lt;/p&gt;
+&lt;h2 id=&#34;methodisches-vorgehen&#34;&gt;Methodisches Vorgehen&lt;/h2&gt;
+&lt;p&gt;Um das Wahlrecht möglichst genau zu modellieren, kombinieren wir die Vorhersagen für Wahlkreise und Listenstimmen:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Wir ziehen 10.000 Stichproben aus der Vorhersageverteilung&lt;/li&gt;
+&lt;li&gt;Für jede Stichprobe identifizieren wir:
+&lt;ul&gt;
+&lt;li&gt;Parteien, die mindestens drei Wahlkreise gewinnen&lt;/li&gt;
+&lt;li&gt;Parteien, die die 5%-Hürde überschreiten&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Basierend auf diesen Parteien berechnen wir mögliche Koalitionsmehrheiten&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Die Wahrscheinlichkeiten für verschiedene Koalitionsszenarien ergeben sich aus der Aggregation dieser Simulationen. Für jede mögliche Koalition zählen wir, in wie vielen der 10.000 Simulationen sie eine Mehrheit erreicht. Der Anteil der Simulationen mit Mehrheit entspricht dann der Wahrscheinlichkeit für diese Koalition.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nicht besetzte Wahlkreise: Eine neue Herausforderung</title>
+      <link>https://zweitstimme.org/blog/posts/vacant-districts/</link>
+      <pubDate>Wed, 08 Jan 2025 10:00:03 +0200</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/vacant-districts/</guid>
+      <description>&lt;p&gt;Zum ersten Mal in der Geschichte des deutschen Wahlrechts garantiert der Gewinn eines Wahlkreises durch die Mehrheit der Kandidatenstimmen nicht automatisch einen Sitz im Parlament. Dies könnte dazu führen, dass Wahlkreise ohne Direktmandat entstehen.&lt;/p&gt;
+&lt;h3 id=&#34;schätzung-der-wahrscheinlichkeiten-für-nicht-besetzte-wahlkreise&#34;&gt;Schätzung der Wahrscheinlichkeiten für nicht besetzte Wahlkreise&lt;/h3&gt;
+&lt;p&gt;Um die Wahrscheinlichkeit für Wahlkreise ohne Direktmandat zu schätzen, kombinieren wir die Ergebnisse unserer Modelle zur Vorhersage der Partei- und Kandidatenstimmenanteile. Mithilfe von 10.000 Simulationen aus dem Zweitstimme-Modell berechnen wir die Sitzverteilung nach dem neuen Wahlrecht.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unser Zweitstimme-Modell 2025</title>
+      <link>https://zweitstimme.org/blog/posts/zweitstimme-model/</link>
+      <pubDate>Wed, 08 Jan 2025 10:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/zweitstimme-model/</guid>
+      <description>&lt;h2 id=&#34;unser-modell-zur-vorhersage-der-zweitstimme&#34;&gt;Unser Modell zur Vorhersage der Zweitstimme&lt;/h2&gt;
+&lt;p&gt;Um die Stimmanteile auf Bundesebene für die kommende Wahl vorherzusagen, nutzen wir unser Zweitstimme-Modell. Dieses Modell kombiniert zwei wesentliche Komponenten: ein Fundamentaldaten-Modell und ein Umfragedaten-Modell.&lt;/p&gt;
+&lt;h3 id=&#34;fundamentaldaten-modell&#34;&gt;Fundamentaldaten-Modell&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Langfristige Parteibindung&lt;/strong&gt;: Ergebnisse der vorherigen Wahl.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kurzfristige Kampagnendynamik&lt;/strong&gt;: Durchschnittliche Wahlabsichten in Umfragen 230–200 Tage vor dem Wahltag.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unterstützung der amtierenden Regierung&lt;/strong&gt;: Ein Indikator für die Kanzler*innenpartei.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;umfragedaten-modell&#34;&gt;Umfragedaten-Modell&lt;/h3&gt;
+&lt;p&gt;Um die aktuelle Stimmung miteinzubeziehen, fließen als zweite Komponente öffentliche Meinungsumfragen (Quelle: &lt;a href=&#34;https://www.wahlrecht.de&#34;&gt;wahlrecht.de&lt;/a&gt;) in unser Modell ein.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DFG-Förderung für die Prognose der Bundestagswahl 2025</title>
+      <link>https://zweitstimme.org/blog/posts/dfg-funding/</link>
+      <pubDate>Sat, 18 May 2024 21:30:34 +0200</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/dfg-funding/</guid>
+      <description>&lt;p&gt;Wir freuen uns, bekannt geben zu können, dass unser Projekt eine Förderung von der Deutschen Forschungsgemeinschaft (DFG) erhalten hat, um Wahlprognosen für die bevorstehende Bundestagswahl 2025 zu entwickeln. Diese Unterstützung ermöglicht es uns, unsere Forschung voranzutreiben und akuratere Vorhersagen für die Bundestagswahlen zu entwicklen.&lt;/p&gt;
+&lt;p&gt;Bleiben Sie auf dem Laufenden für weitere Updates, während wir an diesem spannenden Projekt weiterarbeiten!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Einzugswahrscheinlichkeiten von zweitstimme.org</title>
+      <link>https://zweitstimme.org/blog/posts/candidates/</link>
+      <pubDate>Wed, 08 Sep 2021 19:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/blog/posts/candidates/</guid>
+      <description>&lt;p&gt;Basierend auf unseren Modellen können wir für alle Kandidierenden eine Wahrscheinlichkeit für den Einzug in den Bundestag berechnen. Die Daten zu den Kandiderenden sind öffentlich beim &lt;a href=&#34;https://www.bundeswahlleiter.de/bundestagswahlen/2021/wahlbewerber.html&#34;&gt;Bundeswahlleiter&lt;/a&gt; verfügbar.&lt;/p&gt;
+&lt;iframe src=&#34;https://api.zweitstimme.org/cand_prob&#34; height=&#34;750px&#34; width=&#34;100%&#34; title=&#34;Einzugswahrscheinlichkeiten&#34; frameBorder=&#34;0&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+  </channel>
+</rss>
