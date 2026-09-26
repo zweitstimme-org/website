@@ -1,0 +1,65 @@
+{
+  "api_version": "v2",
+  "generated_at": "2026-09-26T06:07:01Z",
+  "description": "Archived Landtag forecasts (frozen after election day), including districts / candidates / parliament sidecars when archived. Populated going forward by the pipeline; past elections are not backfilled.",
+  "forecasts": [
+    {
+      "state_code": "BE",
+      "path": "/api/v2/state/archive/be_2026-09-20.json",
+      "election": {
+        "id": "be_2026-09-20",
+        "name": "Landtagswahl Berlin",
+        "date": "2026-09-20",
+        "scope": "state",
+        "state_code": "BE",
+        "date_is_estimated": true
+      },
+      "archived": true,
+      "archived_at": null,
+      "districts": "/api/v2/state/archive/be_2026-09-20/districts.json"
+    },
+    {
+      "state_code": "MV",
+      "path": "/api/v2/state/archive/mv_2026-09-20.json",
+      "election": {
+        "id": "mv_2026-09-20",
+        "name": "Landtagswahl Mecklenburg-Vorpommern",
+        "date": "2026-09-20",
+        "scope": "state",
+        "state_code": "MV",
+        "date_is_estimated": false
+      },
+      "archived": true,
+      "archived_at": null,
+      "districts": "/api/v2/state/archive/mv_2026-09-20/districts.json"
+    },
+    {
+      "state_code": "ST",
+      "path": "/api/v2/state/archive/st_2021-06-06.json",
+      "election": {
+        "id": "st_2026-09-13",
+        "name": "Landtagswahl Sachsen-Anhalt",
+        "date": "2026-09-13",
+        "scope": "state",
+        "state_code": "ST",
+        "date_is_estimated": true
+      },
+      "archived": true,
+      "archived_at": null
+    },
+    {
+      "state_code": "ST",
+      "path": "/api/v2/state/archive/st_2026-09-06.json",
+      "election": {
+        "id": "st_2026-09-06",
+        "name": "Landtagswahl Sachsen-Anhalt",
+        "date": "2026-09-06",
+        "scope": "state",
+        "state_code": "ST",
+        "date_is_estimated": true
+      },
+      "archived": true,
+      "archived_at": null
+    }
+  ]
+}
