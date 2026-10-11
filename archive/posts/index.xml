@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Archiv on zweitstimme.org</title>
+    <link>https://zweitstimme.org/archive/posts/</link>
+    <description>Recent content in Archiv on zweitstimme.org</description>
+    <image>
+      <title>zweitstimme.org</title>
+      <url>https://zweitstimme.org/papermod-cover.png</url>
+      <link>https://zweitstimme.org/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 10 Sep 2026 12:00:00 +0200</lastBuildDate>
+    <atom:link href="https://zweitstimme.org/archive/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vergangene Vorhersagen</title>
+      <link>https://zweitstimme.org/archive/posts/vergangene-vorhersagen/</link>
+      <pubDate>Thu, 10 Sep 2026 12:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/vergangene-vorhersagen/</guid>
+      <description>Letzte Modellprognosen vor dem Wahltag — eingefroren, nicht mit dem Wahlergebnis überschrieben.</description>
+    </item>
+    <item>
+      <title>Wie gut waren die Bürger:innenprognosen?</title>
+      <link>https://zweitstimme.org/archive/posts/evaluation-citizen-2025/</link>
+      <pubDate>Tue, 25 Feb 2025 12:15:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/evaluation-citizen-2025/</guid>
+      <description>&lt;p&gt;Nach der Wahl ist die Zeit gekommen, unsere &lt;a href=&#34;https://zweitstimme.org/posts/blog/citizen-forecast/&#34;&gt;Bürger:innenprognosen&lt;/a&gt;
+zu evaluieren. &lt;strong&gt;Wie nah lagen die Bürger:innen am tatsächlichen Wahlergebnis?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;überblick&#34;&gt;Überblick&lt;/h2&gt;
+&lt;p&gt;Bei den &lt;strong&gt;Zweitstimmen&lt;/strong&gt; war die Bürger:innenprognose insbesondere für &lt;strong&gt;CDU/CSU, AfD und SPD sehr akkurat&lt;/strong&gt;. Allerdings lagen &lt;strong&gt;BSW und FDP über der 5% Hürde&lt;/strong&gt;. Im Schnitt wich die Prognose um 0,68 Prozentpunkte vom Ergebnis ab.
+Auch die Vorhersage der Wahlkreisgewinner:innen war sehr gut und vergleichbar mit  &lt;a href=&#34;https://zweitstimme.org/posts/blog/evaluation-2025/&#34;&gt;anderen Modellen&lt;/a&gt;. &lt;strong&gt;Über 90% der Gewinner:innen&lt;/strong&gt; wurden &lt;strong&gt;richtig&lt;/strong&gt; vorhergesagt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Evaluation der Zweistimme.org Wahlprognosen zur Bundestagswahl 2025</title>
+      <link>https://zweitstimme.org/archive/posts/evaluation-2025/</link>
+      <pubDate>Sun, 23 Feb 2025 19:30:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/evaluation-2025/</guid>
+      <description>&lt;p&gt;Mit der Veröffentlichung des amtlichen Endergebnisses der Bundestagswahl 2025 ist es an der Zeit, die Leistung unserer Wahlprognosemodelle zu evaluieren.&lt;/p&gt;
+&lt;p&gt;Diese Bewertung bietet Einblicke in die Genauigkeit der Modelle, die Herausforderungen, denen wir begegnet sind, und die geplanten Verbesserungen für zukünftige Vorhersagen auf &lt;a href=&#34;https://zweitstimme.org&#34;&gt;zweitstimme.org&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;überblick&#34;&gt;Überblick&lt;/h2&gt;
+&lt;p&gt;Unser &lt;a href=&#34;https://zweitstimme.org/posts/blog/zweitstimme-model/&#34;&gt;Zweistimmen-Modell&lt;/a&gt; hat erneut zuverlässige Vorhersagen für die Anteile der Zweitstimmen geliefert. Im Durchschnitt lagen wir mit unserer Zweitstimmenprognose nur um 0,78 absolute Prozentpunkte vom tatsächlichen Ergebnis der Parteien entfernt. Alle Parteien befanden sich innerhalb des von uns angegebenen Unsicherheitsbereichs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Was denken Wähler:innen, wie die Wahl ausgeht?</title>
+      <link>https://zweitstimme.org/archive/posts/citizen-forecast/</link>
+      <pubDate>Fri, 21 Feb 2025 11:10:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/citizen-forecast/</guid>
+      <description>&lt;p&gt;Wir haben über 20.000 Personen gefragt, was sie erwarten wie die Wahl ausgeht - im Gegensatz zu der Frage &amp;ldquo;Wen werden Sie wählen?&amp;rdquo;.
+Dabei bilden diese Personen keine repräsentative Stichprobe, sie sind entweder Teil eines Online Access Panels oder haben Anzeigen für unsere Arbeit auf facebook oder Instagram gesehen und an unserer Studie teilgenommen. Befragungen fanden zwischen 13. und 20. Februar 2025 statt.&lt;/p&gt;
+&lt;p&gt;Dieser Ansatz beruht auf der Idee der Bürger:innenprognosen (English: Citizen Forecasts).
+Eine Gruppe von Personen wird zu ihren Erwartungen zum Wahlausgang befragt und die aggregierten Antworten dieser Gruppe werden als Prognose für den Wahlausgang genommen.
+Die Idee dahinter ist, dass die Individuen nicht alle richtig liegen, aber die Aggregation der Antworten zu einer besseren Prognose führt, da die einzelnen Fehler sich ausgleichen.
+Die Schwarm-Intelligenz der Gruppe wird ausgenutzt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Erststimme: Wahlprognose für die Bundestagswahl 2025</title>
+      <link>https://zweitstimme.org/archive/posts/erststimme-wahlprognose-2025/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/erststimme-wahlprognose-2025/</guid>
+      <description>Die aktuelle Prognose der Direktmandate für die Bundestagswahl 2025.</description>
+    </item>
+    <item>
+      <title>Zweitstimme: Wahlprognose für die Bundestagswahl 2025</title>
+      <link>https://zweitstimme.org/archive/posts/zweitstimme-wahlprognose-2025/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/zweitstimme-wahlprognose-2025/</guid>
+      <description>Die aktuelle Prognose für die Bundestagswahl 2025 basierend auf dem Zweitstimmen-Modell.</description>
+    </item>
+    <item>
+      <title>Evaluation der Vorhersage: Vergleich von Modellprognosen und realen Wahlergebnissen</title>
+      <link>https://zweitstimme.org/archive/posts/state_election_forecast_evaluation/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/state_election_forecast_evaluation/</guid>
+      <description>&lt;p&gt;In diesem Beitrag evaluieren wir die auf unserer Seite veröffentlichten Vorhersagen für die Landtagswahlen in Sachsen, Thüringen und Brandenburg und vergleichen diese mit den tatsächlich erzielten Wahlergebnissen. Dabei bezieht sich der folgende Text auf die Vorhersagen, die zwei Tage vor den Wahlen veröffentlicht wurden.&lt;/p&gt;
+&lt;h1 id=&#34;evaluation-der-vorhersagen&#34;&gt;Evaluation der Vorhersagen&lt;/h1&gt;
+&lt;h2 id=&#34;sachsen&#34;&gt;Sachsen&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;./fig/saxony_de.png&#34; alt=&#34;state_election_forecast_evaluation&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Das Kopf-an-Kopf-Rennen zwischen der CDU und der AfD in Sachsen konnte die CDU knapp für sich gewinnen. Mit &lt;strong&gt;31,9%&lt;/strong&gt; liegt der Wahlanteil der Partei &lt;strong&gt;2,2%&lt;/strong&gt; oberhalb des zwei Tage vor der Wahl prognostizierten Wertes. Die AfD konnte sich auf &lt;strong&gt;30,6%&lt;/strong&gt; verbessern und unterbietet damit unsere Prognose um &lt;strong&gt;0,9%&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vorhersage der Landtagswahl in Brandenburg - 2 Tage vor der Wahl</title>
+      <link>https://zweitstimme.org/archive/posts/brandenburg_election_forecast_2days/</link>
+      <pubDate>Fri, 20 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/brandenburg_election_forecast_2days/</guid>
+      <description>&lt;p&gt;Vor zwei Wochen haben wir Vorhersagen für die Landtagswahl in Brandenburg hier publiziert. Diese aktualisieren wir heute – zwei Tage vor der Wahl – mit unserem Vorhersagemodell, basierend auf den in der Zwischenzeit veröffentlichten Umfragen. Anhand der vorherigen Landtagswahlen von 2010 bis 2023 wissen wir, dass unsere Vorhersagen zwei Tage vorher bereits sehr genau sind. Wir liegen mit einer durchschnittlichen absoluten Abweichung von 1,46 Prozentpunkten für alle Parteien sehr nahe am Endergebnis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vorhersage der Landtagswahl in Brandenburg</title>
+      <link>https://zweitstimme.org/archive/posts/brandenburg_election_forecast/</link>
+      <pubDate>Fri, 06 Sep 2024 10:00:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/brandenburg_election_forecast/</guid>
+      <description>&lt;p&gt;In zwei Wochen findet die Landtagswahl in Brandenburg statt. Wir von Zweitstimme haben nun auch ein Vorhersagemodell für Landtagswahlen entwickelt und freuen uns, die Vorhersage mit zwei Wochen Vorlaufzeit auf dieser Seite präsentieren zu können &amp;ndash; wie bereits für Sachsen und Thüringen.&lt;/p&gt;
+&lt;h1 id=&#34;die-vorhersage&#34;&gt;Die Vorhersage&lt;/h1&gt;
+&lt;h2 id=&#34;brandenburg&#34;&gt;Brandenburg&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;./fig/fig_fcst_bb_2weekslead_de.png&#34; alt=&#34;Wahlprognose Brandenburg&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;In Brandenburg zeigt unsere aktuelle Vorhersage ein &lt;strong&gt;enges Rennen&lt;/strong&gt; zwischen vier Parteien; AfD, SPD, BSW und CDU liegen alle um die 20%. Für die &lt;strong&gt;SPD&lt;/strong&gt;, die bei der letzten Wahl die stärkste Partei wurde, erwarten wir &lt;strong&gt;21,0%&lt;/strong&gt; der Stimmen, wobei unsere Vorhersage zwei Wochen vor der Wahl noch eine 5/6-Wahrscheinlichkeit zulässt, dass dieser Wert im Intervall zwischen &lt;strong&gt;15,8%&lt;/strong&gt; und &lt;strong&gt;26,6%&lt;/strong&gt; liegen wird (in bayesscher Sprache: 5/6-Kredibilitätsintervall). &lt;strong&gt;Die AfD&lt;/strong&gt; dürfte sich hingegen deutlich verbessern und wird unseren Erwartungen nach mit &lt;strong&gt;24,3%&lt;/strong&gt; knapp vor der SPD liegen. Hier reicht das Intervall allerdings ebenfalls noch von &lt;strong&gt;18,5%&lt;/strong&gt; bis &lt;strong&gt;30,5%&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vorhersage der Landtagswahlen in Sachsen und Thüringen - 2 Tage vor der Wahl</title>
+      <link>https://zweitstimme.org/archive/posts/state_election_forecast_2days/</link>
+      <pubDate>Fri, 30 Aug 2024 12:30:34 +0200</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/state_election_forecast_2days/</guid>
+      <description>&lt;p&gt;Vor zwei Wochen haben wir Vorhersagen für die Landtagswahlen in Sachsen und Thüringen hier publiziert. Diese aktualisieren wir heute – zwei Tage vor der Wahl – mit unserem Vorhersagemodell, basierend auf den in der Zwischenzeit veröffentlichten Umfragen für Sachsen und Thüringen. Anhand der vorherigen Landtagswahlen von 2010 bis 2023 wissen wir, dass unsere Vorhersagen zwei Tage vorher bereits sehr genau sind. Wir liegen mit einer durchschnittlichen absoluten Abweichung von 1,46 Prozentpunkten für alle Parteien sehr nahe am Endergebnis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vorhersage der Landtagswahlen in Sachsen und Thüringen</title>
+      <link>https://zweitstimme.org/archive/posts/state_election_forecast/</link>
+      <pubDate>Sun, 18 Aug 2024 12:30:34 +0200</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/state_election_forecast/</guid>
+      <description>&lt;p&gt;In zwei Wochen finden die Landtagswahlen in Sachsen und Thüringen statt. Wir von Zweitstimme haben nun auch ein Vorhersagemodell für Landtagswahlen entwickelt und freuen uns, die Vorhersagen mit zwei Wochen Vorlaufzeit auf dieser Seite präsentieren zu können.&lt;/p&gt;
+&lt;h1 id=&#34;die-vorhersage&#34;&gt;Die Vorhersage&lt;/h1&gt;
+&lt;h2 id=&#34;sachsen&#34;&gt;Sachsen&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;./fig/fig_fcst_sn_2weekslead_de.png&#34; alt=&#34;Wahlprognose Sachsen&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;In Sachsen zeigt unsere aktuelle Vorhersage ein spannendes Kopf-an-Kopf-Rennen zwischen der CDU und der AfD. Für die CDU, die bei der letzten Wahl die größte Partei wurde, erwarten wir &lt;strong&gt;30,0%&lt;/strong&gt; der Stimmen, wobei unsere Vorhersage zwei Wochen vor der Wahl noch eine 5/6-Wahrscheinlichkeit zulässt, dass dieser Wert im Kredibilitätsintervall zwischen &lt;strong&gt;23,5%&lt;/strong&gt; und &lt;strong&gt;37,0%&lt;/strong&gt; liegen wird. Die AfD dürfte sich hingegen deutlich verbessern und in unseren Erwartungen überholt sie mit &lt;strong&gt;30,6%&lt;/strong&gt; sogar knapp die CDU. Hier reicht das Intervall allerdings ebenfalls noch von &lt;strong&gt;24,0%&lt;/strong&gt; bis &lt;strong&gt;37,6%&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eine Evaluation der Wahlkreisprognosen zur Bundestagswahl 2021</title>
+      <link>https://zweitstimme.org/archive/posts/evaluation/</link>
+      <pubDate>Tue, 05 Oct 2021 19:30:00 +0200</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/evaluation/</guid>
+      <description>&lt;p&gt;Wer gewinnt die Bundestagswahl 2021 in den Wahlkreisen? Das war 2021
+eine besonders spannende Frage. Nicht nur, weil viele Wahlkreise
+prominent besetzt waren - z. B. 061 Potsdam, wo die
+Kanzlerkandidat:innen Scholz und Baerbock um das Direktmandat rangen –,
+in einigen Wahlkreisen ein sehr knapper Ausgang erwartet wurde, die
+Grünen auf mehr und die AfD auf den Wiedergewinn von Direktmandaten
+hofften, sondern auch weil die Verteilung der Direktmandate ganz
+entscheidenden Einfluss auf die Gesamtmandatszahl hat.[1]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Die aktuellen Zahlen von zweitstimme.org</title>
+      <link>https://zweitstimme.org/archive/posts/forecast/</link>
+      <pubDate>Thu, 19 Aug 2021 22:33:16 +0200</pubDate>
+      <guid>https://zweitstimme.org/archive/posts/forecast/</guid>
+      <description>&lt;iframe src=&#34;https://gfx.sueddeutsche.de/apps/e342301/www/index.html&#34; height=&#34;750px&#34; width=&#34;100%&#34; title=&#34;Die aktuellen Zahlen&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+  </channel>
+</rss>
