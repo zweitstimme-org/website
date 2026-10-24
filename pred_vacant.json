@@ -1,0 +1,1796 @@
+[
+  {
+    "land": "BW",
+    "wkr": 259,
+    "wkr_name": "Stuttgart II",
+    "abandon_p": 0.79
+  },
+  {
+    "land": "SH",
+    "wkr": 1,
+    "wkr_name": "Flensburg – Schleswig",
+    "abandon_p": 0.77
+  },
+  {
+    "land": "RP",
+    "wkr": 204,
+    "wkr_name": "Mainz",
+    "abandon_p": 0.75
+  },
+  {
+    "land": "RP",
+    "wkr": 206,
+    "wkr_name": "Ludwigshafen/Frankenthal",
+    "abandon_p": 0.75
+  },
+  {
+    "land": "BW",
+    "wkr": 282,
+    "wkr_name": "Lörrach – Müllheim",
+    "abandon_p": 0.71
+  },
+  {
+    "land": "BW",
+    "wkr": 290,
+    "wkr_name": "Tübingen",
+    "abandon_p": 0.71
+  },
+  {
+    "land": "HE",
+    "wkr": 181,
+    "wkr_name": "Frankfurt am Main I",
+    "abandon_p": 0.63
+  },
+  {
+    "land": "NI",
+    "wkr": 53,
+    "wkr_name": "Göttingen I",
+    "abandon_p": 0.63
+  },
+  {
+    "land": "RP",
+    "wkr": 210,
+    "wkr_name": "Südpfalz",
+    "abandon_p": 0.63
+  },
+  {
+    "land": "BW",
+    "wkr": 267,
+    "wkr_name": "Heilbronn",
+    "abandon_p": 0.61
+  },
+  {
+    "land": "HE",
+    "wkr": 178,
+    "wkr_name": "Wiesbaden",
+    "abandon_p": 0.59
+  },
+  {
+    "land": "BW",
+    "wkr": 275,
+    "wkr_name": "Mannheim",
+    "abandon_p": 0.57
+  },
+  {
+    "land": "HE",
+    "wkr": 185,
+    "wkr_name": "Darmstadt",
+    "abandon_p": 0.57
+  },
+  {
+    "land": "BW",
+    "wkr": 287,
+    "wkr_name": "Konstanz",
+    "abandon_p": 0.56
+  },
+  {
+    "land": "BY",
+    "wkr": 218,
+    "wkr_name": "München-Süd",
+    "abandon_p": 0.53
+  },
+  {
+    "land": "SH",
+    "wkr": 7,
+    "wkr_name": "Pinneberg",
+    "abandon_p": 0.53
+  },
+  {
+    "land": "BY",
+    "wkr": 243,
+    "wkr_name": "Nürnberg-Nord",
+    "abandon_p": 0.52
+  },
+  {
+    "land": "ST",
+    "wkr": 69,
+    "wkr_name": "Magdeburg",
+    "abandon_p": 0.52
+  },
+  {
+    "land": "BY",
+    "wkr": 216,
+    "wkr_name": "München-Nord",
+    "abandon_p": 0.5
+  },
+  {
+    "land": "MV",
+    "wkr": 14,
+    "wkr_name": "Rostock – Landkreis Rostock II",
+    "abandon_p": 0.5
+  },
+  {
+    "land": "NI",
+    "wkr": 37,
+    "wkr_name": "Lüchow-Dannenberg – Lüneburg",
+    "abandon_p": 0.5
+  },
+  {
+    "land": "BY",
+    "wkr": 251,
+    "wkr_name": "Augsburg-Stadt",
+    "abandon_p": 0.46
+  },
+  {
+    "land": "NW",
+    "wkr": 131,
+    "wkr_name": "Bielefeld – Gütersloh II",
+    "abandon_p": 0.45
+  },
+  {
+    "land": "BB",
+    "wkr": 60,
+    "wkr_name": "Brandenburg an der Havel – Potsdam-Mittelmark I – Havelland III – Teltow-Fläming I",
+    "abandon_p": 0.44
+  },
+  {
+    "land": "BW",
+    "wkr": 268,
+    "wkr_name": "Schwäbisch Hall – Hohenlohe",
+    "abandon_p": 0.44
+  },
+  {
+    "land": "BW",
+    "wkr": 274,
+    "wkr_name": "Heidelberg",
+    "abandon_p": 0.41
+  },
+  {
+    "land": "NI",
+    "wkr": 41,
+    "wkr_name": "Stadt Hannover I",
+    "abandon_p": 0.41
+  },
+  {
+    "land": "RP",
+    "wkr": 208,
+    "wkr_name": "Kaiserslautern",
+    "abandon_p": 0.41
+  },
+  {
+    "land": "SL",
+    "wkr": 299,
+    "wkr_name": "Homburg",
+    "abandon_p": 0.41
+  },
+  {
+    "land": "HE",
+    "wkr": 169,
+    "wkr_name": "Schwalm-Eder",
+    "abandon_p": 0.4
+  },
+  {
+    "land": "HE",
+    "wkr": 170,
+    "wkr_name": "Marburg",
+    "abandon_p": 0.4
+  },
+  {
+    "land": "NW",
+    "wkr": 92,
+    "wkr_name": "Köln I",
+    "abandon_p": 0.4
+  },
+  {
+    "land": "NW",
+    "wkr": 101,
+    "wkr_name": "Wuppertal I",
+    "abandon_p": 0.39
+  },
+  {
+    "land": "RP",
+    "wkr": 205,
+    "wkr_name": "Worms",
+    "abandon_p": 0.39
+  },
+  {
+    "land": "BE",
+    "wkr": 81,
+    "wkr_name": "Berlin-Neukölln",
+    "abandon_p": 0.38
+  },
+  {
+    "land": "NI",
+    "wkr": 50,
+    "wkr_name": "Braunschweig",
+    "abandon_p": 0.37
+  },
+  {
+    "land": "BW",
+    "wkr": 283,
+    "wkr_name": "Emmendingen – Lahr",
+    "abandon_p": 0.36
+  },
+  {
+    "land": "HH",
+    "wkr": 21,
+    "wkr_name": "Hamburg-Nord",
+    "abandon_p": 0.36
+  },
+  {
+    "land": "BY",
+    "wkr": 217,
+    "wkr_name": "München-Ost",
+    "abandon_p": 0.35
+  },
+  {
+    "land": "NI",
+    "wkr": 28,
+    "wkr_name": "Delmenhorst – Wesermarsch – Oldenburg-Land",
+    "abandon_p": 0.34
+  },
+  {
+    "land": "NW",
+    "wkr": 106,
+    "wkr_name": "Düsseldorf II",
+    "abandon_p": 0.34
+  },
+  {
+    "land": "BY",
+    "wkr": 219,
+    "wkr_name": "München-West/Mitte",
+    "abandon_p": 0.32
+  },
+  {
+    "land": "NW",
+    "wkr": 118,
+    "wkr_name": "Essen II",
+    "abandon_p": 0.31
+  },
+  {
+    "land": "SH",
+    "wkr": 11,
+    "wkr_name": "Lübeck",
+    "abandon_p": 0.3
+  },
+  {
+    "land": "BY",
+    "wkr": 241,
+    "wkr_name": "Erlangen",
+    "abandon_p": 0.29
+  },
+  {
+    "land": "HE",
+    "wkr": 183,
+    "wkr_name": "Groß-Gerau",
+    "abandon_p": 0.28
+  },
+  {
+    "land": "HE",
+    "wkr": 168,
+    "wkr_name": "Werra-Meißner – Hersfeld-Rotenburg",
+    "abandon_p": 0.27
+  },
+  {
+    "land": "NW",
+    "wkr": 139,
+    "wkr_name": "Bochum I",
+    "abandon_p": 0.27
+  },
+  {
+    "land": "SH",
+    "wkr": 8,
+    "wkr_name": "Segeberg – Stormarn-Mitte",
+    "abandon_p": 0.27
+  },
+  {
+    "land": "NI",
+    "wkr": 45,
+    "wkr_name": "Gifhorn – Peine",
+    "abandon_p": 0.26
+  },
+  {
+    "land": "SL",
+    "wkr": 296,
+    "wkr_name": "Saarbrücken",
+    "abandon_p": 0.26
+  },
+  {
+    "land": "ST",
+    "wkr": 71,
+    "wkr_name": "Halle",
+    "abandon_p": 0.26
+  },
+  {
+    "land": "BW",
+    "wkr": 278,
+    "wkr_name": "Bruchsal – Schwetzingen",
+    "abandon_p": 0.25
+  },
+  {
+    "land": "NW",
+    "wkr": 138,
+    "wkr_name": "Ennepe-Ruhr-Kreis II",
+    "abandon_p": 0.25
+  },
+  {
+    "land": "BY",
+    "wkr": 244,
+    "wkr_name": "Nürnberg-Süd",
+    "abandon_p": 0.24
+  },
+  {
+    "land": "HB",
+    "wkr": 54,
+    "wkr_name": "Bremen I",
+    "abandon_p": 0.23
+  },
+  {
+    "land": "NW",
+    "wkr": 100,
+    "wkr_name": "Leverkusen – Köln IV",
+    "abandon_p": 0.23
+  },
+  {
+    "land": "HE",
+    "wkr": 167,
+    "wkr_name": "Kassel",
+    "abandon_p": 0.22
+  },
+  {
+    "land": "HE",
+    "wkr": 182,
+    "wkr_name": "Frankfurt am Main II",
+    "abandon_p": 0.22
+  },
+  {
+    "land": "NW",
+    "wkr": 137,
+    "wkr_name": "Hagen – Ennepe-Ruhr-Kreis I",
+    "abandon_p": 0.22
+  },
+  {
+    "land": "SL",
+    "wkr": 297,
+    "wkr_name": "Saarlouis",
+    "abandon_p": 0.21
+  },
+  {
+    "land": "BW",
+    "wkr": 277,
+    "wkr_name": "Rhein-Neckar",
+    "abandon_p": 0.2
+  },
+  {
+    "land": "NW",
+    "wkr": 141,
+    "wkr_name": "Dortmund I",
+    "abandon_p": 0.2
+  },
+  {
+    "land": "BY",
+    "wkr": 228,
+    "wkr_name": "Passau",
+    "abandon_p": 0.19
+  },
+  {
+    "land": "BE",
+    "wkr": 83,
+    "wkr_name": "Berlin-Treptow-Köpenick",
+    "abandon_p": 0.18
+  },
+  {
+    "land": "BE",
+    "wkr": 85,
+    "wkr_name": "Berlin-Lichtenberg",
+    "abandon_p": 0.18
+  },
+  {
+    "land": "HE",
+    "wkr": 179,
+    "wkr_name": "Hanau",
+    "abandon_p": 0.18
+  },
+  {
+    "land": "NI",
+    "wkr": 27,
+    "wkr_name": "Oldenburg – Ammerland",
+    "abandon_p": 0.18
+  },
+  {
+    "land": "NI",
+    "wkr": 47,
+    "wkr_name": "Hannover-Land II",
+    "abandon_p": 0.18
+  },
+  {
+    "land": "NW",
+    "wkr": 134,
+    "wkr_name": "Lippe I",
+    "abandon_p": 0.18
+  },
+  {
+    "land": "BB",
+    "wkr": 58,
+    "wkr_name": "Oberhavel – Havelland II",
+    "abandon_p": 0.16
+  },
+  {
+    "land": "BY",
+    "wkr": 256,
+    "wkr_name": "Oberallgäu",
+    "abandon_p": 0.16
+  },
+  {
+    "land": "MV",
+    "wkr": 12,
+    "wkr_name": "Schwerin – Ludwigslust-Parchim I – Nordwestmecklenburg I",
+    "abandon_p": 0.16
+  },
+  {
+    "land": "RP",
+    "wkr": 202,
+    "wkr_name": "Trier",
+    "abandon_p": 0.16
+  },
+  {
+    "land": "NW",
+    "wkr": 116,
+    "wkr_name": "Oberhausen – Wesel III",
+    "abandon_p": 0.15
+  },
+  {
+    "land": "NW",
+    "wkr": 143,
+    "wkr_name": "Unna I",
+    "abandon_p": 0.15
+  },
+  {
+    "land": "BW",
+    "wkr": 266,
+    "wkr_name": "Neckar-Zaber",
+    "abandon_p": 0.14
+  },
+  {
+    "land": "NI",
+    "wkr": 48,
+    "wkr_name": "Hildesheim",
+    "abandon_p": 0.14
+  },
+  {
+    "land": "NW",
+    "wkr": 114,
+    "wkr_name": "Duisburg I",
+    "abandon_p": 0.14
+  },
+  {
+    "land": "NW",
+    "wkr": 120,
+    "wkr_name": "Recklinghausen I",
+    "abandon_p": 0.14
+  },
+  {
+    "land": "NW",
+    "wkr": 142,
+    "wkr_name": "Dortmund II",
+    "abandon_p": 0.14
+  },
+  {
+    "land": "BE",
+    "wkr": 75,
+    "wkr_name": "Berlin-Pankow",
+    "abandon_p": 0.13
+  },
+  {
+    "land": "BE",
+    "wkr": 84,
+    "wkr_name": "Berlin-Marzahn-Hellersdorf",
+    "abandon_p": 0.13
+  },
+  {
+    "land": "BY",
+    "wkr": 242,
+    "wkr_name": "Fürth",
+    "abandon_p": 0.12
+  },
+  {
+    "land": "NI",
+    "wkr": 26,
+    "wkr_name": "Friesland – Wilhelmshaven – Wittmund",
+    "abandon_p": 0.12
+  },
+  {
+    "land": "NW",
+    "wkr": 95,
+    "wkr_name": "Bonn",
+    "abandon_p": 0.11
+  },
+  {
+    "land": "BW",
+    "wkr": 258,
+    "wkr_name": "Stuttgart I",
+    "abandon_p": 0.1
+  },
+  {
+    "land": "BY",
+    "wkr": 232,
+    "wkr_name": "Regensburg",
+    "abandon_p": 0.1
+  },
+  {
+    "land": "NW",
+    "wkr": 94,
+    "wkr_name": "Köln III",
+    "abandon_p": 0.1
+  },
+  {
+    "land": "NW",
+    "wkr": 122,
+    "wkr_name": "Gelsenkirchen",
+    "abandon_p": 0.1
+  },
+  {
+    "land": "BW",
+    "wkr": 265,
+    "wkr_name": "Ludwigsburg",
+    "abandon_p": 0.09
+  },
+  {
+    "land": "NW",
+    "wkr": 117,
+    "wkr_name": "Mülheim – Essen I",
+    "abandon_p": 0.09
+  },
+  {
+    "land": "NW",
+    "wkr": 132,
+    "wkr_name": "Herford – Minden-Lübbecke II",
+    "abandon_p": 0.09
+  },
+  {
+    "land": "RP",
+    "wkr": 209,
+    "wkr_name": "Pirmasens",
+    "abandon_p": 0.09
+  },
+  {
+    "land": "BB",
+    "wkr": 59,
+    "wkr_name": "Märkisch-Oderland – Barnim II",
+    "abandon_p": 0.08
+  },
+  {
+    "land": "BW",
+    "wkr": 271,
+    "wkr_name": "Karlsruhe-Stadt",
+    "abandon_p": 0.08
+  },
+  {
+    "land": "BY",
+    "wkr": 250,
+    "wkr_name": "Würzburg",
+    "abandon_p": 0.08
+  },
+  {
+    "land": "HH",
+    "wkr": 18,
+    "wkr_name": "Hamburg-Mitte",
+    "abandon_p": 0.08
+  },
+  {
+    "land": "NI",
+    "wkr": 42,
+    "wkr_name": "Stadt Hannover II",
+    "abandon_p": 0.08
+  },
+  {
+    "land": "NW",
+    "wkr": 115,
+    "wkr_name": "Duisburg II",
+    "abandon_p": 0.08
+  },
+  {
+    "land": "BB",
+    "wkr": 61,
+    "wkr_name": "Potsdam – Potsdam-Mittelmark II – Teltow-Fläming II",
+    "abandon_p": 0.07
+  },
+  {
+    "land": "HB",
+    "wkr": 55,
+    "wkr_name": "Bremen II – Bremerhaven",
+    "abandon_p": 0.07
+  },
+  {
+    "land": "HE",
+    "wkr": 174,
+    "wkr_name": "Main-Kinzig – Wetterau II – Schotten",
+    "abandon_p": 0.07
+  },
+  {
+    "land": "NI",
+    "wkr": 39,
+    "wkr_name": "Stadt Osnabrück",
+    "abandon_p": 0.07
+  },
+  {
+    "land": "NW",
+    "wkr": 140,
+    "wkr_name": "Herne – Bochum II",
+    "abandon_p": 0.07
+  },
+  {
+    "land": "SH",
+    "wkr": 6,
+    "wkr_name": "Plön – Neumünster",
+    "abandon_p": 0.07
+  },
+  {
+    "land": "SN",
+    "wkr": 151,
+    "wkr_name": "Leipzig I",
+    "abandon_p": 0.07
+  },
+  {
+    "land": "TH",
+    "wkr": 192,
+    "wkr_name": "Erfurt – Weimar – Weimarer Land II",
+    "abandon_p": 0.07
+  },
+  {
+    "land": "BE",
+    "wkr": 80,
+    "wkr_name": "Berlin-Tempelhof-Schöneberg",
+    "abandon_p": 0.06
+  },
+  {
+    "land": "BW",
+    "wkr": 263,
+    "wkr_name": "Göppingen",
+    "abandon_p": 0.06
+  },
+  {
+    "land": "BY",
+    "wkr": 254,
+    "wkr_name": "Neu-Ulm",
+    "abandon_p": 0.06
+  },
+  {
+    "land": "NI",
+    "wkr": 34,
+    "wkr_name": "Osterholz – Verden",
+    "abandon_p": 0.06
+  },
+  {
+    "land": "NI",
+    "wkr": 46,
+    "wkr_name": "Hameln-Pyrmont – Holzminden",
+    "abandon_p": 0.06
+  },
+  {
+    "land": "NI",
+    "wkr": 49,
+    "wkr_name": "Salzgitter – Wolfenbüttel",
+    "abandon_p": 0.06
+  },
+  {
+    "land": "NW",
+    "wkr": 93,
+    "wkr_name": "Köln II",
+    "abandon_p": 0.06
+  },
+  {
+    "land": "NW",
+    "wkr": 102,
+    "wkr_name": "Solingen – Remscheid – Wuppertal II",
+    "abandon_p": 0.06
+  },
+  {
+    "land": "NW",
+    "wkr": 133,
+    "wkr_name": "Minden-Lübbecke I",
+    "abandon_p": 0.06
+  },
+  {
+    "land": "SH",
+    "wkr": 5,
+    "wkr_name": "Kiel",
+    "abandon_p": 0.06
+  },
+  {
+    "land": "BY",
+    "wkr": 221,
+    "wkr_name": "Rosenheim",
+    "abandon_p": 0.05
+  },
+  {
+    "land": "HE",
+    "wkr": 166,
+    "wkr_name": "Waldeck",
+    "abandon_p": 0.05
+  },
+  {
+    "land": "HE",
+    "wkr": 172,
+    "wkr_name": "Gießen",
+    "abandon_p": 0.05
+  },
+  {
+    "land": "NI",
+    "wkr": 33,
+    "wkr_name": "Diepholz – Nienburg I",
+    "abandon_p": 0.05
+  },
+  {
+    "land": "NI",
+    "wkr": 36,
+    "wkr_name": "Harburg",
+    "abandon_p": 0.05
+  },
+  {
+    "land": "NI",
+    "wkr": 40,
+    "wkr_name": "Nienburg II – Schaumburg",
+    "abandon_p": 0.05
+  },
+  {
+    "land": "NI",
+    "wkr": 43,
+    "wkr_name": "Hannover-Land I",
+    "abandon_p": 0.05
+  },
+  {
+    "land": "NW",
+    "wkr": 128,
+    "wkr_name": "Münster",
+    "abandon_p": 0.05
+  },
+  {
+    "land": "NW",
+    "wkr": 144,
+    "wkr_name": "Hamm – Unna II",
+    "abandon_p": 0.05
+  },
+  {
+    "land": "ST",
+    "wkr": 68,
+    "wkr_name": "Harz",
+    "abandon_p": 0.05
+  },
+  {
+    "land": "BE",
+    "wkr": 74,
+    "wkr_name": "Berlin-Mitte",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "BW",
+    "wkr": 269,
+    "wkr_name": "Backnang – Schwäbisch Gmünd",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "BW",
+    "wkr": 281,
+    "wkr_name": "Freiburg",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "BY",
+    "wkr": 255,
+    "wkr_name": "Memmingen – Unterallgäu",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "HE",
+    "wkr": 176,
+    "wkr_name": "Wetterau I",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "NI",
+    "wkr": 30,
+    "wkr_name": "Stade I – Rotenburg II",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "NI",
+    "wkr": 44,
+    "wkr_name": "Celle – Uelzen",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "NI",
+    "wkr": 51,
+    "wkr_name": "Helmstedt – Wolfsburg",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "NW",
+    "wkr": 119,
+    "wkr_name": "Essen III",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "NW",
+    "wkr": 121,
+    "wkr_name": "Recklinghausen II",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "NW",
+    "wkr": 147,
+    "wkr_name": "Siegen-Wittgenstein",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "SN",
+    "wkr": 158,
+    "wkr_name": "Dresden I",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "TH",
+    "wkr": 190,
+    "wkr_name": "Jena – Sömmerda – Weimarer Land I",
+    "abandon_p": 0.04
+  },
+  {
+    "land": "BB",
+    "wkr": 62,
+    "wkr_name": "Dahme-Spreewald – Teltow-Fläming III",
+    "abandon_p": 0.03
+  },
+  {
+    "land": "BW",
+    "wkr": 264,
+    "wkr_name": "Waiblingen",
+    "abandon_p": 0.03
+  },
+  {
+    "land": "HE",
+    "wkr": 184,
+    "wkr_name": "Offenbach",
+    "abandon_p": 0.03
+  },
+  {
+    "land": "HH",
+    "wkr": 19,
+    "wkr_name": "Hamburg-Altona",
+    "abandon_p": 0.03
+  },
+  {
+    "land": "HH",
+    "wkr": 20,
+    "wkr_name": "Hamburg-Eimsbüttel",
+    "abandon_p": 0.03
+  },
+  {
+    "land": "MV",
+    "wkr": 13,
+    "wkr_name": "Ludwigslust-Parchim II – Nordwestmecklenburg II – Landkreis Rostock I",
+    "abandon_p": 0.03
+  },
+  {
+    "land": "NW",
+    "wkr": 86,
+    "wkr_name": "Aachen I",
+    "abandon_p": 0.03
+  },
+  {
+    "land": "RP",
+    "wkr": 207,
+    "wkr_name": "Neustadt – Speyer",
+    "abandon_p": 0.03
+  },
+  {
+    "land": "SH",
+    "wkr": 3,
+    "wkr_name": "Steinburg – Dithmarschen Süd",
+    "abandon_p": 0.03
+  },
+  {
+    "land": "SH",
+    "wkr": 4,
+    "wkr_name": "Rendsburg-Eckernförde",
+    "abandon_p": 0.03
+  },
+  {
+    "land": "BW",
+    "wkr": 261,
+    "wkr_name": "Esslingen",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "BW",
+    "wkr": 272,
+    "wkr_name": "Karlsruhe-Land",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "BY",
+    "wkr": 226,
+    "wkr_name": "Deggendorf",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "BY",
+    "wkr": 237,
+    "wkr_name": "Coburg",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "HE",
+    "wkr": 186,
+    "wkr_name": "Odenwald",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "HE",
+    "wkr": 187,
+    "wkr_name": "Bergstraße",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "NI",
+    "wkr": 38,
+    "wkr_name": "Osnabrück-Land",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "NW",
+    "wkr": 104,
+    "wkr_name": "Mettmann II",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "NW",
+    "wkr": 113,
+    "wkr_name": "Krefeld II – Wesel II",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "NW",
+    "wkr": 124,
+    "wkr_name": "Bottrop – Recklinghausen III",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "NW",
+    "wkr": 149,
+    "wkr_name": "Märkischer Kreis II",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "RP",
+    "wkr": 196,
+    "wkr_name": "Neuwied",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "RP",
+    "wkr": 200,
+    "wkr_name": "Kreuznach",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "SH",
+    "wkr": 2,
+    "wkr_name": "Nordfriesland – Dithmarschen Nord",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "SH",
+    "wkr": 10,
+    "wkr_name": "Herzogtum Lauenburg – Stormarn-Süd",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "SN",
+    "wkr": 159,
+    "wkr_name": "Dresden II – Bautzen II",
+    "abandon_p": 0.02
+  },
+  {
+    "land": "BB",
+    "wkr": 63,
+    "wkr_name": "Frankfurt (Oder) – Oder-Spree",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "BE",
+    "wkr": 77,
+    "wkr_name": "Berlin-Spandau – Charlottenburg Nord",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "BE",
+    "wkr": 78,
+    "wkr_name": "Berlin-Steglitz-Zehlendorf",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "BW",
+    "wkr": 262,
+    "wkr_name": "Nürtingen",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "BW",
+    "wkr": 289,
+    "wkr_name": "Reutlingen",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "BY",
+    "wkr": 213,
+    "wkr_name": "Freising",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "BY",
+    "wkr": 224,
+    "wkr_name": "Traunstein",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "BY",
+    "wkr": 233,
+    "wkr_name": "Schwandorf",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "BY",
+    "wkr": 246,
+    "wkr_name": "Aschaffenburg",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "HE",
+    "wkr": 171,
+    "wkr_name": "Lahn-Dill",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "HE",
+    "wkr": 175,
+    "wkr_name": "Hochtaunus",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "HE",
+    "wkr": 177,
+    "wkr_name": "Rheingau-Taunus – Limburg",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "HH",
+    "wkr": 22,
+    "wkr_name": "Hamburg-Wandsbek",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "HH",
+    "wkr": 23,
+    "wkr_name": "Hamburg-Bergedorf – Harburg",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "MV",
+    "wkr": 15,
+    "wkr_name": "Vorpommern-Rügen – Vorpommern-Greifswald I",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "MV",
+    "wkr": 17,
+    "wkr_name": "Mecklenburgische Seenplatte II – Landkreis Rostock III",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NI",
+    "wkr": 25,
+    "wkr_name": "Unterems",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NI",
+    "wkr": 29,
+    "wkr_name": "Cuxhaven – Stade II",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NI",
+    "wkr": 31,
+    "wkr_name": "Mittelems",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NI",
+    "wkr": 52,
+    "wkr_name": "Goslar – Northeim – Göttingen II",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 89,
+    "wkr_name": "Düren",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 90,
+    "wkr_name": "Rhein-Erft-Kreis I",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 91,
+    "wkr_name": "Euskirchen – Rhein-Erft-Kreis II",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 96,
+    "wkr_name": "Rhein-Sieg-Kreis I",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 98,
+    "wkr_name": "Oberbergischer Kreis",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 99,
+    "wkr_name": "Rheinisch-Bergischer Kreis",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 103,
+    "wkr_name": "Mettmann I",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 105,
+    "wkr_name": "Düsseldorf I",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 107,
+    "wkr_name": "Neuss I",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 108,
+    "wkr_name": "Mönchengladbach",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 109,
+    "wkr_name": "Krefeld I – Neuss II",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 110,
+    "wkr_name": "Viersen",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 111,
+    "wkr_name": "Kleve",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 112,
+    "wkr_name": "Wesel I",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 127,
+    "wkr_name": "Steinfurt III",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 129,
+    "wkr_name": "Warendorf",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 145,
+    "wkr_name": "Soest",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "NW",
+    "wkr": 146,
+    "wkr_name": "Hochsauerlandkreis",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "RP",
+    "wkr": 197,
+    "wkr_name": "Ahrweiler",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "RP",
+    "wkr": 198,
+    "wkr_name": "Koblenz",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "RP",
+    "wkr": 199,
+    "wkr_name": "Mosel/Rhein-Hunsrück",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "RP",
+    "wkr": 201,
+    "wkr_name": "Bitburg",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "SL",
+    "wkr": 298,
+    "wkr_name": "St. Wendel",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "SN",
+    "wkr": 152,
+    "wkr_name": "Leipzig II",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "SN",
+    "wkr": 161,
+    "wkr_name": "Chemnitz",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "ST",
+    "wkr": 66,
+    "wkr_name": "Altmark – Jerichower Land",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "ST",
+    "wkr": 73,
+    "wkr_name": "Mansfeld",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "TH",
+    "wkr": 188,
+    "wkr_name": "Eichsfeld – Nordhausen – Kyffhäuserkreis",
+    "abandon_p": 0.01
+  },
+  {
+    "land": "BB",
+    "wkr": 56,
+    "wkr_name": "Prignitz – Ostprignitz-Ruppin – Havelland I",
+    "abandon_p": 0
+  },
+  {
+    "land": "BB",
+    "wkr": 57,
+    "wkr_name": "Uckermark – Barnim I",
+    "abandon_p": 0
+  },
+  {
+    "land": "BB",
+    "wkr": 64,
+    "wkr_name": "Cottbus – Spree-Neiße",
+    "abandon_p": 0
+  },
+  {
+    "land": "BB",
+    "wkr": 65,
+    "wkr_name": "Elbe-Elster – Oberspreewald-Lausitz",
+    "abandon_p": 0
+  },
+  {
+    "land": "BE",
+    "wkr": 76,
+    "wkr_name": "Berlin-Reinickendorf",
+    "abandon_p": 0
+  },
+  {
+    "land": "BE",
+    "wkr": 79,
+    "wkr_name": "Berlin-Charlottenburg-Wilmersdorf",
+    "abandon_p": 0
+  },
+  {
+    "land": "BE",
+    "wkr": 82,
+    "wkr_name": "Berlin-Friedrichshain-Kreuzberg – Prenzlauer Berg Ost",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 260,
+    "wkr_name": "Böblingen",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 270,
+    "wkr_name": "Aalen – Heidenheim",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 273,
+    "wkr_name": "Rastatt",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 276,
+    "wkr_name": "Odenwald – Tauber",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 279,
+    "wkr_name": "Pforzheim",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 280,
+    "wkr_name": "Calw",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 284,
+    "wkr_name": "Offenburg",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 285,
+    "wkr_name": "Rottweil – Tuttlingen",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 286,
+    "wkr_name": "Schwarzwald-Baar",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 288,
+    "wkr_name": "Waldshut",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 291,
+    "wkr_name": "Ulm",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 292,
+    "wkr_name": "Biberach",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 293,
+    "wkr_name": "Bodensee",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 294,
+    "wkr_name": "Ravensburg",
+    "abandon_p": 0
+  },
+  {
+    "land": "BW",
+    "wkr": 295,
+    "wkr_name": "Zollernalb – Sigmaringen",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 211,
+    "wkr_name": "Altötting",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 212,
+    "wkr_name": "Erding – Ebersberg",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 214,
+    "wkr_name": "Fürstenfeldbruck",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 215,
+    "wkr_name": "Ingolstadt",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 220,
+    "wkr_name": "München-Land",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 222,
+    "wkr_name": "Bad Tölz-Wolfratshausen – Miesbach",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 223,
+    "wkr_name": "Starnberg – Landsberg am Lech",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 225,
+    "wkr_name": "Weilheim",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 227,
+    "wkr_name": "Landshut",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 229,
+    "wkr_name": "Rottal-Inn",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 230,
+    "wkr_name": "Straubing",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 231,
+    "wkr_name": "Amberg",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 234,
+    "wkr_name": "Weiden",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 235,
+    "wkr_name": "Bamberg",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 236,
+    "wkr_name": "Bayreuth",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 238,
+    "wkr_name": "Hof",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 239,
+    "wkr_name": "Kulmbach",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 240,
+    "wkr_name": "Ansbach",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 245,
+    "wkr_name": "Roth",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 247,
+    "wkr_name": "Bad Kissingen",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 248,
+    "wkr_name": "Main-Spessart",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 249,
+    "wkr_name": "Schweinfurt",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 252,
+    "wkr_name": "Augsburg-Land",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 253,
+    "wkr_name": "Donau-Ries",
+    "abandon_p": 0
+  },
+  {
+    "land": "BY",
+    "wkr": 257,
+    "wkr_name": "Ostallgäu",
+    "abandon_p": 0
+  },
+  {
+    "land": "HE",
+    "wkr": 173,
+    "wkr_name": "Fulda",
+    "abandon_p": 0
+  },
+  {
+    "land": "HE",
+    "wkr": 180,
+    "wkr_name": "Main-Taunus",
+    "abandon_p": 0
+  },
+  {
+    "land": "MV",
+    "wkr": 16,
+    "wkr_name": "Mecklenburgische Seenplatte I – Vorpommern-Greifswald II",
+    "abandon_p": 0
+  },
+  {
+    "land": "NI",
+    "wkr": 24,
+    "wkr_name": "Aurich – Emden",
+    "abandon_p": 0
+  },
+  {
+    "land": "NI",
+    "wkr": 32,
+    "wkr_name": "Cloppenburg – Vechta",
+    "abandon_p": 0
+  },
+  {
+    "land": "NI",
+    "wkr": 35,
+    "wkr_name": "Rotenburg I – Heidekreis",
+    "abandon_p": 0
+  },
+  {
+    "land": "NW",
+    "wkr": 87,
+    "wkr_name": "Aachen II",
+    "abandon_p": 0
+  },
+  {
+    "land": "NW",
+    "wkr": 88,
+    "wkr_name": "Heinsberg",
+    "abandon_p": 0
+  },
+  {
+    "land": "NW",
+    "wkr": 97,
+    "wkr_name": "Rhein-Sieg-Kreis II",
+    "abandon_p": 0
+  },
+  {
+    "land": "NW",
+    "wkr": 123,
+    "wkr_name": "Steinfurt I – Borken I",
+    "abandon_p": 0
+  },
+  {
+    "land": "NW",
+    "wkr": 125,
+    "wkr_name": "Borken II",
+    "abandon_p": 0
+  },
+  {
+    "land": "NW",
+    "wkr": 126,
+    "wkr_name": "Coesfeld – Steinfurt II",
+    "abandon_p": 0
+  },
+  {
+    "land": "NW",
+    "wkr": 130,
+    "wkr_name": "Gütersloh I",
+    "abandon_p": 0
+  },
+  {
+    "land": "NW",
+    "wkr": 135,
+    "wkr_name": "Höxter – Gütersloh III – Lippe II",
+    "abandon_p": 0
+  },
+  {
+    "land": "NW",
+    "wkr": 136,
+    "wkr_name": "Paderborn",
+    "abandon_p": 0
+  },
+  {
+    "land": "NW",
+    "wkr": 148,
+    "wkr_name": "Olpe – Märkischer Kreis I",
+    "abandon_p": 0
+  },
+  {
+    "land": "RP",
+    "wkr": 203,
+    "wkr_name": "Montabaur",
+    "abandon_p": 0
+  },
+  {
+    "land": "SH",
+    "wkr": 9,
+    "wkr_name": "Ostholstein – Stormarn-Nord",
+    "abandon_p": 0
+  },
+  {
+    "land": "SN",
+    "wkr": 150,
+    "wkr_name": "Nordsachsen",
+    "abandon_p": 0
+  },
+  {
+    "land": "SN",
+    "wkr": 153,
+    "wkr_name": "Leipzig-Land",
+    "abandon_p": 0
+  },
+  {
+    "land": "SN",
+    "wkr": 154,
+    "wkr_name": "Meißen",
+    "abandon_p": 0
+  },
+  {
+    "land": "SN",
+    "wkr": 155,
+    "wkr_name": "Bautzen I",
+    "abandon_p": 0
+  },
+  {
+    "land": "SN",
+    "wkr": 156,
+    "wkr_name": "Görlitz",
+    "abandon_p": 0
+  },
+  {
+    "land": "SN",
+    "wkr": 157,
+    "wkr_name": "Sächsische Schweiz-Osterzgebirge",
+    "abandon_p": 0
+  },
+  {
+    "land": "SN",
+    "wkr": 160,
+    "wkr_name": "Mittelsachsen",
+    "abandon_p": 0
+  },
+  {
+    "land": "SN",
+    "wkr": 162,
+    "wkr_name": "Chemnitzer Umland – Erzgebirgskreis II",
+    "abandon_p": 0
+  },
+  {
+    "land": "SN",
+    "wkr": 163,
+    "wkr_name": "Erzgebirgskreis I",
+    "abandon_p": 0
+  },
+  {
+    "land": "SN",
+    "wkr": 164,
+    "wkr_name": "Zwickau",
+    "abandon_p": 0
+  },
+  {
+    "land": "SN",
+    "wkr": 165,
+    "wkr_name": "Vogtlandkreis",
+    "abandon_p": 0
+  },
+  {
+    "land": "ST",
+    "wkr": 67,
+    "wkr_name": "Börde – Salzlandkreis",
+    "abandon_p": 0
+  },
+  {
+    "land": "ST",
+    "wkr": 70,
+    "wkr_name": "Anhalt – Dessau – Wittenberg",
+    "abandon_p": 0
+  },
+  {
+    "land": "ST",
+    "wkr": 72,
+    "wkr_name": "Burgenland – Saalekreis",
+    "abandon_p": 0
+  },
+  {
+    "land": "TH",
+    "wkr": 189,
+    "wkr_name": "Eisenach – Wartburgkreis – Unstrut-Hainich-Kreis",
+    "abandon_p": 0
+  },
+  {
+    "land": "TH",
+    "wkr": 191,
+    "wkr_name": "Gotha – Ilm-Kreis",
+    "abandon_p": 0
+  },
+  {
+    "land": "TH",
+    "wkr": 193,
+    "wkr_name": "Gera – Greiz – Altenburger Land",
+    "abandon_p": 0
+  },
+  {
+    "land": "TH",
+    "wkr": 194,
+    "wkr_name": "Saalfeld-Rudolstadt – Saale-Holzland-Kreis – Saale-Orla-Kreis",
+    "abandon_p": 0
+  },
+  {
+    "land": "TH",
+    "wkr": 195,
+    "wkr_name": "Suhl – Schmalkalden-Meiningen – Hildburghausen – Sonneberg",
+    "abandon_p": 0
+  }
+]

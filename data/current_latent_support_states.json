@@ -1,0 +1,304 @@
+{
+  "SN": {
+    "current_support": {
+      "CDU/CSU": 27.0,
+      "SPD": 5.3,
+      "GRÜNE": 4.9,
+      "FDP": 1.0,
+      "LINKE": 9.5,
+      "AfD": 33.9,
+      "Sonstige": 6.5,
+      "BSW": 9.9,
+      "Freie Wähler": 2.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-08-23",
+      "end": "2025-08-20"
+    },
+    "last_update": "2025-08-20T16:52:05.488816"
+  },
+  "BY": {
+    "current_support": {
+      "CDU/CSU": 37.9,
+      "SPD": 7.0,
+      "GRÜNE": 12.0,
+      "FDP": 2.0,
+      "LINKE": 1.0,
+      "AfD": 22.0,
+      "Freie Wähler": 9.6,
+      "Sonstige": 5.5,
+      "BSW": 3.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-08-23",
+      "end": "2025-08-20"
+    },
+    "last_update": "2025-08-20T16:52:05.488970"
+  },
+  "NW": {
+    "current_support": {
+      "CDU/CSU": 38.4,
+      "SPD": 16.6,
+      "GRÜNE": 14.0,
+      "FDP": 3.0,
+      "LINKE": 7.0,
+      "AfD": 15.0,
+      "Sonstige": 3.6,
+      "BSW": 2.4
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-08-23",
+      "end": "2025-08-20"
+    },
+    "last_update": "2025-08-20T16:52:05.489538"
+  },
+  "BB": {
+    "current_support": {
+      "CDU/CSU": 14.0,
+      "SPD": 23.0,
+      "GRÜNE": 5.0,
+      "LINKE": 9.0,
+      "AfD": 32.0,
+      "Sonstige": 8.0,
+      "BSW": 9.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-08-23",
+      "end": "2025-08-20"
+    },
+    "last_update": "2025-08-20T16:52:05.490130"
+  },
+  "HE": {
+    "current_support": {
+      "CDU/CSU": 36.0,
+      "SPD": 13.0,
+      "GRÜNE": 14.0,
+      "FDP": 4.0,
+      "LINKE": 6.0,
+      "AfD": 18.0,
+      "Sonstige": 6.0,
+      "BSW": 3.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-08-23",
+      "end": "2025-08-20"
+    },
+    "last_update": "2025-08-20T16:52:05.490283"
+  },
+  "RP": {
+    "current_support": {
+      "CDU/CSU": 28.5,
+      "SPD": 23.4,
+      "GRÜNE": 10.4,
+      "FDP": 2.4,
+      "LINKE": 5.3,
+      "AfD": 17.3,
+      "Sonstige": 5.8,
+      "BSW": 3.0,
+      "Freie Wähler": 3.9
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-08-21",
+      "end": "2025-08-18"
+    },
+    "last_update": "2025-08-20T16:52:05.490423"
+  },
+  "ST": {
+    "current_support": {
+      "CDU/CSU": 34.0,
+      "SPD": 7.0,
+      "GRÜNE": 3.0,
+      "FDP": 2.0,
+      "LINKE": 11.0,
+      "AfD": 30.0,
+      "Sonstige": 5.0,
+      "BSW": 8.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-08-20",
+      "end": "2025-08-17"
+    },
+    "last_update": "2025-08-20T16:52:05.490571"
+  },
+  "BE": {
+    "current_support": {
+      "CDU/CSU": 25.0,
+      "SPD": 14.0,
+      "GRÜNE": 15.0,
+      "LINKE": 19.0,
+      "AfD": 13.0,
+      "Sonstige": 10.0,
+      "BSW": 4.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-08-19",
+      "end": "2025-08-16"
+    },
+    "last_update": "2025-08-20T16:52:05.490719"
+  },
+  "BW": {
+    "current_support": {
+      "CDU/CSU": 29.6,
+      "SPD": 11.4,
+      "GRÜNE": 19.7,
+      "FDP": 5.1,
+      "LINKE": 6.9,
+      "AfD": 20.2,
+      "Sonstige": 3.9,
+      "BSW": 3.2
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-07-16",
+      "end": "2025-07-13"
+    },
+    "last_update": "2025-08-20T16:52:05.491239"
+  },
+  "TH": {
+    "current_support": {
+      "CDU/CSU": 24.0,
+      "SPD": 8.0,
+      "GRÜNE": 3.0,
+      "LINKE": 14.0,
+      "AfD": 35.0,
+      "Sonstige": 5.0,
+      "BSW": 11.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-07-09",
+      "end": "2025-07-06"
+    },
+    "last_update": "2025-08-20T16:52:05.491809"
+  },
+  "HB": {
+    "current_support": {
+      "CDU/CSU": 22.0,
+      "SPD": 25.0,
+      "GRÜNE": 14.0,
+      "LINKE": 13.0,
+      "AfD": 15.0,
+      "Sonstige": 11.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-06-29",
+      "end": "2025-06-26"
+    },
+    "last_update": "2025-08-20T16:52:05.491993"
+  },
+  "MV": {
+    "current_support": {
+      "CDU/CSU": 17.0,
+      "SPD": 21.0,
+      "GRÜNE": 5.0,
+      "LINKE": 15.0,
+      "AfD": 29.0,
+      "Sonstige": 7.0,
+      "BSW": 6.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-06-29",
+      "end": "2025-06-26"
+    },
+    "last_update": "2025-08-20T16:52:05.492166"
+  },
+  "SL": {
+    "current_support": {
+      "CDU/CSU": 27.0,
+      "SPD": 30.0,
+      "GRÜNE": 6.0,
+      "FDP": 3.0,
+      "LINKE": 8.0,
+      "AfD": 17.0,
+      "Sonstige": 5.0,
+      "BSW": 4.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-06-03",
+      "end": "2025-05-31"
+    },
+    "last_update": "2025-08-20T16:52:05.493377"
+  },
+  "HH": {
+    "current_support": {
+      "CDU/CSU": 17.3,
+      "SPD": 32.1,
+      "GRÜNE": 16.2,
+      "FDP": 2.5,
+      "LINKE": 13.2,
+      "AfD": 9.3,
+      "Sonstige": 6.9,
+      "BSW": 2.5
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-05-02",
+      "end": "2025-04-29"
+    },
+    "last_update": "2025-08-20T16:52:05.493535"
+  },
+  "NI": {
+    "current_support": {
+      "CDU/CSU": 30.0,
+      "SPD": 25.0,
+      "GRÜNE": 10.0,
+      "FDP": 5.0,
+      "LINKE": 5.0,
+      "AfD": 16.0,
+      "Sonstige": 4.0,
+      "BSW": 5.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-04-22",
+      "end": "2025-04-19"
+    },
+    "last_update": "2025-08-20T16:52:05.493676"
+  },
+  "SH": {
+    "current_support": {
+      "CDU/CSU": 39.0,
+      "SPD": 16.0,
+      "GRÜNE": 13.0,
+      "FDP": 4.0,
+      "AfD": 14.0,
+      "SSW": 6.0,
+      "Sonstige": 3.0,
+      "BSW": 3.0,
+      "Freie Wähler": 2.0
+    },
+    "trends": {},
+    "polls_used": 3651,
+    "date_range": {
+      "start": "2015-03-25",
+      "end": "2025-03-22"
+    },
+    "last_update": "2025-08-20T16:52:05.493819"
+  }
+}

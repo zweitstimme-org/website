@@ -1,0 +1,83 @@
+{
+  "api_version": "v2",
+  "generated_at": "2026-10-24T06:05:15",
+  "election": {
+    "id": "by_2028-10-15",
+    "name": "Landtagswahl Bayern",
+    "date": "2028-10-15",
+    "scope": "state",
+    "state_code": "BY",
+    "date_is_estimated": true
+  },
+  "data": {
+    "as_of": "2026-10-24",
+    "parties": {
+      "CDU/CSU": 37.2,
+      "AfD": 21.5,
+      "SPD": 6,
+      "GRÜNE": 14.6,
+      "LINKE": 3,
+      "BSW": 2.2,
+      "FDP": 2,
+      "FW": 10.5,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": 3
+    },
+    "uncertainty_low": {
+      "CDU/CSU": 36.3,
+      "AfD": 20.6,
+      "SPD": 5.1,
+      "GRÜNE": 13.7,
+      "LINKE": 2.1,
+      "BSW": 1.3,
+      "FDP": 1.1,
+      "FW": 9.6,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": null
+    },
+    "uncertainty_high": {
+      "CDU/CSU": 38.1,
+      "AfD": 22.4,
+      "SPD": 6.9,
+      "GRÜNE": 15.5,
+      "LINKE": 3.9,
+      "BSW": 3.1,
+      "FDP": 2.9,
+      "FW": 11.4,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": null
+    },
+    "active_parties": [
+      "CDU/CSU",
+      "AfD",
+      "SPD",
+      "GRÜNE",
+      "LINKE",
+      "BSW",
+      "FDP",
+      "FW"
+    ],
+    "note": "Kalman latent support for this calendar day (filled on days without a new poll).",
+    "trends": {
+      "CDU/CSU": -0.1,
+      "AfD": 0.2,
+      "SPD": 0,
+      "GRÜNE": 0.3,
+      "LINKE": 0,
+      "BSW": -0.2,
+      "FDP": 0,
+      "FW": -0.2,
+      "SSW": null,
+      "PIRATEN": null,
+      "REP": null,
+      "Sonstige": 0
+    }
+  },
+  "as_of": "2026-10-24"
+}
