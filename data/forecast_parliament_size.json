@@ -1,0 +1,1009 @@
+{
+  "metadata": {
+    "model": "district_swing + state Hare/Niemeyer size sim",
+    "nsim": 4000,
+    "statewide_draws": "posterior",
+    "seed": 20260730,
+    "last_update": "2026-09-19T07:44:19Z",
+    "caveat_de": "Indikative Größenverteilung aus dem Wahlkreis-Swing-Modell (ohne Kandidateneffekte). Keine amtliche Sitzzuteilung."
+  },
+  "states": {
+    "MV": {
+      "state_code": "MV",
+      "label": "Mecklenburg-Vorpommern",
+      "chamber": "Landtag",
+      "base_seats": 71,
+      "method": "hare_cap2x",
+      "note_de": "Mindestens 71 Sitze (Hare/Niemeyer). Überhang bleibt; Ausgleich höchstens doppelt so viele Sitze wie Überhangmandate. Bei gerader Gesamtzahl +1 Sitz.",
+      "nsim": 4000,
+      "statewide_draws": "posterior",
+      "statewide_last_poll_date": "2026-09-17",
+      "p_overhang_pct": 3.1,
+      "p_incomplete_pct": 0.0,
+      "advantage_seats_pct": {
+        "0": 100.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3plus": 0.0
+      },
+      "p_advantage_ge1_pct": 0.0,
+      "p_advantage_ge2_pct": 0.0,
+      "oh_parties": {
+        "SPD": 111,
+        "AfD": 15
+      },
+      "advantage_parties": {},
+      "size_mean": 71.1,
+      "size_median": 71,
+      "size_p10": 71,
+      "size_p90": 71,
+      "size_p95": 71,
+      "size_max": 85,
+      "p_base_pct": 96.9,
+      "last_election": {
+        "year": 2021,
+        "label": "LTW 2021",
+        "size": 79,
+        "turnout": 70.8
+      },
+      "buckets": [
+        {
+          "label": "71",
+          "pct": 96.9
+        },
+        {
+          "label": "73–77",
+          "pct": 2.9
+        },
+        {
+          "label": "79–83",
+          "pct": 0.2
+        },
+        {
+          "label": "85–89",
+          "pct": 0.0
+        },
+        {
+          "label": "91–95",
+          "pct": 0.0
+        },
+        {
+          "label": "97–101",
+          "pct": 0.0
+        },
+        {
+          "label": "103+",
+          "pct": 0.0
+        }
+      ],
+      "point": {
+        "size": 71,
+        "seats": {
+          "SPD": 25,
+          "AfD": 29,
+          "CDU": 5,
+          "LINKE": 8,
+          "GRÜNE": 4
+        },
+        "directs": {
+          "SPD": 18,
+          "AfD": 18
+        },
+        "total_oh": 0,
+        "incomplete": false,
+        "adv": 0
+      },
+      "party_seats": {
+        "SPD": {
+          "mean": 26.35,
+          "median": 26,
+          "p10": 22,
+          "p90": 31,
+          "p_most_pct": 34.77,
+          "p_second_pct": 65.22,
+          "p_third_pct": 0.0,
+          "p_abs_majority_pct": 0.25,
+          "hist": {
+            "17": 10,
+            "18": 16,
+            "19": 33,
+            "20": 78,
+            "21": 146,
+            "22": 211,
+            "23": 303,
+            "24": 375,
+            "25": 445,
+            "26": 502,
+            "27": 438,
+            "28": 414,
+            "29": 327,
+            "30": 276,
+            "31": 178,
+            "32": 103,
+            "33": 71,
+            "34": 35,
+            "35": 24,
+            "36": 13,
+            "37": 1,
+            "40": 1
+          }
+        },
+        "AfD": {
+          "mean": 28.7,
+          "median": 29,
+          "p10": 24,
+          "p90": 33,
+          "p_most_pct": 65.22,
+          "p_second_pct": 34.77,
+          "p_third_pct": 0.0,
+          "p_abs_majority_pct": 2.35,
+          "hist": {
+            "18": 1,
+            "20": 10,
+            "21": 20,
+            "22": 42,
+            "23": 131,
+            "24": 212,
+            "25": 303,
+            "26": 360,
+            "27": 406,
+            "28": 481,
+            "29": 465,
+            "30": 379,
+            "31": 370,
+            "32": 286,
+            "33": 221,
+            "34": 136,
+            "35": 83,
+            "36": 52,
+            "37": 24,
+            "38": 10,
+            "39": 4,
+            "40": 3,
+            "41": 1
+          }
+        },
+        "CDU": {
+          "mean": 5.32,
+          "median": 5,
+          "p10": 4,
+          "p90": 7,
+          "p_most_pct": 0.0,
+          "p_second_pct": 0.0,
+          "p_third_pct": 11.7,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 282,
+            "4": 493,
+            "5": 1287,
+            "6": 1076,
+            "7": 571,
+            "8": 221,
+            "9": 52,
+            "10": 17,
+            "12": 1
+          }
+        },
+        "LINKE": {
+          "mean": 7.99,
+          "median": 8,
+          "p10": 6,
+          "p90": 10,
+          "p_most_pct": 0.0,
+          "p_second_pct": 0.0,
+          "p_third_pct": 87.52,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 4,
+            "4": 21,
+            "5": 173,
+            "6": 528,
+            "7": 928,
+            "8": 953,
+            "9": 720,
+            "10": 361,
+            "11": 191,
+            "12": 81,
+            "13": 22,
+            "14": 13,
+            "15": 4,
+            "17": 1
+          }
+        },
+        "GRÜNE": {
+          "mean": 2.42,
+          "median": 4,
+          "p10": 0,
+          "p90": 5,
+          "p_most_pct": 0.0,
+          "p_second_pct": 0.0,
+          "p_third_pct": 0.78,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 1937,
+            "3": 1,
+            "4": 960,
+            "5": 841,
+            "6": 217,
+            "7": 36,
+            "8": 8
+          }
+        },
+        "FDP": {
+          "mean": 0.0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "p_most_pct": 0.0,
+          "p_second_pct": 0.0,
+          "p_third_pct": 0.0,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 3999,
+            "4": 1
+          }
+        },
+        "BSW": {
+          "mean": 0.35,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "p_most_pct": 0.0,
+          "p_second_pct": 0.0,
+          "p_third_pct": 0.0,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 3671,
+            "4": 264,
+            "5": 61,
+            "6": 4
+          }
+        }
+      },
+      "majority_impact": {
+        "complete_compensation": false,
+        "nsim": 4000,
+        "p_incomplete_pct": 0.0,
+        "note_de": "Vergleich Zweitstimmen-Mehrheit vs. Sitzmehrheit mit vollem Ausgleich vs. MV-Deckel (Ausgleich ≤ 2× Überhang). Der Deckel verschiebt Szenario-Wahrscheinlichkeiten um deutlich unter 1 Prozentpunkt; die Absolute Mehrheit der AfD bleibt praktisch unverändert. Koalitionsszenarien auf der Website bleiben daher die Zweitstimmen-Näherung.",
+        "scenarios": {
+          "abs_maj_afd": {
+            "vote_pct": 2.33,
+            "seats_full_ausgleich_pct": 2.35,
+            "seats_capped_pct": 2.35,
+            "cap_minus_full_pp": 0.0
+          },
+          "coal_spd_lin": {
+            "vote_pct": 36.05,
+            "seats_full_ausgleich_pct": 36.27,
+            "seats_capped_pct": 36.27,
+            "cap_minus_full_pp": 0.0
+          },
+          "coal_spd_gru_lin": {
+            "vote_pct": 39.6,
+            "seats_full_ausgleich_pct": 39.67,
+            "seats_capped_pct": 39.67,
+            "cap_minus_full_pp": 0.0
+          }
+        }
+      }
+    },
+    "ST": {
+      "state_code": "ST",
+      "label": "Sachsen-Anhalt",
+      "chamber": "Landtag",
+      "base_seats": 83,
+      "method": "hare_double_iter",
+      "note_de": "Mindestens 83 Sitze (Hare/Niemeyer). Bei Überhang wird die Sitzzahl wiederholt um das Doppelte der verbleibenden Überhangmandate erhöht, bis der Proporz (nahezu) hergestellt ist.",
+      "nsim": 4000,
+      "statewide_draws": "posterior",
+      "statewide_last_poll_date": "2026-08-12",
+      "p_overhang_pct": 22.4,
+      "p_incomplete_pct": 1.03,
+      "advantage_seats_pct": {
+        "0": 98.98,
+        "1": 1.03,
+        "2": 0.0,
+        "3plus": 0.0
+      },
+      "p_advantage_ge1_pct": 1.03,
+      "p_advantage_ge2_pct": 0.0,
+      "oh_parties": {
+        "AfD": 860,
+        "CDU": 34
+      },
+      "advantage_parties": {
+        "CDU": 8,
+        "AfD": 33
+      },
+      "size_mean": 84.3,
+      "size_median": 83,
+      "size_p10": 83,
+      "size_p90": 89,
+      "size_p95": 91,
+      "size_max": 106,
+      "p_base_pct": 77.6,
+      "last_election": {
+        "year": 2021,
+        "label": "LTW 2021",
+        "size": 97,
+        "turnout": 60.3
+      },
+      "buckets": [
+        {
+          "label": "83",
+          "pct": 77.6
+        },
+        {
+          "label": "85–91",
+          "pct": 18.7
+        },
+        {
+          "label": "93–99",
+          "pct": 3.2
+        },
+        {
+          "label": "101–107",
+          "pct": 0.4
+        },
+        {
+          "label": "109–115",
+          "pct": 0.0
+        },
+        {
+          "label": "117–123",
+          "pct": 0.0
+        },
+        {
+          "label": "125+",
+          "pct": 0.0
+        }
+      ],
+      "point": {
+        "size": 83,
+        "seats": {
+          "SPD": 7,
+          "AfD": 40,
+          "CDU": 22,
+          "LINKE": 13
+        },
+        "directs": {
+          "AfD": 39,
+          "CDU": 1,
+          "GRÜNE": 1
+        },
+        "total_oh": 0,
+        "incomplete": false,
+        "adv": 0
+      },
+      "party_seats": {
+        "SPD": {
+          "mean": 5.72,
+          "median": 6,
+          "p10": 0,
+          "p90": 9,
+          "p_most_pct": 0.0,
+          "p_second_pct": 0.0,
+          "p_third_pct": 3.62,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 725,
+            "4": 3,
+            "5": 622,
+            "6": 893,
+            "7": 740,
+            "8": 467,
+            "9": 270,
+            "10": 149,
+            "11": 67,
+            "12": 33,
+            "13": 19,
+            "14": 11,
+            "15": 1
+          }
+        },
+        "AfD": {
+          "mean": 39.34,
+          "median": 39,
+          "p10": 33,
+          "p90": 46,
+          "p_most_pct": 98.0,
+          "p_second_pct": 2.0,
+          "p_third_pct": 0.0,
+          "p_abs_majority_pct": 29.15,
+          "hist": {
+            "24": 1,
+            "25": 7,
+            "26": 17,
+            "27": 14,
+            "28": 31,
+            "29": 38,
+            "30": 52,
+            "31": 62,
+            "32": 91,
+            "33": 143,
+            "34": 126,
+            "35": 181,
+            "36": 221,
+            "37": 287,
+            "38": 372,
+            "39": 449,
+            "40": 434,
+            "41": 308,
+            "42": 246,
+            "43": 210,
+            "44": 164,
+            "45": 139,
+            "46": 105,
+            "47": 91,
+            "48": 76,
+            "49": 49,
+            "50": 32,
+            "51": 23,
+            "52": 12,
+            "53": 8,
+            "54": 7,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "60": 1
+          }
+        },
+        "CDU": {
+          "mean": 21.93,
+          "median": 22,
+          "p10": 16,
+          "p90": 28,
+          "p_most_pct": 2.0,
+          "p_second_pct": 91.35,
+          "p_third_pct": 6.6,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "8": 1,
+            "9": 3,
+            "10": 2,
+            "11": 10,
+            "12": 18,
+            "13": 42,
+            "14": 70,
+            "15": 120,
+            "16": 169,
+            "17": 199,
+            "18": 250,
+            "19": 317,
+            "20": 302,
+            "21": 363,
+            "22": 378,
+            "23": 373,
+            "24": 344,
+            "25": 282,
+            "26": 205,
+            "27": 136,
+            "28": 132,
+            "29": 80,
+            "30": 66,
+            "31": 48,
+            "32": 32,
+            "33": 16,
+            "34": 13,
+            "35": 3,
+            "36": 12,
+            "37": 4,
+            "38": 2,
+            "39": 4,
+            "40": 3,
+            "41": 1
+          }
+        },
+        "LINKE": {
+          "mean": 12.95,
+          "median": 13,
+          "p10": 9,
+          "p90": 18,
+          "p_most_pct": 0.0,
+          "p_second_pct": 6.65,
+          "p_third_pct": 89.48,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 1,
+            "5": 3,
+            "6": 26,
+            "7": 74,
+            "8": 177,
+            "9": 299,
+            "10": 423,
+            "11": 495,
+            "12": 471,
+            "13": 439,
+            "14": 411,
+            "15": 332,
+            "16": 257,
+            "17": 185,
+            "18": 145,
+            "19": 92,
+            "20": 69,
+            "21": 40,
+            "22": 35,
+            "23": 9,
+            "24": 8,
+            "25": 4,
+            "26": 2,
+            "27": 2,
+            "30": 1
+          }
+        },
+        "GRÜNE": {
+          "mean": 2.06,
+          "median": 0,
+          "p10": 0,
+          "p90": 6,
+          "p_most_pct": 0.0,
+          "p_second_pct": 0.0,
+          "p_third_pct": 0.2,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 2591,
+            "4": 14,
+            "5": 633,
+            "6": 454,
+            "7": 213,
+            "8": 63,
+            "9": 22,
+            "10": 7,
+            "11": 2,
+            "12": 1
+          }
+        },
+        "FDP": {
+          "mean": 0.35,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "p_most_pct": 0.0,
+          "p_second_pct": 0.0,
+          "p_third_pct": 0.03,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 3750,
+            "4": 6,
+            "5": 142,
+            "6": 76,
+            "7": 19,
+            "8": 5,
+            "9": 1,
+            "10": 1
+          }
+        },
+        "BSW": {
+          "mean": 1.81,
+          "median": 0,
+          "p10": 0,
+          "p90": 6,
+          "p_most_pct": 0.0,
+          "p_second_pct": 0.0,
+          "p_third_pct": 0.07,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 2750,
+            "4": 6,
+            "5": 582,
+            "6": 429,
+            "7": 154,
+            "8": 61,
+            "9": 12,
+            "10": 4,
+            "11": 2
+          }
+        }
+      },
+      "majority_impact": {
+        "complete_compensation": true,
+        "note_de": "Ausgleich in ST stellt den Proporz in der Regel (nahezu) wieder her; Szenarien über Zweitstimmenanteile bleiben eine gute Näherung."
+      }
+    },
+    "BE": {
+      "state_code": "BE",
+      "label": "Berlin",
+      "chamber": "Abgeordnetenhaus",
+      "base_seats": 130,
+      "method": "hare_berlin_formula",
+      "note_de": "Mindestens 130 Sitze (Hare/Niemeyer). Bei Bezirkslisten (2026: CDU, SPD, Linke) zählen Direktmandate je Bezirk; Überhang in einem Bezirk wird nicht mit ungenutzten Listenplätzen anderswo verrechnet. Ausgleich über die Formel Sitze inkl. Überhang / Stimmenanteil (einmal), dann neue Ober- und Unterverteilung. Grundmandatsklausel: ein Direktmandat reicht für den Einzug.",
+      "nsim": 4000,
+      "statewide_draws": "posterior",
+      "statewide_last_poll_date": "2026-09-18",
+      "p_overhang_pct": 100.0,
+      "p_incomplete_pct": 99.92,
+      "advantage_seats_pct": {
+        "0": 0.07,
+        "1": 0.85,
+        "2": 4.0,
+        "3plus": 95.08
+      },
+      "p_advantage_ge1_pct": 99.92,
+      "p_advantage_ge2_pct": 99.08,
+      "oh_parties": {
+        "CDU": 3954,
+        "SPD": 5,
+        "LINKE": 39,
+        "GRÜNE": 2
+      },
+      "advantage_parties": {
+        "CDU": 3953,
+        "SPD": 5,
+        "LINKE": 38,
+        "GRÜNE": 1
+      },
+      "size_mean": 172.2,
+      "size_median": 172,
+      "size_p10": 159,
+      "size_p90": 186,
+      "size_p95": 190,
+      "size_max": 219,
+      "p_base_pct": 0.0,
+      "last_election": {
+        "year": 2023,
+        "label": "AGH 2023",
+        "size": 159,
+        "turnout": 62.9
+      },
+      "buckets": [
+        {
+          "label": "130",
+          "pct": 0.0
+        },
+        {
+          "label": "132–140",
+          "pct": 0.4
+        },
+        {
+          "label": "142–150",
+          "pct": 2.3
+        },
+        {
+          "label": "152–160",
+          "pct": 12.9
+        },
+        {
+          "label": "162–170",
+          "pct": 32.8
+        },
+        {
+          "label": "172–180",
+          "pct": 31.9
+        },
+        {
+          "label": "182+",
+          "pct": 19.7
+        }
+      ],
+      "point": {
+        "size": 179,
+        "seats": {
+          "SPD": 24,
+          "AfD": 36,
+          "CDU": 45,
+          "LINKE": 42,
+          "GRÜNE": 32
+        },
+        "directs": {
+          "AfD": 12,
+          "CDU": 31,
+          "LINKE": 22,
+          "GRÜNE": 13
+        },
+        "total_oh": 13,
+        "incomplete": true,
+        "adv": 5
+      },
+      "party_seats": {
+        "SPD": {
+          "mean": 23.36,
+          "median": 23,
+          "p10": 17,
+          "p90": 30,
+          "p_most_pct": 0.38,
+          "p_second_pct": 1.0,
+          "p_third_pct": 4.47,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "10": 1,
+            "11": 5,
+            "12": 9,
+            "13": 24,
+            "14": 44,
+            "15": 87,
+            "16": 108,
+            "17": 135,
+            "18": 228,
+            "19": 269,
+            "20": 289,
+            "21": 308,
+            "22": 312,
+            "23": 296,
+            "24": 326,
+            "25": 287,
+            "26": 269,
+            "27": 211,
+            "28": 171,
+            "29": 165,
+            "30": 120,
+            "31": 112,
+            "32": 75,
+            "33": 59,
+            "34": 37,
+            "35": 27,
+            "36": 6,
+            "37": 12,
+            "38": 5,
+            "39": 1,
+            "40": 1,
+            "42": 1
+          }
+        },
+        "AfD": {
+          "mean": 33.86,
+          "median": 34,
+          "p10": 27,
+          "p90": 41,
+          "p_most_pct": 12.47,
+          "p_second_pct": 20.93,
+          "p_third_pct": 35.12,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "16": 1,
+            "17": 1,
+            "18": 2,
+            "19": 4,
+            "20": 13,
+            "21": 8,
+            "22": 29,
+            "23": 45,
+            "24": 50,
+            "25": 86,
+            "26": 108,
+            "27": 139,
+            "28": 205,
+            "29": 191,
+            "30": 204,
+            "31": 279,
+            "32": 284,
+            "33": 279,
+            "34": 275,
+            "35": 262,
+            "36": 255,
+            "37": 233,
+            "38": 245,
+            "39": 195,
+            "40": 154,
+            "41": 133,
+            "42": 82,
+            "43": 80,
+            "44": 58,
+            "45": 40,
+            "46": 23,
+            "47": 17,
+            "48": 8,
+            "49": 4,
+            "50": 8
+          }
+        },
+        "CDU": {
+          "mean": 41.83,
+          "median": 43,
+          "p10": 33,
+          "p90": 49,
+          "p_most_pct": 48.23,
+          "p_second_pct": 31.23,
+          "p_third_pct": 14.72,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "16": 1,
+            "18": 2,
+            "19": 2,
+            "20": 1,
+            "21": 2,
+            "22": 9,
+            "23": 5,
+            "24": 14,
+            "25": 14,
+            "26": 17,
+            "27": 36,
+            "28": 35,
+            "29": 34,
+            "30": 44,
+            "31": 36,
+            "32": 86,
+            "33": 67,
+            "34": 62,
+            "35": 124,
+            "36": 160,
+            "37": 219,
+            "38": 210,
+            "39": 185,
+            "40": 160,
+            "41": 177,
+            "42": 192,
+            "43": 258,
+            "44": 297,
+            "45": 291,
+            "46": 317,
+            "47": 323,
+            "48": 218,
+            "49": 112,
+            "50": 63,
+            "51": 62,
+            "52": 55,
+            "53": 39,
+            "54": 31,
+            "55": 14,
+            "56": 7,
+            "57": 9,
+            "58": 3,
+            "59": 4,
+            "60": 2,
+            "62": 1
+          }
+        },
+        "LINKE": {
+          "mean": 39.71,
+          "median": 39,
+          "p10": 31,
+          "p90": 50,
+          "p_most_pct": 34.98,
+          "p_second_pct": 35.45,
+          "p_third_pct": 20.08,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "17": 2,
+            "18": 2,
+            "19": 3,
+            "20": 2,
+            "21": 2,
+            "22": 7,
+            "23": 9,
+            "24": 19,
+            "25": 28,
+            "26": 31,
+            "27": 48,
+            "28": 70,
+            "29": 91,
+            "30": 75,
+            "31": 108,
+            "32": 182,
+            "33": 161,
+            "34": 153,
+            "35": 190,
+            "36": 225,
+            "37": 238,
+            "38": 192,
+            "39": 202,
+            "40": 224,
+            "41": 227,
+            "42": 225,
+            "43": 209,
+            "44": 127,
+            "45": 109,
+            "46": 130,
+            "47": 112,
+            "48": 92,
+            "49": 90,
+            "50": 54,
+            "51": 56,
+            "52": 53,
+            "53": 54,
+            "54": 47,
+            "55": 38,
+            "56": 24,
+            "57": 10,
+            "58": 22,
+            "59": 21,
+            "60": 13,
+            "61": 4,
+            "62": 6,
+            "63": 4,
+            "64": 2,
+            "65": 2,
+            "66": 2,
+            "67": 1,
+            "69": 1,
+            "70": 1
+          }
+        },
+        "GRÜNE": {
+          "mean": 30.4,
+          "median": 30,
+          "p10": 24,
+          "p90": 38,
+          "p_most_pct": 3.95,
+          "p_second_pct": 11.4,
+          "p_third_pct": 25.6,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "13": 1,
+            "16": 4,
+            "17": 6,
+            "18": 15,
+            "19": 29,
+            "20": 32,
+            "21": 62,
+            "22": 97,
+            "23": 135,
+            "24": 160,
+            "25": 191,
+            "26": 228,
+            "27": 276,
+            "28": 256,
+            "29": 304,
+            "30": 313,
+            "31": 277,
+            "32": 314,
+            "33": 221,
+            "34": 204,
+            "35": 180,
+            "36": 168,
+            "37": 123,
+            "38": 110,
+            "39": 84,
+            "40": 72,
+            "41": 39,
+            "42": 31,
+            "43": 20,
+            "44": 19,
+            "45": 12,
+            "46": 6,
+            "47": 3,
+            "48": 3,
+            "49": 3,
+            "50": 2
+          }
+        },
+        "FDP": {
+          "mean": 0.02,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "p_most_pct": 0.0,
+          "p_second_pct": 0.0,
+          "p_third_pct": 0.0,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 3991,
+            "9": 1,
+            "10": 3,
+            "11": 3,
+            "12": 1,
+            "13": 1
+          }
+        },
+        "BSW": {
+          "mean": 2.95,
+          "median": 0,
+          "p10": 0,
+          "p90": 11,
+          "p_most_pct": 0.0,
+          "p_second_pct": 0.0,
+          "p_third_pct": 0.0,
+          "p_abs_majority_pct": 0.0,
+          "hist": {
+            "0": 2935,
+            "8": 7,
+            "9": 123,
+            "10": 301,
+            "11": 302,
+            "12": 167,
+            "13": 92,
+            "14": 38,
+            "15": 17,
+            "16": 9,
+            "17": 7,
+            "18": 1,
+            "25": 1
+          }
+        }
+      },
+      "majority_impact": {
+        "complete_compensation": false,
+        "note_de": "In Berlin bleiben Überhangmandate je Bezirksliste erhalten und werden nicht landesweit mit ungenutzten Listenplätzen verrechnet. Der Ausgleich folgt der amtlichen Formel einmal; ein Restüberhang kann stehen bleiben. Die Kammer wird dadurch oft deutlich größer als 130."
+      }
+    }
+  }
+}

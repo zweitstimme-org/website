@@ -1,0 +1,19 @@
+{
+  "hide_from_homepage": [
+    {
+      "state_code": "ST",
+      "election_date": "2026-09-06",
+      "reason": "Frozen last-pre-election snapshot; evaluation is live"
+    },
+    {
+      "state_code": "BE",
+      "election_date": "2026-09-20",
+      "reason": "Frozen last-pre-election snapshot; evaluation is live"
+    },
+    {
+      "state_code": "MV",
+      "election_date": "2026-09-20",
+      "reason": "Frozen last-pre-election snapshot; evaluation is live"
+    }
+  ]
+}

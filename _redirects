@@ -1,0 +1,5 @@
+# Forecast API — legacy root → /api/v1/federal (301)
+# Honored by Cloudflare Pages / Netlify; GitHub Pages uses content aliases below.
+/forecast.json /api/v1/federal/forecast.json 301
+/pred_probabilities.json /api/v1/federal/pred_probabilities.json 301
+/forecast_districts.json /api/v1/federal/forecast_districts.json 301
