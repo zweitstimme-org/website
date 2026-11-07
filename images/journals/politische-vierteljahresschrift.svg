@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="560" viewBox="0 0 400 560">
+  <rect width="400" height="560" fill="#2c1810"/>
+  <rect x="24" y="24" width="352" height="512" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <text x="100" y="220" fill="#d4a574" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">
+    <tspan x="100" dy="0">POLITISCHE</tspan>
+    <tspan x="100" dy="36">VIERTELJAHRES-</tspan>
+    <tspan x="100" dy="36">SCHRIFT</tspan>
+  </text>
+  <text x="100" y="400" fill="#ffffff" font-family="Georgia, serif" font-size="14" opacity="0.85">
+    <tspan x="100" dy="0">German Political</tspan>
+    <tspan x="100" dy="20">Science Quarterly</tspan>
+  </text>
+  <text x="100" y="500" fill="#d4a574" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3">SPRINGER</text>
+</svg>
