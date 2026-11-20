@@ -1,0 +1,3140 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Zweitstimme Forecast API",
+    "version": "2.0.0",
+    "description": "Public JSON API for **election-day forecasts**, **posterior draws**, and **Aktuelle Stimmung**.\n\nStatic files, CORS-open (`Access-Control-Allow-Origin: *`), **GET only**. No authentication.\n\nThis is **not** the polling API for individual surveys. That lives at [api.zweitstimme.org/docs](https://api.zweitstimme.org/docs).\n\n## Concepts\n\n- **Forecast** — model output for election day: point estimates, uncertainty intervals, scenario probabilities, and optionally posterior draws.\n- **Stimmung** — Kalman-smoothed latent support by calendar day. Days without a new poll are still present. No seat scenarios. The full series is ~10 years; prefer `/current.json`, `/day/{date}.json`, `/month/{YYYY-MM}.json`, or `/year/{YYYY}.json`.\n- **`election`** — names the next relevant election for that scope. It is not the forecast timestamp. The same path can refer to a later cycle.\n\n## Versioning\n\n| Version | Meaning |\n|---|---|\n| `v1` | Legacy contract from when only federal forecasts existed. Kept for compatibility. |\n| `v2` | Current contract: federal and state election-day forecasts (districts, candidates, parliament sims), posterior draws, and Stimmung. |\n| unversioned `/forecast.json` etc. | Aliases of the `v1` federal files. |\n\nStart at `GET /api/index.json`. Prefer `v2` for new integrations. Federal data exists under both `/api/v1/federal/` (old row shape) and `/api/v2/federal/` (metadata + `fit`/`low`/`high`, same as state).\n\n## Envelope\n\nVersioned endpoints wrap payloads as:\n\n```json\n{\n  \"api_version\": \"v2\",\n  \"generated_at\": \"2026-08-18T08:06:53Z\",\n  \"election\": { \"id\": \"st_2026-09-06\", \"name\": \"Landtagswahl Sachsen-Anhalt\", \"date\": \"2026-09-06\", \"scope\": \"state\", \"state_code\": \"ST\" },\n  \"data\": {}\n}\n```\n\n## Availability\n\n- State forecasts exist only inside the **~90-day window** before election day. Outside that window the path returns **404**.\n- After election day the last forecast moves to `/api/v2/federal/archive/` or `/api/v2/state/archive/` (including districts / candidates / parliament sidecars when archived).\n- Archives start when this API began publishing them; there is no historical backfill.\n- Website `/data/*.json` files mirror the same pipeline outputs for the UI; prefer the versioned `/api/v2/` paths as the public contract.\n\n## Units\n\nWatch the unit. Party vote shares in summary forecasts are usually **percentage points**. Posterior draws use **shares from 0 to 1**. Federal `probabilities` / `pred_probabilities` are also 0–1. State scenario `probability` values are **percent 0–100**. District win probabilities and candidate `p_entry` / `p_direct` / `p_list` are **integer percents 0–100**.\n\n## License\n\nTexts, explanations, and visualizations: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), attribution **zweitstimme.org**. Polling inputs may come from [dawum.de](https://dawum.de) ([ODbL](https://opendatacommons.org/licenses/odbl/)) and [wahlrecht.de](https://www.wahlrecht.de) / the named institutes. No guarantee of availability, completeness, or correctness. Forecasts and Stimmung are model outputs, not official results.",
+    "contact": {
+      "name": "zweitstimme.org",
+      "url": "https://zweitstimme.org"
+    },
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "externalDocs": {
+    "description": "Polling API (individual surveys)",
+    "url": "https://api.zweitstimme.org/docs"
+  },
+  "servers": [
+    {
+      "url": "https://zweitstimme.org",
+      "description": "Production"
+    }
+  ],
+  "tags": [
+    {
+      "name": "discovery",
+      "description": "Catalog and OpenAPI document"
+    },
+    {
+      "name": "federal",
+      "description": "Bundestag election-day forecasts (current `v2` contract)"
+    },
+    {
+      "name": "state",
+      "description": "Landtag election-day forecasts and posterior draws (`v2`)"
+    },
+    {
+      "name": "stimmung",
+      "description": "Kalman-smoothed daily latent support (federal and Länder)"
+    },
+    {
+      "name": "v1",
+      "description": "Legacy federal-only contract. Prefer `/api/v2/federal/`."
+    },
+    {
+      "name": "legacy",
+      "description": "Unversioned root aliases of the federal `v1` contract"
+    }
+  ],
+  "paths": {
+    "/api/index.json": {
+      "get": {
+        "operationId": "get_api_index_json",
+        "summary": "API discovery",
+        "description": "Catalog of versions, endpoints, archive policy, and OpenAPI URL. Start here.",
+        "tags": [
+          "discovery"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiIndex"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/openapi.json": {
+      "get": {
+        "operationId": "get_api_openapi_json",
+        "summary": "OpenAPI document",
+        "description": "This specification as JSON.",
+        "tags": [
+          "discovery"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/federal/index.json": {
+      "get": {
+        "operationId": "get_v2_federal_index",
+        "summary": "Federal forecast catalog",
+        "description": "Entry point for the current federal (`v2`) contract: forecast, districts, draws, archive. Successor of `/api/v1/federal/`.",
+        "tags": [
+          "federal"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/FederalIndexData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/federal/forecast.json": {
+      "get": {
+        "operationId": "get_v2_federal_forecast",
+        "summary": "Federal party forecast",
+        "description": "Current federal summary: `data.metadata`, `data.parties` (`fit`/`low`/`high` in **percentage points**), and `data.probabilities` (shares **0–1**). Same underlying forecast as `v1`, improved shape.",
+        "tags": [
+          "federal"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/FederalForecastData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/federal/districts.json": {
+      "get": {
+        "operationId": "get_v2_federal_districts",
+        "summary": "Federal district forecast",
+        "description": "Wahlkreis-level first- and second-vote forecast with `metadata`. Large file.",
+        "tags": [
+          "federal"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/FederalDistrictsData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No district forecast published."
+          }
+        }
+      }
+    },
+    "/api/v2/federal/draws.json": {
+      "get": {
+        "operationId": "get_v2_federal_draws",
+        "summary": "Federal posterior draws",
+        "description": "Raw posterior simulations (`unit: share`, 0–1) behind the federal summary. Header (`metadata`, `summary` with CIs) comes first; the `draws` array follows. Large file.",
+        "tags": [
+          "federal"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StateDrawsData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No federal draws published."
+          }
+        }
+      }
+    },
+    "/api/v2/federal/archive/index.json": {
+      "get": {
+        "operationId": "get_v2_federal_archive_index",
+        "summary": "Federal archive catalog",
+        "description": "Archived federal forecast runs in the v2 contract. Empty until the pipeline has frozen a cycle.",
+        "tags": [
+          "federal"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Envelope"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/federal/archive/{date}.json": {
+      "get": {
+        "operationId": "get_v2_federal_archive_run",
+        "summary": "One archived federal forecast",
+        "description": "Frozen federal forecast for one run date, v2 shape.",
+        "tags": [
+          "federal"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/FederalForecastData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No archived federal forecast for that date."
+          }
+        },
+        "parameters": [
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "description": "Archive date `YYYY-MM-DD`.",
+            "schema": {
+              "type": "string",
+              "example": "2025-02-23",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/federal/archive/{date}/districts.json": {
+      "get": {
+        "operationId": "get_v2_federal_archive_districts",
+        "summary": "Archived federal district forecast",
+        "description": "Wahlkreis forecast frozen with the archived federal run. Large file.",
+        "tags": [
+          "federal"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/FederalDistrictsData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No archived federal districts for that date."
+          }
+        },
+        "parameters": [
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "description": "Archive date `YYYY-MM-DD`.",
+            "schema": {
+              "type": "string",
+              "example": "2025-02-23",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v1/federal/index.json": {
+      "get": {
+        "operationId": "get_v1_federal_index",
+        "summary": "Legacy federal catalog",
+        "description": "Entry point for the **legacy** federal-only contract. Prefer `/api/v2/federal/index.json`.",
+        "tags": [
+          "v1"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/FederalIndexData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "deprecated": true
+      }
+    },
+    "/api/v1/federal/forecast.json": {
+      "get": {
+        "operationId": "get_v1_federal_forecast",
+        "summary": "Legacy federal party forecast",
+        "description": "Legacy `data` array of `{value, _row, …}` rows. Prefer `/api/v2/federal/forecast.json` (`fit`/`party_code`). Point estimates are **percentage points**.",
+        "tags": [
+          "v1"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/FederalPartyRow"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "deprecated": true
+      }
+    },
+    "/api/v1/federal/pred_probabilities.json": {
+      "get": {
+        "operationId": "get_v1_federal_pred_probabilities",
+        "summary": "Legacy federal scenario probabilities",
+        "description": "`data` is a one-element array of probability maps. Values are **shares from 0 to 1**. Prefer `data.probabilities` on `/api/v2/federal/forecast.json`.",
+        "tags": [
+          "v1"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/FederalProbabilities"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "deprecated": true
+      }
+    },
+    "/api/v1/federal/forecast_districts.json": {
+      "get": {
+        "operationId": "get_v1_federal_forecast_districts",
+        "summary": "Legacy federal district forecast",
+        "description": "Wahlkreis-level first- and second-vote forecast. Prefer `/api/v2/federal/districts.json`. Large file.",
+        "tags": [
+          "v1"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/FederalDistrictRow"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "deprecated": true
+      }
+    },
+    "/api/v1/federal/archive/index.json": {
+      "get": {
+        "operationId": "get_v1_federal_archive_index",
+        "summary": "Legacy federal archive catalog",
+        "description": "Archived federal forecast runs in the v1 contract. Prefer `/api/v2/federal/archive/`.",
+        "tags": [
+          "v1"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Envelope"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": true
+      }
+    },
+    "/api/v1/federal/archive/{date}.json": {
+      "get": {
+        "operationId": "get_v1_federal_archive_run",
+        "summary": "One archived federal forecast (v1)",
+        "description": "Frozen federal forecast for one run date, legacy row shape.",
+        "tags": [
+          "v1"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Envelope"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No archived federal forecast for that date."
+          }
+        },
+        "parameters": [
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "description": "Archive date `YYYY-MM-DD`.",
+            "schema": {
+              "type": "string",
+              "example": "2025-02-23",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            }
+          }
+        ],
+        "deprecated": true
+      }
+    },
+    "/api/v2/state/index.json": {
+      "get": {
+        "operationId": "get_v2_state_index",
+        "summary": "Active state forecasts",
+        "description": "States currently inside the ~90-day forecast window. Prefer this over hardcoding state codes. Each item includes `path` and, when published, `draws`, `districts`, `candidates`, and `parliament`.",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StateIndex"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/state/{code}.json": {
+      "get": {
+        "operationId": "get_v2_state_forecast",
+        "summary": "One state forecast",
+        "description": "Summary forecast for one Landtag election: party estimates, intervals, and scenario probabilities. **404** when the state is outside the forecast window.",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StateForecastData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No active forecast for that state (outside the window, unknown code, or not yet published)."
+          }
+        },
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase German state code, for example `st`, `be`, `mv`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "bb",
+                "be",
+                "bw",
+                "by",
+                "hb",
+                "he",
+                "hh",
+                "mv",
+                "ni",
+                "nw",
+                "rp",
+                "sh",
+                "sl",
+                "sn",
+                "st",
+                "th"
+              ],
+              "example": "st"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/state/{code}/draws.json": {
+      "get": {
+        "operationId": "get_v2_state_draws",
+        "summary": "State posterior draws",
+        "description": "Raw posterior simulations (`unit: share`, 0–1) behind the summary and scenarios. Timing, model, last poll, and published `summary` (with CIs) sit directly on `data`; `n_draws` / `unit` / `parties` come once, then the `draws` array. Regenerated on every state-forecast run. Large file (~4000 draws).",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StateDrawsData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No draws published for that state."
+          }
+        },
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase German state code, for example `st`, `be`, `mv`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "bb",
+                "be",
+                "bw",
+                "by",
+                "hb",
+                "he",
+                "hh",
+                "mv",
+                "ni",
+                "nw",
+                "rp",
+                "sh",
+                "sl",
+                "sn",
+                "st",
+                "th"
+              ],
+              "example": "st"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/state/{code}/districts.json": {
+      "get": {
+        "operationId": "get_v2_state_districts",
+        "summary": "State district forecast",
+        "description": "Landtag Wahlkreis-level Erst/Zweit estimates, Direktmandat win probabilities, and district candidates. Large file.",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StateDistrictsData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No district forecast published for that state."
+          }
+        },
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase German state code, for example `st`, `be`, `mv`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "bb",
+                "be",
+                "bw",
+                "by",
+                "hb",
+                "he",
+                "hh",
+                "mv",
+                "ni",
+                "nw",
+                "rp",
+                "sh",
+                "sl",
+                "sn",
+                "st",
+                "th"
+              ],
+              "example": "st"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/state/{code}/candidates.json": {
+      "get": {
+        "operationId": "get_v2_state_candidates",
+        "summary": "State candidate entry probabilities",
+        "description": "List and direct candidates with `p_entry` / `p_direct` / `p_list` (integer percents 0–100). Same data the website shows on Einzug.",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StateCandidatesData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No candidate entry probabilities for that state."
+          }
+        },
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase German state code, for example `st`, `be`, `mv`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "bb",
+                "be",
+                "bw",
+                "by",
+                "hb",
+                "he",
+                "hh",
+                "mv",
+                "ni",
+                "nw",
+                "rp",
+                "sh",
+                "sl",
+                "sn",
+                "st",
+                "th"
+              ],
+              "example": "st"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/state/{code}/parliament.json": {
+      "get": {
+        "operationId": "get_v2_state_parliament",
+        "summary": "State parliament-size simulation",
+        "description": "Seat-total and per-party seat distribution from the district swing + Hare/Niemeyer simulation.",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StateParliamentData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No parliament simulation for that state."
+          }
+        },
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase German state code, for example `st`, `be`, `mv`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "bb",
+                "be",
+                "bw",
+                "by",
+                "hb",
+                "he",
+                "hh",
+                "mv",
+                "ni",
+                "nw",
+                "rp",
+                "sh",
+                "sl",
+                "sn",
+                "st",
+                "th"
+              ],
+              "example": "st"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/state/archive/index.json": {
+      "get": {
+        "operationId": "get_v2_state_archive_index",
+        "summary": "State archive catalog",
+        "description": "Frozen Landtag forecasts after election day. Not backfilled for older cycles.",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Envelope"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/state/archive/{id}.json": {
+      "get": {
+        "operationId": "get_v2_state_archive_forecast",
+        "summary": "One archived state forecast",
+        "description": "Frozen state forecast. May include `archived: true`.",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StateForecastData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No archived forecast for that id."
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Archive id `{code}_{YYYY-MM-DD}`, for example `st_2021-06-06`.",
+            "schema": {
+              "type": "string",
+              "example": "st_2021-06-06",
+              "pattern": "^[a-z]{2}_\\d{4}-\\d{2}-\\d{2}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/state/archive/{id}/draws.json": {
+      "get": {
+        "operationId": "get_v2_state_archive_draws",
+        "summary": "Archived state draws",
+        "description": "Posterior draws that belong to one archived state forecast.",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StateDrawsData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No archived draws for that id."
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Archive id `{code}_{YYYY-MM-DD}`, for example `st_2021-06-06`.",
+            "schema": {
+              "type": "string",
+              "example": "st_2021-06-06",
+              "pattern": "^[a-z]{2}_\\d{4}-\\d{2}-\\d{2}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/state/archive/{id}/districts.json": {
+      "get": {
+        "operationId": "get_v2_state_archive_districts",
+        "summary": "Archived state districts",
+        "description": "Wahlkreis forecast frozen with the archived state run.",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StateDistrictsData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No archived districts for that id."
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Archive id `{code}_{YYYY-MM-DD}`, for example `st_2021-06-06`.",
+            "schema": {
+              "type": "string",
+              "example": "st_2021-06-06",
+              "pattern": "^[a-z]{2}_\\d{4}-\\d{2}-\\d{2}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/state/archive/{id}/candidates.json": {
+      "get": {
+        "operationId": "get_v2_state_archive_candidates",
+        "summary": "Archived state candidates",
+        "description": "Candidate entry probabilities frozen with the archived state run.",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StateCandidatesData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No archived candidates for that id."
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Archive id `{code}_{YYYY-MM-DD}`, for example `st_2021-06-06`.",
+            "schema": {
+              "type": "string",
+              "example": "st_2021-06-06",
+              "pattern": "^[a-z]{2}_\\d{4}-\\d{2}-\\d{2}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/state/archive/{id}/parliament.json": {
+      "get": {
+        "operationId": "get_v2_state_archive_parliament",
+        "summary": "Archived state parliament sim",
+        "description": "Parliament-size simulation frozen with the archived state run.",
+        "tags": [
+          "state"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StateParliamentData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No archived parliament sim for that id."
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Archive id `{code}_{YYYY-MM-DD}`, for example `st_2021-06-06`.",
+            "schema": {
+              "type": "string",
+              "example": "st_2021-06-06",
+              "pattern": "^[a-z]{2}_\\d{4}-\\d{2}-\\d{2}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/stimmung/federal/current.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_federal_current",
+        "summary": "Federal Stimmung, current day",
+        "description": "Kalman latent support for today. Values are **percentage points**. `election` names the next Bundestag election, which may have an estimated date.",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StimmungCurrentData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/stimmung/federal/index.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_federal_index",
+        "summary": "Federal Stimmung catalog",
+        "description": "Paths for the full series, today, a single day, a month, or a year. `months` and `years` list what exists.",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Envelope"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/stimmung/federal/day/{date}.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_federal_day",
+        "summary": "Federal Stimmung, one day",
+        "description": "Same shape as `current.json`, for any calendar day in the series. **404** if that date was not published.",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StimmungCurrentData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No Stimmung for that date."
+          }
+        },
+        "parameters": [
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "description": "Calendar day `YYYY-MM-DD`.",
+            "schema": {
+              "type": "string",
+              "example": "2026-08-18",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/stimmung/federal/month/{month}.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_federal_month",
+        "summary": "Federal Stimmung, one month",
+        "description": "Daily series for one calendar month (`YYYY-MM`). Same shape as the full series, without `current`/`trends`/`metadata`.",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StimmungSeriesData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No Stimmung for that month."
+          }
+        },
+        "parameters": [
+          {
+            "name": "month",
+            "in": "path",
+            "required": true,
+            "description": "Calendar month `YYYY-MM`.",
+            "schema": {
+              "type": "string",
+              "example": "2026-08",
+              "pattern": "^\\d{4}-\\d{2}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/stimmung/federal/year/{year}.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_federal_year",
+        "summary": "Federal Stimmung, one year",
+        "description": "Daily series for one calendar year (`YYYY`).",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StimmungSeriesData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No Stimmung for that year."
+          }
+        },
+        "parameters": [
+          {
+            "name": "year",
+            "in": "path",
+            "required": true,
+            "description": "Calendar year `YYYY`.",
+            "schema": {
+              "type": "string",
+              "example": "2026",
+              "pattern": "^\\d{4}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/stimmung/federal.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_federal_series",
+        "summary": "Federal Stimmung, full series",
+        "description": "Entire daily history (~10 years). Large file. Prefer `/api/v2/stimmung/federal/current.json`, `/day/{date}.json`, `/month/{YYYY-MM}.json`, or `/year/{YYYY}.json`.",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StimmungSeriesData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/stimmung/state/index.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_state_index",
+        "summary": "State Stimmung catalog",
+        "description": "All Länder, including those without an active election-day forecast. Use `current` for today, `day` / `month` / `year` for a subset, `path` for the full series.",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Envelope"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/stimmung/state/{code}/current.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_state_current",
+        "summary": "State Stimmung, current day",
+        "description": "Kalman latent support for one Land, current day.",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StimmungCurrentData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown state code."
+          }
+        },
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase German state code, for example `st`, `be`, `mv`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "bb",
+                "be",
+                "bw",
+                "by",
+                "hb",
+                "he",
+                "hh",
+                "mv",
+                "ni",
+                "nw",
+                "rp",
+                "sh",
+                "sl",
+                "sn",
+                "st",
+                "th"
+              ],
+              "example": "st"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/stimmung/state/{code}/index.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_state_scope_index",
+        "summary": "State Stimmung catalog for one Land",
+        "description": "Paths for the full series, today, a single day, a month, or a year for this Land.",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Envelope"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown state code."
+          }
+        },
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase German state code, for example `st`, `be`, `mv`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "bb",
+                "be",
+                "bw",
+                "by",
+                "hb",
+                "he",
+                "hh",
+                "mv",
+                "ni",
+                "nw",
+                "rp",
+                "sh",
+                "sl",
+                "sn",
+                "st",
+                "th"
+              ],
+              "example": "st"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/stimmung/state/{code}/day/{date}.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_state_day",
+        "summary": "State Stimmung, one day",
+        "description": "Same shape as `current.json`, for any calendar day in that Land's series.",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StimmungCurrentData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown state code or no Stimmung for that date."
+          }
+        },
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase German state code, for example `st`, `be`, `mv`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "bb",
+                "be",
+                "bw",
+                "by",
+                "hb",
+                "he",
+                "hh",
+                "mv",
+                "ni",
+                "nw",
+                "rp",
+                "sh",
+                "sl",
+                "sn",
+                "st",
+                "th"
+              ],
+              "example": "st"
+            }
+          },
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "description": "Calendar day `YYYY-MM-DD`.",
+            "schema": {
+              "type": "string",
+              "example": "2026-08-18",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/stimmung/state/{code}/month/{month}.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_state_month",
+        "summary": "State Stimmung, one month",
+        "description": "Daily series for one Land and calendar month (`YYYY-MM`).",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StimmungSeriesData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown state code or no Stimmung for that month."
+          }
+        },
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase German state code, for example `st`, `be`, `mv`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "bb",
+                "be",
+                "bw",
+                "by",
+                "hb",
+                "he",
+                "hh",
+                "mv",
+                "ni",
+                "nw",
+                "rp",
+                "sh",
+                "sl",
+                "sn",
+                "st",
+                "th"
+              ],
+              "example": "st"
+            }
+          },
+          {
+            "name": "month",
+            "in": "path",
+            "required": true,
+            "description": "Calendar month `YYYY-MM`.",
+            "schema": {
+              "type": "string",
+              "example": "2026-08",
+              "pattern": "^\\d{4}-\\d{2}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/stimmung/state/{code}/year/{year}.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_state_year",
+        "summary": "State Stimmung, one year",
+        "description": "Daily series for one Land and calendar year (`YYYY`).",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StimmungSeriesData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown state code or no Stimmung for that year."
+          }
+        },
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase German state code, for example `st`, `be`, `mv`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "bb",
+                "be",
+                "bw",
+                "by",
+                "hb",
+                "he",
+                "hh",
+                "mv",
+                "ni",
+                "nw",
+                "rp",
+                "sh",
+                "sl",
+                "sn",
+                "st",
+                "th"
+              ],
+              "example": "st"
+            }
+          },
+          {
+            "name": "year",
+            "in": "path",
+            "required": true,
+            "description": "Calendar year `YYYY`.",
+            "schema": {
+              "type": "string",
+              "example": "2026",
+              "pattern": "^\\d{4}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v2/stimmung/state/{code}.json": {
+      "get": {
+        "operationId": "get_v2_stimmung_state_series",
+        "summary": "State Stimmung, full series",
+        "description": "Entire daily history for one Land (~10 years). Large file. Prefer `current`, `day/{date}`, `month/{YYYY-MM}`, or `year/{YYYY}`.",
+        "tags": [
+          "stimmung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Envelope"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "$ref": "#/components/schemas/StimmungSeriesData"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown state code."
+          }
+        },
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase German state code, for example `st`, `be`, `mv`.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "bb",
+                "be",
+                "bw",
+                "by",
+                "hb",
+                "he",
+                "hh",
+                "mv",
+                "ni",
+                "nw",
+                "rp",
+                "sh",
+                "sl",
+                "sn",
+                "st",
+                "th"
+              ],
+              "example": "st"
+            }
+          }
+        ]
+      }
+    },
+    "/forecast.json": {
+      "get": {
+        "operationId": "get_legacy_forecast",
+        "summary": "Legacy federal forecast alias",
+        "description": "Alias of `/api/v1/federal/forecast.json`. Enveloped payload, not a bare array.",
+        "tags": [
+          "legacy"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Envelope"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": true
+      }
+    },
+    "/pred_probabilities.json": {
+      "get": {
+        "operationId": "get_legacy_pred_probabilities",
+        "summary": "Legacy federal probabilities alias",
+        "description": "Alias of `/api/v1/federal/pred_probabilities.json`.",
+        "tags": [
+          "legacy"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Envelope"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": true
+      }
+    },
+    "/forecast_districts.json": {
+      "get": {
+        "operationId": "get_legacy_forecast_districts",
+        "summary": "Legacy federal districts alias",
+        "description": "Alias of `/api/v1/federal/forecast_districts.json`.",
+        "tags": [
+          "legacy"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Envelope"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": true
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Election": {
+        "type": "object",
+        "description": "Which election this payload refers to. Re-read it; the same path can name a later cycle.",
+        "required": [
+          "id",
+          "name",
+          "date",
+          "scope"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "st_2026-09-06"
+          },
+          "name": {
+            "type": "string",
+            "example": "Landtagswahl Sachsen-Anhalt"
+          },
+          "date": {
+            "type": "string",
+            "format": "date",
+            "example": "2026-09-06"
+          },
+          "scope": {
+            "type": "string",
+            "enum": [
+              "federal",
+              "state"
+            ]
+          },
+          "state_code": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Uppercase state code, or null for federal payloads.",
+            "example": "ST"
+          },
+          "date_is_estimated": {
+            "type": "boolean",
+            "description": "True when the election date is a placeholder, not a scheduled date."
+          }
+        }
+      },
+      "Envelope": {
+        "type": "object",
+        "description": "Common wrapper for versioned endpoints.",
+        "required": [
+          "api_version",
+          "generated_at",
+          "election",
+          "data"
+        ],
+        "properties": {
+          "api_version": {
+            "type": "string",
+            "enum": [
+              "v1",
+              "v2"
+            ]
+          },
+          "generated_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "API publish time (UTC). Distinct from the model-run timestamp inside `data`."
+          },
+          "election": {
+            "$ref": "#/components/schemas/Election"
+          },
+          "data": {
+            "description": "Endpoint-specific payload."
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date",
+            "description": "Present on Stimmung responses: calendar day represented by the payload."
+          },
+          "archived": {
+            "type": "boolean",
+            "description": "Present on archive responses."
+          }
+        }
+      },
+      "ApiIndex": {
+        "type": "object",
+        "description": "Machine-readable catalog of the Forecast API.",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "generated_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "docs": {
+            "type": "string",
+            "format": "uri"
+          },
+          "openapi": {
+            "type": "string"
+          },
+          "versions": {
+            "type": "object"
+          },
+          "election_envelope": {
+            "type": "object"
+          },
+          "legacy_root": {
+            "type": "object"
+          },
+          "policy": {
+            "type": "object"
+          },
+          "counts": {
+            "type": "object"
+          }
+        }
+      },
+      "FederalIndexData": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "example": "current"
+          },
+          "successor": {
+            "type": "string"
+          },
+          "legacy": {
+            "type": "string"
+          },
+          "forecast": {
+            "type": "string"
+          },
+          "districts": {
+            "type": "string"
+          },
+          "draws": {
+            "type": "string"
+          },
+          "endpoints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "archive_index": {
+            "type": "string"
+          },
+          "archive_count": {
+            "type": "integer"
+          },
+          "legacy_redirects": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      },
+      "FederalPartyRow": {
+        "type": "object",
+        "description": "Legacy `v1` party row. `value`/`y` and interval fields are percentage points. `low`/`high` ≈ 83% interval; `low95`/`high95` ≈ 95%. Prefer `FederalPartyRowV2` on `/api/v2/federal/forecast.json`.",
+        "properties": {
+          "name": {
+            "type": "string",
+            "example": "CDU/CSU"
+          },
+          "name_eng": {
+            "type": "string"
+          },
+          "_row": {
+            "type": "string",
+            "description": "Party code such as `cdu` or `afd`.",
+            "example": "cdu"
+          },
+          "value": {
+            "type": "number",
+            "description": "Point estimate in percentage points."
+          },
+          "y": {
+            "type": "number",
+            "description": "Same as `value` (chart helper)."
+          },
+          "x": {
+            "type": "integer"
+          },
+          "low": {
+            "type": "number"
+          },
+          "high": {
+            "type": "number"
+          },
+          "low95": {
+            "type": "number"
+          },
+          "high95": {
+            "type": "number"
+          },
+          "color": {
+            "type": "string"
+          }
+        }
+      },
+      "FederalPartyRowV2": {
+        "type": "object",
+        "description": "Current federal party row. Same fields as state forecasts (`party`, `party_code`, `fit`, `low`, `high` in percentage points). `low`/`high` ≈ 83%; `low95`/`high95` ≈ 95% when present.",
+        "required": [
+          "party",
+          "party_code",
+          "fit"
+        ],
+        "properties": {
+          "party": {
+            "type": "string",
+            "example": "CDU/CSU"
+          },
+          "party_code": {
+            "type": "string",
+            "example": "cdu"
+          },
+          "fit": {
+            "type": "number",
+            "example": 29.3
+          },
+          "low": {
+            "type": "number",
+            "example": 24.2
+          },
+          "high": {
+            "type": "number",
+            "example": 34.5
+          },
+          "low95": {
+            "type": "number"
+          },
+          "high95": {
+            "type": "number"
+          },
+          "name_eng": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          }
+        }
+      },
+      "FederalForecastMetadata": {
+        "type": "object",
+        "properties": {
+          "scope": {
+            "type": "string",
+            "example": "federal"
+          },
+          "election_id": {
+            "type": "string"
+          },
+          "election_name": {
+            "type": "string"
+          },
+          "election_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "last_update": {
+            "type": "string",
+            "description": "When this forecast was computed / exported."
+          },
+          "asof_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Forecast input-date anchor."
+          },
+          "n_draws": {
+            "type": "integer"
+          },
+          "draws_path": {
+            "type": "string",
+            "example": "/api/v2/federal/draws.json"
+          }
+        }
+      },
+      "FederalForecastData": {
+        "type": "object",
+        "properties": {
+          "metadata": {
+            "$ref": "#/components/schemas/FederalForecastMetadata"
+          },
+          "parties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FederalPartyRowV2"
+            }
+          },
+          "probabilities": {
+            "$ref": "#/components/schemas/FederalProbabilities"
+          }
+        }
+      },
+      "FederalDistrictsData": {
+        "type": "object",
+        "properties": {
+          "metadata": {
+            "$ref": "#/components/schemas/FederalForecastMetadata"
+          },
+          "districts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FederalDistrictRow"
+            }
+          }
+        }
+      },
+      "FederalProbabilities": {
+        "type": "object",
+        "description": "Probabilities as shares from **0 to 1**, not percentages. Keys: `hurdle_*` (clears 5%), `maj_*` (coalition seat majority), `prob_*_largest`, `grundmandat_*`.",
+        "additionalProperties": {
+          "type": "number"
+        },
+        "example": {
+          "hurdle_fdp": 0.144,
+          "maj_cdu_csu_spd": 0.609,
+          "prob_cdu_csu_largest": 0.921
+        }
+      },
+      "FederalDistrictRow": {
+        "type": "object",
+        "description": "District-level first/second-vote forecast row. Large file.",
+        "properties": {
+          "wkr": {
+            "type": "integer",
+            "description": "Wahlkreis number."
+          },
+          "wkr_name": {
+            "type": "string"
+          },
+          "land": {
+            "type": "string"
+          },
+          "party": {
+            "type": "string"
+          },
+          "partei": {
+            "type": "string"
+          },
+          "value": {
+            "type": "number",
+            "description": "First-vote point estimate, percentage points."
+          },
+          "low": {
+            "type": "number"
+          },
+          "high": {
+            "type": "number"
+          },
+          "probability": {
+            "type": "number",
+            "description": "Win probability, 0–1."
+          },
+          "winner": {
+            "type": [
+              "boolean",
+              "integer",
+              "string",
+              "null"
+            ]
+          },
+          "zs_value": {
+            "type": "number",
+            "description": "Second-vote (Zweitstimme) estimate."
+          },
+          "zs_low": {
+            "type": "number"
+          },
+          "zs_high": {
+            "type": "number"
+          },
+          "Nachname": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Vornamen": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "StateCatalogItem": {
+        "type": "object",
+        "properties": {
+          "state_code": {
+            "type": "string",
+            "example": "ST"
+          },
+          "path": {
+            "type": "string",
+            "example": "/api/v2/state/st.json"
+          },
+          "draws": {
+            "type": "string",
+            "description": "Present when posterior draws are published.",
+            "example": "/api/v2/state/st/draws.json"
+          },
+          "districts": {
+            "type": "string",
+            "description": "Present when Wahlkreis forecasts are published.",
+            "example": "/api/v2/state/st/districts.json"
+          },
+          "candidates": {
+            "type": "string",
+            "description": "Present when candidate entry probabilities are published.",
+            "example": "/api/v2/state/st/candidates.json"
+          },
+          "parliament": {
+            "type": "string",
+            "description": "Present when parliament-size / seat sims are published.",
+            "example": "/api/v2/state/st/parliament.json"
+          },
+          "active": {
+            "type": "boolean"
+          },
+          "election": {
+            "$ref": "#/components/schemas/Election"
+          }
+        }
+      },
+      "StateIndex": {
+        "type": "object",
+        "properties": {
+          "api_version": {
+            "type": "string",
+            "example": "v2"
+          },
+          "generated_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "description": {
+            "type": "string"
+          },
+          "forecast_window_days": {
+            "type": "integer",
+            "example": 90
+          },
+          "states": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StateCatalogItem"
+            }
+          },
+          "archive_index": {
+            "type": "string"
+          },
+          "archive_count": {
+            "type": "integer"
+          }
+        }
+      },
+      "StatePartyRow": {
+        "type": "object",
+        "description": "`fit`/`low`/`high` are percentage points. `low`/`high` ≈ 83% interval.",
+        "required": [
+          "party",
+          "party_code",
+          "fit"
+        ],
+        "properties": {
+          "party": {
+            "type": "string",
+            "example": "CDU"
+          },
+          "party_code": {
+            "type": "string",
+            "example": "cdu"
+          },
+          "fit": {
+            "type": "number",
+            "example": 23
+          },
+          "low": {
+            "type": "number",
+            "example": 17
+          },
+          "high": {
+            "type": "number",
+            "example": 29
+          }
+        }
+      },
+      "StateScenarioItem": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "largest_party_afd"
+          },
+          "category": {
+            "type": "string",
+            "example": "largest_party"
+          },
+          "label_de": {
+            "type": "string",
+            "example": "AfD stärkste Kraft"
+          },
+          "probability": {
+            "type": "number",
+            "description": "Percent from 0 to 100, not a 0–1 share.",
+            "example": 98
+          }
+        }
+      },
+      "StateForecastMetadata": {
+        "type": "object",
+        "properties": {
+          "state_code": {
+            "type": "string"
+          },
+          "election_id": {
+            "type": "string"
+          },
+          "election_name": {
+            "type": "string"
+          },
+          "election_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "last_poll_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Newest poll included in this forecast."
+          },
+          "asof_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Forecast input-date anchor."
+          },
+          "last_update": {
+            "type": "string",
+            "description": "When this forecast was computed / exported (UTC)."
+          },
+          "lead_horizon_days": {
+            "type": "integer",
+            "description": "Days until election used in the model."
+          },
+          "n_draws": {
+            "type": "integer",
+            "example": 4000
+          },
+          "draws_path": {
+            "type": "string",
+            "example": "/api/v2/state/st/draws.json"
+          },
+          "districts_path": {
+            "type": "string",
+            "example": "/api/v2/state/st/districts.json"
+          },
+          "candidates_path": {
+            "type": "string",
+            "example": "/api/v2/state/st/candidates.json"
+          },
+          "parliament_path": {
+            "type": "string",
+            "example": "/api/v2/state/st/parliament.json"
+          },
+          "model": {
+            "type": "string"
+          },
+          "source_repo": {
+            "type": "string"
+          }
+        }
+      },
+      "StateForecastData": {
+        "type": "object",
+        "properties": {
+          "metadata": {
+            "$ref": "#/components/schemas/StateForecastMetadata"
+          },
+          "parties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StatePartyRow"
+            }
+          },
+          "scenarios": {
+            "type": "object",
+            "properties": {
+              "min_probability_pct": {
+                "type": "number"
+              },
+              "hurdle_pct": {
+                "type": "number"
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/StateScenarioItem"
+                }
+              }
+            }
+          }
+        }
+      },
+      "StateDistrictRow": {
+        "type": "object",
+        "description": "Landtag Wahlkreis × party row with candidate bio fields when available.",
+        "properties": {
+          "wkr": {
+            "type": "integer"
+          },
+          "wkr_name": {
+            "type": "string"
+          },
+          "land": {
+            "type": "string"
+          },
+          "party": {
+            "type": "string"
+          },
+          "partei": {
+            "type": "string"
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "winner": {
+            "type": [
+              "boolean",
+              "integer",
+              "string",
+              "null"
+            ]
+          },
+          "probability": {
+            "type": "number",
+            "description": "Direktmandat win probability, integer percent 0–100."
+          },
+          "value": {
+            "type": "number",
+            "description": "Erststimme %, point estimate."
+          },
+          "low": {
+            "type": "number"
+          },
+          "high": {
+            "type": "number"
+          },
+          "zs_value": {
+            "type": "number",
+            "description": "Zweitstimme %."
+          },
+          "zs_value_l1": {
+            "type": "number"
+          },
+          "gender": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "is_incumbent": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "aw_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "StateDistrictsData": {
+        "type": "object",
+        "properties": {
+          "metadata": {
+            "type": "object"
+          },
+          "districts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StateDistrictRow"
+            }
+          }
+        }
+      },
+      "StateCandidateRow": {
+        "type": "object",
+        "description": "List/direct candidate with entry probabilities.",
+        "properties": {
+          "person_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "list_pos": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "wkr_direct": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "list_type": {
+            "type": "string"
+          },
+          "p_entry": {
+            "type": "number",
+            "description": "Probability of entering parliament, integer percent 0–100."
+          },
+          "p_direct": {
+            "type": "number",
+            "description": "Probability via Direktmandat, integer percent 0–100."
+          },
+          "p_list": {
+            "type": "number",
+            "description": "Probability via list seat, integer percent 0–100."
+          },
+          "is_placeholder": {
+            "type": "boolean"
+          },
+          "gender": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "aw_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "StateCandidatesData": {
+        "type": "object",
+        "description": "Candidate list/direct entry probabilities for one Land.",
+        "properties": {
+          "metadata": {
+            "type": "object"
+          },
+          "parties": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "party": {
+                  "type": "string"
+                },
+                "partei": {
+                  "type": "string"
+                },
+                "list_type": {
+                  "type": "string"
+                },
+                "candidates": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StateCandidateRow"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "StateParliamentData": {
+        "type": "object",
+        "description": "Parliament-size and per-party seat simulation for one Land (Hare/Niemeyer + district overhang/Ausgleich).",
+        "properties": {
+          "metadata": {
+            "type": "object"
+          },
+          "base_seats": {
+            "type": "integer"
+          },
+          "size_mean": {
+            "type": "number"
+          },
+          "size_median": {
+            "type": "integer"
+          },
+          "buckets": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "party_seats": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object"
+            },
+            "description": "Per-party seat distribution stats from the simulation."
+          }
+        },
+        "additionalProperties": true
+      },
+      "StateDraw": {
+        "type": "object",
+        "description": "One posterior simulation. Values are vote **shares from 0 to 1**, normalized to 1.",
+        "additionalProperties": {
+          "type": "number"
+        },
+        "example": {
+          "cdu": 0.23,
+          "spd": 0.07,
+          "gru": 0.05,
+          "afd": 0.41,
+          "oth": 0.04
+        }
+      },
+      "StateDrawsData": {
+        "type": "object",
+        "description": "Self-contained posterior draws. Timing and model fields sit at `data` (no nested `metadata` object). `n_draws` / `unit` / `parties` come once, just above the raw `draws` array. Regenerated whenever the state forecast is rerun.",
+        "properties": {
+          "last_update": {
+            "type": "string",
+            "description": "Forecast-run timestamp (UTC). Distinct from envelope `generated_at`."
+          },
+          "asof_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Forecast input-date anchor."
+          },
+          "last_poll_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Newest poll included in this forecast."
+          },
+          "state_code": {
+            "type": "string"
+          },
+          "election_id": {
+            "type": "string"
+          },
+          "election_name": {
+            "type": "string"
+          },
+          "election_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "model": {
+            "type": "string"
+          },
+          "lead": {
+            "type": "string"
+          },
+          "lead_model": {
+            "type": "string"
+          },
+          "lead_horizon_days": {
+            "type": "integer"
+          },
+          "poll_window_days": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "scenario_config_md5": {
+            "type": "string"
+          },
+          "predictor_encoding": {
+            "type": "string"
+          },
+          "shares_normalized_to_100": {
+            "type": "boolean"
+          },
+          "source_repo": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "object",
+            "description": "Published point estimates and ~83% intervals in percentage points, computed from these draws.",
+            "properties": {
+              "parties": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/StatePartyRow"
+                }
+              }
+            }
+          },
+          "forecast_path": {
+            "type": "string",
+            "example": "/api/v2/state/st.json",
+            "description": "Companion summary endpoint for this same run."
+          },
+          "normalization": {
+            "type": "string",
+            "example": "shares_sum_to_1",
+            "description": "Each draw's party shares sum to 1."
+          },
+          "notes": {
+            "type": "string"
+          },
+          "n_draws": {
+            "type": "integer",
+            "example": 4000
+          },
+          "unit": {
+            "type": "string",
+            "enum": [
+              "share"
+            ],
+            "description": "`share` means 0–1 vote shares, not percentage points."
+          },
+          "parties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "example": [
+              "cdu",
+              "spd",
+              "gru",
+              "fdp",
+              "lin",
+              "afd",
+              "bsw",
+              "oth"
+            ]
+          },
+          "draws": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StateDraw"
+            }
+          }
+        }
+      },
+      "StimmungCurrentData": {
+        "type": "object",
+        "properties": {
+          "as_of": {
+            "type": "string",
+            "format": "date"
+          },
+          "parties": {
+            "type": "object",
+            "additionalProperties": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "description": "Map of party label → numeric value. Inactive parties may be null.",
+            "example": {
+              "CDU/CSU": 20.3,
+              "AfD": 28.0,
+              "SPD": 12.1
+            }
+          },
+          "uncertainty_low": {
+            "type": "object",
+            "additionalProperties": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "description": "Map of party label → numeric value. Inactive parties may be null.",
+            "example": {
+              "CDU/CSU": 20.3,
+              "AfD": 28.0,
+              "SPD": 12.1
+            }
+          },
+          "uncertainty_high": {
+            "type": "object",
+            "additionalProperties": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "description": "Map of party label → numeric value. Inactive parties may be null.",
+            "example": {
+              "CDU/CSU": 20.3,
+              "AfD": 28.0,
+              "SPD": 12.1
+            }
+          },
+          "trends": {
+            "type": "object",
+            "additionalProperties": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "description": "Short-run movement in percentage points.",
+            "example": {
+              "CDU/CSU": 20.3,
+              "AfD": 28.0,
+              "SPD": 12.1
+            }
+          },
+          "active_parties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      },
+      "StimmungSeriesData": {
+        "type": "object",
+        "description": "Daily series for a date range. `from`/`to` mark the inclusive window. The unfiltered file (`federal.json` / `{code}.json`) is the full ~10-year history. For a subset use `/month/{YYYY-MM}.json` or `/year/{YYYY}.json`.",
+        "properties": {
+          "as_of": {
+            "type": "string",
+            "format": "date"
+          },
+          "from": {
+            "type": "string",
+            "format": "date",
+            "description": "First calendar day in this payload (inclusive)."
+          },
+          "to": {
+            "type": "string",
+            "format": "date",
+            "description": "Last calendar day in this payload (inclusive)."
+          },
+          "dates": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          "series": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "description": "Party label → array aligned with `dates`."
+          },
+          "current": {
+            "type": "object",
+            "additionalProperties": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "description": "Latest day only; present on the full-series file.",
+            "example": {
+              "CDU/CSU": 20.3,
+              "AfD": 28.0,
+              "SPD": 12.1
+            }
+          },
+          "trends": {
+            "type": "object",
+            "additionalProperties": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "description": "Map of party label → numeric value. Inactive parties may be null.",
+            "example": {
+              "CDU/CSU": 20.3,
+              "AfD": 28.0,
+              "SPD": 12.1
+            }
+          },
+          "active_parties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "uncertainty_low": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            }
+          },
+          "uncertainty_high": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            }
+          },
+          "metadata": {
+            "type": "object"
+          }
+        }
+      },
+      "StimmungStateCatalogItem": {
+        "type": "object",
+        "properties": {
+          "state_code": {
+            "type": "string",
+            "example": "ST"
+          },
+          "path": {
+            "type": "string",
+            "example": "/api/v2/stimmung/state/st.json"
+          },
+          "current": {
+            "type": "string",
+            "example": "/api/v2/stimmung/state/st/current.json"
+          },
+          "day": {
+            "type": "string",
+            "example": "/api/v2/stimmung/state/st/day/{date}.json"
+          },
+          "month": {
+            "type": "string",
+            "example": "/api/v2/stimmung/state/st/month/{YYYY-MM}.json"
+          },
+          "year": {
+            "type": "string",
+            "example": "/api/v2/stimmung/state/st/year/{YYYY}.json"
+          },
+          "from": {
+            "type": "string",
+            "format": "date"
+          },
+          "to": {
+            "type": "string",
+            "format": "date"
+          },
+          "election": {
+            "$ref": "#/components/schemas/Election"
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    }
+  }
+}

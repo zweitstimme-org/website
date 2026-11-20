@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="560" viewBox="0 0 400 560">
+  <rect width="400" height="560" fill="#0d3b4c"/>
+  <rect x="24" y="24" width="352" height="512" fill="none" stroke="#7ec8c8" stroke-width="2"/>
+  <text x="100" y="250" fill="#7ec8c8" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">
+    <tspan x="100" dy="0">ELECTORAL</tspan>
+    <tspan x="100" dy="44">STUDIES</tspan>
+  </text>
+  <text x="100" y="380" fill="#ffffff" font-family="Georgia, serif" font-size="14" opacity="0.85">
+    <tspan x="100" dy="0">An International Journal on</tspan>
+    <tspan x="100" dy="20">Voting and Electoral Systems</tspan>
+  </text>
+  <text x="100" y="500" fill="#7ec8c8" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3">ELSEVIER</text>
+</svg>

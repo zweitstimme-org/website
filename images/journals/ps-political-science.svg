@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="560" viewBox="0 0 400 560">
+  <rect width="400" height="560" fill="#7a1f2b"/>
+  <rect x="24" y="24" width="352" height="512" fill="none" stroke="#f0e6d2" stroke-width="2"/>
+  <rect x="100" y="80" width="200" height="3" fill="#f0e6d2"/>
+  <text x="100" y="280" fill="#f0e6d2" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" letter-spacing="2">
+    <tspan x="100" dy="0">PS</tspan>
+  </text>
+  <text x="100" y="400" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif" font-size="16" opacity="0.9">
+    <tspan x="100" dy="0">Political Science</tspan><tspan x="100" dy="22">& Politics</tspan>
+  </text>
+  <text x="100" y="500" fill="#f0e6d2" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3">CAMBRIDGE</text>
+</svg>

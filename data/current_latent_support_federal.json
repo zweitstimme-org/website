@@ -1,0 +1,19 @@
+{
+  "current_support": {
+    "CDU/CSU": 26.2,
+    "SPD": 14.2,
+    "GRÜNE": 11.8,
+    "FDP": 3.5,
+    "LINKE": 10.3,
+    "AfD": 24.7,
+    "Sonstige": 5.7,
+    "BSW": 3.6
+  },
+  "trends": {},
+  "polls_used": 828,
+  "date_range": {
+    "start": "2015-09-01",
+    "end": "2025-08-20"
+  },
+  "last_update": "2025-08-20T16:52:05.332920"
+}

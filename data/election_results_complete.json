@@ -1,0 +1,3562 @@
+{
+  "2030-01-20": {
+    "date": "2030-01-20",
+    "type": "state",
+    "state": "HH",
+    "state_name": "Hamburg",
+    "election_name": "Landtagswahl HH 2030",
+    "display_date": "Winter2030",
+    "estimated": true,
+    "parties": {}
+  },
+  "2029-10-21": {
+    "date": "2029-10-21",
+    "type": "state",
+    "state": "BB",
+    "state_name": "Brandenburg",
+    "election_name": "Landtagswahl BB 2029",
+    "display_date": "Herbst2029",
+    "estimated": true,
+    "parties": {}
+  },
+  "2028-10-22": {
+    "date": "2028-10-22",
+    "type": "state",
+    "state": "BY",
+    "state_name": "Bayern",
+    "election_name": "Landtagswahl BY 2028",
+    "display_date": "Herbst2028",
+    "estimated": true,
+    "parties": {}
+  },
+  "2027-10-17": {
+    "date": "2027-10-17",
+    "type": "state",
+    "state": "NI",
+    "state_name": "Niedersachsen",
+    "election_name": "Landtagswahl NI 2027",
+    "display_date": "Herbst2027",
+    "estimated": true,
+    "parties": {}
+  },
+  "2027-04-18": {
+    "date": "2027-04-18",
+    "type": "state",
+    "state": "HB",
+    "state_name": "Bremen",
+    "election_name": "Landtagswahl HB 2027",
+    "display_date": "Frühjahr2027",
+    "estimated": true,
+    "parties": {}
+  },
+  "2026-10-18": {
+    "date": "2026-10-18",
+    "type": "state",
+    "state": "MV",
+    "state_name": "Mecklenburg-Vorpommern",
+    "election_name": "Landtagswahl MV 2026",
+    "display_date": "Herbst2026",
+    "estimated": true,
+    "parties": {}
+  },
+  "2026-09-27": {
+    "date": "2026-09-27",
+    "type": "state",
+    "state": "BE",
+    "state_name": "Berlin",
+    "election_name": "Landtagswahl BE 2026",
+    "display_date": "20. September2026",
+    "estimated": true,
+    "parties": {}
+  },
+  "2026-09-20": {
+    "date": "2026-09-20",
+    "type": "state",
+    "state": "BE",
+    "state_name": "Berlin",
+    "election_name": "Landtagswahl BE 2026",
+    "display_date": "20. September 2026",
+    "estimated": true,
+    "parties": {}
+  },
+  "2026-09-13": {
+    "date": "2026-09-13",
+    "type": "state",
+    "state": "ST",
+    "state_name": "Sachsen-Anhalt",
+    "election_name": "Landtagswahl ST 2026",
+    "display_date": "6. September2026",
+    "estimated": true,
+    "parties": {}
+  },
+  "2026-09-06": {
+    "date": "2026-09-06",
+    "type": "state",
+    "state": "ST",
+    "state_name": "Sachsen-Anhalt",
+    "election_name": "Landtagswahl ST 2026",
+    "display_date": "6. September 2026",
+    "estimated": true,
+    "parties": {}
+  },
+  "2026-03-29": {
+    "date": "2026-03-29",
+    "type": "state",
+    "state": "RP",
+    "state_name": "Rheinland-Pfalz",
+    "election_name": "Landtagswahl RP 2026",
+    "display_date": "22. März2026",
+    "estimated": true,
+    "parties": {}
+  },
+  "2026-03-22": {
+    "date": "2026-03-22",
+    "type": "state",
+    "state": "RP",
+    "state_name": "Rheinland-Pfalz",
+    "election_name": "Landtagswahl RP 2026",
+    "display_date": "22. März 2026",
+    "estimated": true,
+    "parties": {}
+  },
+  "2026-03-15": {
+    "date": "2026-03-15",
+    "type": "state",
+    "state": "BW",
+    "state_name": "Baden-Württemberg",
+    "election_name": "Landtagswahl BW 2026",
+    "display_date": "8. März2026",
+    "estimated": true,
+    "parties": {}
+  },
+  "2026-03-08": {
+    "date": "2026-03-08",
+    "type": "state",
+    "state": "BW",
+    "state_name": "Baden-Württemberg",
+    "election_name": "Landtagswahl BW 2026",
+    "display_date": "8. März 2026",
+    "estimated": true,
+    "parties": {}
+  },
+  "2025-03-09_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Bürgerschaftswahl Hamburg 2025",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 19.8,
+      "SPD": 33.0,
+      "GRÜNE": 18.5,
+      "AfD": 7.5,
+      "FDP": 2.3,
+      "LINKE": 11.2,
+      "BSW": 1.8,
+      "Sonstige": 5.9
+    }
+  },
+  "2025-02-23_federal": {
+    "election_type": "federal",
+    "state": null,
+    "election_name": "Bundestagswahl 2025",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 28.5,
+      "SPD": 15.2,
+      "GRÜNE": 12.8,
+      "AfD": 22.1,
+      "FDP": 4.1,
+      "LINKE": 8.9,
+      "BSW": 5.2,
+      "Sonstige": 3.2
+    }
+  },
+  "2025-02-23": {
+    "election_type": "federal",
+    "state": null,
+    "election_name": "Bundestagswahl 2025",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 28.5,
+      "SPD": 16.4,
+      "GRÜNE": 11.6,
+      "FDP": 4.3,
+      "LINKE": 8.8,
+      "AfD": 20.8,
+      "BSW": 4.97,
+      "Sonstige": 4.5
+    }
+  },
+  "2024-09-22_BB": {
+    "election_type": "state",
+    "state": "BB",
+    "election_name": "Landtagswahl BB 2024",
+    "turnout": null,
+    "results": {
+      "AfD": 29.2,
+      "BSW": 13.5,
+      "CDU/CSU": 12.1,
+      "FDP": 0.8,
+      "Sonstige": 2.6,
+      "GRÜNE": 4.1,
+      "LINKE": 3.0,
+      "SPD": 30.9
+    }
+  },
+  "2024-09-01_TH": {
+    "election_type": "state",
+    "state": "TH",
+    "election_name": "Landtagswahl TH 2024",
+    "turnout": null,
+    "results": {
+      "AfD": 32.8,
+      "BSW": 15.8,
+      "CDU/CSU": 23.6,
+      "FDP": 1.1,
+      "Sonstige": 0.3,
+      "GRÜNE": 3.2,
+      "LINKE": 13.1,
+      "SPD": 6.1
+    }
+  },
+  "2024-09-01_SN": {
+    "election_type": "state",
+    "state": "SN",
+    "election_name": "Landtagswahl SN 2024",
+    "turnout": null,
+    "results": {
+      "AfD": 30.6,
+      "BSW": 11.8,
+      "CDU/CSU": 31.9,
+      "FDP": 0.9,
+      "Sonstige": 0.3,
+      "GRÜNE": 5.1,
+      "LINKE": 4.5,
+      "SPD": 7.3
+    }
+  },
+  "2023-10-08_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 2023",
+    "turnout": null,
+    "results": {
+      "AfD": 18.4,
+      "CDU/CSU": 34.6,
+      "FDP": 5.0,
+      "Sonstige": 3.5,
+      "GRÜNE": 14.8,
+      "LINKE": 3.1,
+      "SPD": 15.1
+    }
+  },
+  "2023-10-08_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 2023",
+    "turnout": null,
+    "results": {
+      "AfD": 14.6,
+      "CDU/CSU": 37.0,
+      "FDP": 3.0,
+      "Sonstige": 15.8,
+      "GRÜNE": 14.4,
+      "LINKE": 1.5,
+      "SPD": 8.4
+    }
+  },
+  "2023-02-12_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 2023",
+    "turnout": null,
+    "results": {
+      "AfD": 9.1,
+      "CDU/CSU": 28.2,
+      "FDP": 4.6,
+      "GRÜNE": 18.4,
+      "LINKE": 12.2,
+      "Sonstige": 0.3,
+      "SPD": 18.4
+    }
+  },
+  "2022-10-09_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 2022",
+    "turnout": null,
+    "results": {
+      "AfD": 11.0,
+      "CDU/CSU": 28.1,
+      "FDP": 4.7,
+      "GRÜNE": 14.5,
+      "LINKE": 2.7,
+      "SPD": 33.4
+    }
+  },
+  "2022-05-15_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 2022",
+    "turnout": null,
+    "results": {
+      "AfD": 5.4,
+      "CDU/CSU": 35.7,
+      "FDP": 5.9,
+      "GRÜNE": 18.2,
+      "LINKE": 2.1,
+      "Sonstige": 0.3,
+      "SPD": 26.7
+    }
+  },
+  "2022-05-08_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 2022",
+    "turnout": null,
+    "results": {
+      "AfD": 4.4,
+      "CDU/CSU": 43.4,
+      "FDP": 6.4,
+      "GRÜNE": 18.3,
+      "LINKE": 1.7,
+      "Sonstige": 0.3,
+      "SPD": 16.0
+    }
+  },
+  "2022-03-27_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 2022",
+    "turnout": null,
+    "results": {
+      "AfD": 5.7,
+      "CDU/CSU": 28.5,
+      "FDP": 4.8,
+      "GRÜNE": 5.0,
+      "LINKE": 2.6,
+      "SPD": 43.5
+    }
+  },
+  "2021-09-26_MV": {
+    "election_type": "state",
+    "state": "MV",
+    "election_name": "Landtagswahl MV 2021",
+    "turnout": null,
+    "results": {
+      "AfD": 16.7,
+      "CDU/CSU": 13.3,
+      "FDP": 5.8,
+      "GRÜNE": 6.3,
+      "LINKE": 9.9,
+      "Sonstige": 0.8,
+      "SPD": 39.6
+    }
+  },
+  "2021-09-26_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 2021",
+    "turnout": null,
+    "results": {
+      "AfD": 8.0,
+      "CDU/CSU": 18.0,
+      "FDP": 7.1,
+      "GRÜNE": 18.9,
+      "LINKE": 14.1,
+      "Sonstige": 0.4,
+      "SPD": 21.4
+    }
+  },
+  "2021-09-26": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 2021",
+    "turnout": null,
+    "results": {
+      "AfD": 10.34,
+      "CDU/CSU": 24.07,
+      "FDP": 11.46,
+      "Sonstige": 2.43,
+      "GRÜNE": 14.75,
+      "LINKE": 4.89,
+      "SPD": 25.74
+    }
+  },
+  "2021-06-06_ST": {
+    "election_type": "state",
+    "state": "ST",
+    "election_name": "Landtagswahl ST 2021",
+    "turnout": null,
+    "results": {
+      "AfD": 20.8,
+      "CDU/CSU": 37.1,
+      "FDP": 6.4,
+      "Sonstige": 3.1,
+      "GRÜNE": 5.9,
+      "LINKE": 11.0,
+      "SPD": 8.4
+    }
+  },
+  "2021-03-14_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 2021",
+    "turnout": null,
+    "results": {
+      "AfD": 8.3,
+      "CDU/CSU": 27.7,
+      "FDP": 5.5,
+      "Sonstige": 5.4,
+      "GRÜNE": 9.3,
+      "LINKE": 2.5,
+      "SPD": 35.7
+    }
+  },
+  "2021-03-14_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 2021",
+    "turnout": null,
+    "results": {
+      "AfD": 9.7,
+      "CDU/CSU": 24.1,
+      "FDP": 10.5,
+      "GRÜNE": 32.6,
+      "LINKE": 3.6,
+      "SPD": 11.0
+    }
+  },
+  "2020-02-23_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 2020",
+    "turnout": null,
+    "results": {
+      "AfD": 5.3,
+      "CDU/CSU": 11.2,
+      "FDP": 5.0,
+      "GRÜNE": 24.2,
+      "LINKE": 9.1,
+      "Sonstige": 0.5,
+      "SPD": 39.2
+    }
+  },
+  "2019-10-27_TH": {
+    "election_type": "state",
+    "state": "TH",
+    "election_name": "Landtagswahl TH 2019",
+    "turnout": null,
+    "results": {
+      "AfD": 23.4,
+      "CDU/CSU": 21.7,
+      "FDP": 5.0,
+      "GRÜNE": 5.2,
+      "LINKE": 31.0,
+      "SPD": 8.2
+    }
+  },
+  "2019-09-01_SN": {
+    "election_type": "state",
+    "state": "SN",
+    "election_name": "Landtagswahl SN 2019",
+    "turnout": null,
+    "results": {
+      "AfD": 27.5,
+      "CDU/CSU": 32.1,
+      "FDP": 4.5,
+      "Sonstige": 3.4,
+      "GRÜNE": 8.6,
+      "LINKE": 10.4,
+      "SPD": 7.7
+    }
+  },
+  "2019-09-01_BB": {
+    "election_type": "state",
+    "state": "BB",
+    "election_name": "Landtagswahl BB 2019",
+    "turnout": null,
+    "results": {
+      "AfD": 23.5,
+      "CDU/CSU": 15.6,
+      "FDP": 4.1,
+      "Sonstige": 0.7,
+      "GRÜNE": 10.8,
+      "LINKE": 10.7,
+      "SPD": 26.2
+    }
+  },
+  "2019-05-26_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 2019",
+    "turnout": null,
+    "results": {
+      "AfD": 6.1,
+      "CDU/CSU": 26.7,
+      "FDP": 5.9,
+      "GRÜNE": 17.4,
+      "LINKE": 11.3,
+      "SPD": 24.9
+    }
+  },
+  "2018-10-28_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 2018",
+    "turnout": null,
+    "results": {
+      "AfD": 13.1,
+      "CDU/CSU": 27.0,
+      "FDP": 7.5,
+      "Sonstige": 3.0,
+      "GRÜNE": 19.8,
+      "LINKE": 6.3,
+      "SPD": 19.8
+    }
+  },
+  "2018-10-14_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 2018",
+    "turnout": null,
+    "results": {
+      "AfD": 10.2,
+      "CDU/CSU": 37.2,
+      "FDP": 5.1,
+      "Sonstige": 11.6,
+      "GRÜNE": 17.6,
+      "LINKE": 3.2,
+      "SPD": 9.7
+    }
+  },
+  "2017-10-15_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 2017",
+    "turnout": null,
+    "results": {
+      "AfD": 6.2,
+      "CDU/CSU": 33.6,
+      "FDP": 7.5,
+      "GRÜNE": 8.7,
+      "LINKE": 4.6,
+      "SPD": 36.9
+    }
+  },
+  "2017-09-24": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 2017",
+    "turnout": null,
+    "results": {
+      "AfD": 12.6,
+      "CDU/CSU": 33.0,
+      "FDP": 10.7,
+      "Sonstige": 1.0,
+      "GRÜNE": 8.9,
+      "LINKE": 9.2,
+      "SPD": 20.5
+    }
+  },
+  "2017-05-14_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 2017",
+    "turnout": null,
+    "results": {
+      "AfD": 7.4,
+      "CDU/CSU": 33.0,
+      "FDP": 12.6,
+      "GRÜNE": 6.4,
+      "LINKE": 4.9,
+      "Sonstige": 1.0,
+      "SPD": 31.2
+    }
+  },
+  "2017-05-07_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 2017",
+    "turnout": null,
+    "results": {
+      "AfD": 5.9,
+      "CDU/CSU": 32.0,
+      "FDP": 11.5,
+      "GRÜNE": 12.9,
+      "LINKE": 3.8,
+      "Sonstige": 1.2,
+      "SPD": 27.3
+    }
+  },
+  "2017-03-26_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 2017",
+    "turnout": null,
+    "results": {
+      "AfD": 6.2,
+      "CDU/CSU": 40.7,
+      "FDP": 3.3,
+      "GRÜNE": 4.0,
+      "LINKE": 12.8,
+      "Sonstige": 0.7,
+      "SPD": 29.6
+    }
+  },
+  "2016-09-18_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 2016",
+    "turnout": null,
+    "results": {
+      "AfD": 14.2,
+      "CDU/CSU": 17.6,
+      "FDP": 6.7,
+      "GRÜNE": 15.2,
+      "LINKE": 15.6,
+      "SPD": 21.6
+    }
+  },
+  "2016-09-04_MV": {
+    "election_type": "state",
+    "state": "MV",
+    "election_name": "Landtagswahl MV 2016",
+    "turnout": null,
+    "results": {
+      "AfD": 20.8,
+      "CDU/CSU": 19.0,
+      "FDP": 3.0,
+      "GRÜNE": 4.8,
+      "LINKE": 13.2,
+      "Sonstige": 3.0,
+      "SPD": 30.6
+    }
+  },
+  "2016-03-13_ST": {
+    "election_type": "state",
+    "state": "ST",
+    "election_name": "Landtagswahl ST 2016",
+    "turnout": null,
+    "results": {
+      "AfD": 24.3,
+      "CDU/CSU": 29.8,
+      "FDP": 4.9,
+      "GRÜNE": 5.2,
+      "LINKE": 16.3,
+      "Sonstige": 1.9,
+      "SPD": 10.6
+    }
+  },
+  "2016-03-13_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 2016",
+    "turnout": null,
+    "results": {
+      "AfD": 12.6,
+      "CDU/CSU": 31.8,
+      "FDP": 6.2,
+      "GRÜNE": 5.3,
+      "LINKE": 2.8,
+      "SPD": 36.2
+    }
+  },
+  "2016-03-13_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 2016",
+    "turnout": null,
+    "results": {
+      "AfD": 15.1,
+      "CDU/CSU": 27.0,
+      "FDP": 8.3,
+      "GRÜNE": 30.3,
+      "LINKE": 2.9,
+      "Sonstige": 0.4,
+      "SPD": 12.7
+    }
+  },
+  "2015-05-10_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 2015",
+    "turnout": null,
+    "results": {
+      "AfD": 5.5,
+      "CDU/CSU": 22.4,
+      "FDP": 6.6,
+      "GRÜNE": 15.1,
+      "LINKE": 9.5,
+      "Sonstige": 0.2,
+      "SPD": 32.8
+    }
+  },
+  "2015-02-15_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 2015",
+    "turnout": null,
+    "results": {
+      "AfD": 6.1,
+      "CDU/CSU": 15.9,
+      "FDP": 7.4,
+      "GRÜNE": 12.3,
+      "LINKE": 8.5,
+      "SPD": 45.6
+    }
+  },
+  "2014-09-14_TH": {
+    "election_type": "state",
+    "state": "TH",
+    "election_name": "Landtagswahl TH 2014",
+    "turnout": null,
+    "results": {
+      "AfD": 10.6,
+      "CDU/CSU": 33.5,
+      "FDP": 2.5,
+      "GRÜNE": 5.7,
+      "LINKE": 28.2,
+      "Sonstige": 3.6,
+      "SPD": 12.4
+    }
+  },
+  "2014-09-14_BB": {
+    "election_type": "state",
+    "state": "BB",
+    "election_name": "Landtagswahl BB 2014",
+    "turnout": null,
+    "results": {
+      "AfD": 12.2,
+      "CDU/CSU": 23.0,
+      "FDP": 1.5,
+      "GRÜNE": 6.2,
+      "LINKE": 18.6,
+      "Sonstige": 2.2,
+      "SPD": 31.9
+    }
+  },
+  "2014-08-31_SN": {
+    "election_type": "state",
+    "state": "SN",
+    "election_name": "Landtagswahl SN 2014",
+    "turnout": null,
+    "results": {
+      "AfD": 9.7,
+      "CDU/CSU": 39.0,
+      "FDP": 3.8,
+      "GRÜNE": 5.7,
+      "LINKE": 18.9,
+      "Sonstige": 4.9,
+      "SPD": 12.4
+    }
+  },
+  "2013-09-22_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 2013",
+    "turnout": null,
+    "results": {
+      "AfD": 4.1,
+      "CDU/CSU": 38.3,
+      "FDP": 5.0,
+      "GRÜNE": 11.1,
+      "LINKE": 5.2,
+      "Sonstige": 1.1,
+      "SPD": 30.7
+    }
+  },
+  "2013-09-22": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 2013",
+    "turnout": null,
+    "results": {
+      "AfD": 4.7,
+      "CDU/CSU": 41.5,
+      "FDP": 4.8,
+      "GRÜNE": 8.4,
+      "LINKE": 8.6,
+      "Sonstige": 3.5,
+      "SPD": 25.7
+    }
+  },
+  "2013-09-15_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 2013",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 47.7,
+      "FDP": 3.3,
+      "GRÜNE": 8.6,
+      "LINKE": 2.1,
+      "SPD": 20.6
+    }
+  },
+  "2013-01-20_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 2013",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 36.0,
+      "FDP": 9.9,
+      "GRÜNE": 13.7,
+      "LINKE": 3.1,
+      "SPD": 32.6
+    }
+  },
+  "2012-05-13_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 2012",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 26.3,
+      "FDP": 8.6,
+      "GRÜNE": 11.3,
+      "LINKE": 2.5,
+      "Sonstige": 0.5,
+      "SPD": 39.1
+    }
+  },
+  "2012-05-06_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 2012",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 30.8,
+      "FDP": 8.2,
+      "GRÜNE": 13.2,
+      "LINKE": 2.3,
+      "SPD": 30.4
+    }
+  },
+  "2012-03-25_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 2012",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 35.2,
+      "FDP": 1.2,
+      "GRÜNE": 5.0,
+      "LINKE": 16.1,
+      "Sonstige": 1.2,
+      "SPD": 30.6
+    }
+  },
+  "2011-09-18_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 2011",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 23.4,
+      "FDP": 1.8,
+      "GRÜNE": 17.6,
+      "LINKE": 11.7,
+      "SPD": 28.3
+    }
+  },
+  "2011-09-04_MV": {
+    "election_type": "state",
+    "state": "MV",
+    "election_name": "Landtagswahl MV 2011",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 23.0,
+      "FDP": 2.8,
+      "GRÜNE": 8.7,
+      "LINKE": 18.4,
+      "Sonstige": 6.0,
+      "SPD": 35.6
+    }
+  },
+  "2011-05-22_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 2011",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 20.4,
+      "FDP": 2.4,
+      "GRÜNE": 22.5,
+      "LINKE": 5.6,
+      "Sonstige": 1.6,
+      "SPD": 38.6
+    }
+  },
+  "2011-03-27_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 2011",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 35.2,
+      "FDP": 4.2,
+      "GRÜNE": 15.4,
+      "LINKE": 3.0,
+      "SPD": 35.7
+    }
+  },
+  "2011-03-27_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 2011",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 39.0,
+      "FDP": 5.3,
+      "GRÜNE": 24.2,
+      "LINKE": 2.8,
+      "Sonstige": 1.0,
+      "SPD": 23.1
+    }
+  },
+  "2011-03-20_ST": {
+    "election_type": "state",
+    "state": "ST",
+    "election_name": "Landtagswahl ST 2011",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 32.5,
+      "FDP": 3.8,
+      "GRÜNE": 7.1,
+      "LINKE": 23.7,
+      "Sonstige": 4.6,
+      "SPD": 21.5
+    }
+  },
+  "2011-02-20_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 2011",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 21.9,
+      "FDP": 6.7,
+      "GRÜNE": 11.2,
+      "LINKE": 6.4,
+      "SPD": 48.4
+    }
+  },
+  "2010-05-09_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 2010",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 34.6,
+      "FDP": 6.7,
+      "GRÜNE": 12.1,
+      "LINKE": 5.6,
+      "Sonstige": 0.7,
+      "SPD": 34.5
+    }
+  },
+  "2009-09-27_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 2009",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 31.5,
+      "FDP": 14.9,
+      "GRÜNE": 12.4,
+      "LINKE": 6.0,
+      "SPD": 25.4
+    }
+  },
+  "2009-09-27_BB": {
+    "election_type": "state",
+    "state": "BB",
+    "election_name": "Landtagswahl BB 2009",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 19.8,
+      "FDP": 7.2,
+      "GRÜNE": 5.7,
+      "LINKE": 27.2,
+      "Sonstige": 2.6,
+      "SPD": 33.0
+    }
+  },
+  "2009-09-27": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 2009",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 33.8,
+      "FDP": 14.6,
+      "GRÜNE": 10.7,
+      "LINKE": 11.9,
+      "Sonstige": 3.5,
+      "SPD": 23.0
+    }
+  },
+  "2009-08-30_TH": {
+    "election_type": "state",
+    "state": "TH",
+    "election_name": "Landtagswahl TH 2009",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 31.2,
+      "FDP": 7.6,
+      "GRÜNE": 6.2,
+      "LINKE": 27.4,
+      "Sonstige": 4.3,
+      "SPD": 18.5
+    }
+  },
+  "2009-08-30_SN": {
+    "election_type": "state",
+    "state": "SN",
+    "election_name": "Landtagswahl SN 2009",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 40.2,
+      "FDP": 10.0,
+      "GRÜNE": 6.4,
+      "LINKE": 20.6,
+      "Sonstige": 5.6,
+      "SPD": 10.4
+    }
+  },
+  "2009-08-30_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 2009",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 34.5,
+      "FDP": 9.2,
+      "GRÜNE": 5.9,
+      "LINKE": 21.3,
+      "Sonstige": 1.5,
+      "SPD": 24.5
+    }
+  },
+  "2009-01-18_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 2009",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.2,
+      "FDP": 16.2,
+      "GRÜNE": 13.7,
+      "LINKE": 5.4,
+      "Sonstige": 0.9,
+      "SPD": 23.7
+    }
+  },
+  "2008-09-28_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 2008",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 43.4,
+      "FDP": 8.0,
+      "GRÜNE": 9.4,
+      "LINKE": 4.4,
+      "SPD": 18.6
+    }
+  },
+  "2008-02-24_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 2008",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 42.6,
+      "FDP": 4.8,
+      "GRÜNE": 9.6,
+      "LINKE": 6.4,
+      "SPD": 34.1
+    }
+  },
+  "2008-01-27_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 2008",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 42.5,
+      "FDP": 8.2,
+      "GRÜNE": 8.0,
+      "LINKE": 7.1,
+      "SPD": 30.3
+    }
+  },
+  "2008-01-27_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 2008",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 36.8,
+      "FDP": 9.4,
+      "GRÜNE": 7.5,
+      "LINKE": 5.1,
+      "Sonstige": 0.9,
+      "SPD": 36.7
+    }
+  },
+  "2007-05-13_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 2007",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 25.6,
+      "FDP": 6.0,
+      "GRÜNE": 16.5,
+      "LINKE": 8.4,
+      "Sonstige": 2.7,
+      "SPD": 36.7
+    }
+  },
+  "2006-09-17_MV": {
+    "election_type": "state",
+    "state": "MV",
+    "election_name": "Landtagswahl MV 2006",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 28.8,
+      "FDP": 9.6,
+      "GRÜNE": 3.4,
+      "LINKE": 16.8,
+      "Sonstige": 7.3,
+      "SPD": 30.2
+    }
+  },
+  "2006-09-17_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 2006",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 21.3,
+      "FDP": 7.6,
+      "GRÜNE": 13.1,
+      "LINKE": 13.4,
+      "SPD": 30.8
+    }
+  },
+  "2006-03-26_ST": {
+    "election_type": "state",
+    "state": "ST",
+    "election_name": "Landtagswahl ST 2006",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 36.2,
+      "FDP": 6.7,
+      "GRÜNE": 3.6,
+      "LINKE": 24.1,
+      "SPD": 21.4
+    }
+  },
+  "2006-03-26_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 2006",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 32.8,
+      "FDP": 8.0,
+      "GRÜNE": 4.6,
+      "LINKE": 2.5,
+      "SPD": 45.6
+    }
+  },
+  "2006-03-26_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 2006",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.2,
+      "FDP": 10.7,
+      "GRÜNE": 11.7,
+      "LINKE": 3.1,
+      "Sonstige": 0.7,
+      "SPD": 25.2
+    }
+  },
+  "2005-09-18": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 2005",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 35.2,
+      "FDP": 9.8,
+      "GRÜNE": 8.1,
+      "LINKE": 8.7,
+      "Sonstige": 1.6,
+      "SPD": 34.2
+    }
+  },
+  "2005-05-22_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 2005",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.8,
+      "FDP": 6.2,
+      "GRÜNE": 6.2,
+      "LINKE": 0.9,
+      "Sonstige": 0.9,
+      "SPD": 37.1
+    }
+  },
+  "2005-02-20_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 2005",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 40.2,
+      "FDP": 6.6,
+      "GRÜNE": 6.2,
+      "LINKE": 0.8,
+      "SPD": 38.7
+    }
+  },
+  "2004-09-19_SN": {
+    "election_type": "state",
+    "state": "SN",
+    "election_name": "Landtagswahl SN 2004",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 41.1,
+      "FDP": 5.9,
+      "GRÜNE": 5.1,
+      "LINKE": 23.6,
+      "Sonstige": 9.2,
+      "SPD": 9.8
+    }
+  },
+  "2004-09-19_BB": {
+    "election_type": "state",
+    "state": "BB",
+    "election_name": "Landtagswahl BB 2004",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 19.4,
+      "FDP": 3.3,
+      "GRÜNE": 3.6,
+      "LINKE": 28.0,
+      "SPD": 31.9
+    }
+  },
+  "2004-09-05_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 2004",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 47.5,
+      "FDP": 5.2,
+      "GRÜNE": 5.6,
+      "LINKE": 2.3,
+      "Sonstige": 4.0,
+      "SPD": 30.8
+    }
+  },
+  "2004-06-13_TH": {
+    "election_type": "state",
+    "state": "TH",
+    "election_name": "Landtagswahl TH 2004",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 43.0,
+      "FDP": 3.6,
+      "GRÜNE": 4.5,
+      "LINKE": 26.1,
+      "Sonstige": 1.6,
+      "SPD": 14.5
+    }
+  },
+  "2004-02-29_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 2004",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 47.2,
+      "FDP": 2.8,
+      "GRÜNE": 12.3,
+      "SPD": 30.5
+    }
+  },
+  "2003-09-21_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 2003",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 60.7,
+      "FDP": 2.6,
+      "GRÜNE": 7.7,
+      "SPD": 19.6
+    }
+  },
+  "2003-05-25_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 2003",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 29.8,
+      "FDP": 4.2,
+      "GRÜNE": 12.8,
+      "LINKE": 1.7,
+      "Sonstige": 2.3,
+      "SPD": 42.3
+    }
+  },
+  "2003-02-02_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 2003",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 48.3,
+      "FDP": 8.1,
+      "GRÜNE": 7.6,
+      "LINKE": 0.5,
+      "SPD": 33.4
+    }
+  },
+  "2003-02-02_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 2003",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 48.8,
+      "FDP": 7.9,
+      "GRÜNE": 10.1,
+      "SPD": 29.1
+    }
+  },
+  "2002-09-22_MV": {
+    "election_type": "state",
+    "state": "MV",
+    "election_name": "Landtagswahl MV 2002",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 31.4,
+      "FDP": 4.7,
+      "GRÜNE": 2.6,
+      "LINKE": 16.4,
+      "Sonstige": 0.8,
+      "SPD": 40.6
+    }
+  },
+  "2002-09-22": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 2002",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 38.5,
+      "FDP": 7.4,
+      "GRÜNE": 8.6,
+      "LINKE": 4.0,
+      "SPD": 38.5
+    }
+  },
+  "2002-04-21_ST": {
+    "election_type": "state",
+    "state": "ST",
+    "election_name": "Landtagswahl ST 2002",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.3,
+      "FDP": 13.3,
+      "GRÜNE": 2.0,
+      "LINKE": 20.4,
+      "SPD": 20.0
+    }
+  },
+  "2001-10-21_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 2001",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 23.8,
+      "FDP": 9.9,
+      "GRÜNE": 9.1,
+      "LINKE": 22.6,
+      "SPD": 29.7
+    }
+  },
+  "2001-09-23_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 2001",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 26.2,
+      "FDP": 5.1,
+      "GRÜNE": 8.6,
+      "LINKE": 0.4,
+      "SPD": 36.5
+    }
+  },
+  "2001-03-25_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 2001",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 35.3,
+      "FDP": 7.8,
+      "GRÜNE": 5.2,
+      "SPD": 44.7
+    }
+  },
+  "2001-03-25_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 2001",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.8,
+      "FDP": 8.1,
+      "GRÜNE": 7.7,
+      "Sonstige": 0.2,
+      "SPD": 33.3
+    }
+  },
+  "2000-05-14_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 2000",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.0,
+      "FDP": 9.8,
+      "GRÜNE": 7.1,
+      "LINKE": 1.1,
+      "Sonstige": 0.0,
+      "SPD": 42.8
+    }
+  },
+  "2000-02-27_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 2000",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 35.2,
+      "FDP": 7.6,
+      "GRÜNE": 6.2,
+      "LINKE": 1.4,
+      "SPD": 43.1
+    }
+  },
+  "1999-10-10_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1999",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 40.8,
+      "FDP": 2.2,
+      "GRÜNE": 9.9,
+      "LINKE": 17.7,
+      "SPD": 22.4
+    }
+  },
+  "1999-09-19_SN": {
+    "election_type": "state",
+    "state": "SN",
+    "election_name": "Landtagswahl SN 1999",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 56.9,
+      "FDP": 1.1,
+      "GRÜNE": 2.6,
+      "LINKE": 22.2,
+      "Sonstige": 1.4,
+      "SPD": 10.7
+    }
+  },
+  "1999-09-12_TH": {
+    "election_type": "state",
+    "state": "TH",
+    "election_name": "Landtagswahl TH 1999",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 51.0,
+      "FDP": 1.1,
+      "GRÜNE": 1.9,
+      "LINKE": 21.4,
+      "SPD": 18.5
+    }
+  },
+  "1999-09-05_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 1999",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 45.5,
+      "FDP": 2.6,
+      "GRÜNE": 3.2,
+      "LINKE": 0.8,
+      "SPD": 44.4
+    }
+  },
+  "1999-09-05_BB": {
+    "election_type": "state",
+    "state": "BB",
+    "election_name": "Landtagswahl BB 1999",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 26.6,
+      "FDP": 1.9,
+      "GRÜNE": 1.9,
+      "LINKE": 23.3,
+      "SPD": 39.3
+    }
+  },
+  "1999-06-06_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1999",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.1,
+      "FDP": 2.5,
+      "GRÜNE": 9.0,
+      "LINKE": 2.9,
+      "Sonstige": 3.0,
+      "SPD": 42.6
+    }
+  },
+  "1999-02-07_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1999",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 43.4,
+      "FDP": 5.1,
+      "GRÜNE": 7.2,
+      "SPD": 39.4
+    }
+  },
+  "1998-09-27_MV": {
+    "election_type": "state",
+    "state": "MV",
+    "election_name": "Landtagswahl MV 1998",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 30.2,
+      "FDP": 1.6,
+      "GRÜNE": 2.7,
+      "LINKE": 24.4,
+      "Sonstige": 1.1,
+      "SPD": 34.3
+    }
+  },
+  "1998-09-27": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1998",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 35.1,
+      "FDP": 6.2,
+      "GRÜNE": 6.7,
+      "LINKE": 5.1,
+      "SPD": 40.9
+    }
+  },
+  "1998-09-13_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1998",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 52.9,
+      "FDP": 1.7,
+      "GRÜNE": 5.7,
+      "SPD": 28.7
+    }
+  },
+  "1998-04-26_ST": {
+    "election_type": "state",
+    "state": "ST",
+    "election_name": "Landtagswahl ST 1998",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 22.0,
+      "FDP": 4.2,
+      "GRÜNE": 3.2,
+      "LINKE": 19.6,
+      "SPD": 35.9
+    }
+  },
+  "1998-03-01_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1998",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 35.9,
+      "FDP": 4.9,
+      "GRÜNE": 7.0,
+      "SPD": 47.9
+    }
+  },
+  "1997-09-21_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1997",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 30.7,
+      "FDP": 3.5,
+      "GRÜNE": 13.9,
+      "LINKE": 0.7,
+      "SPD": 36.2
+    }
+  },
+  "1996-03-24_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1996",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.2,
+      "FDP": 5.7,
+      "GRÜNE": 8.1,
+      "SPD": 39.8
+    }
+  },
+  "1996-03-24_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1996",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 38.7,
+      "FDP": 8.9,
+      "GRÜNE": 6.9,
+      "SPD": 39.8
+    }
+  },
+  "1996-03-24_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1996",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 41.3,
+      "FDP": 9.6,
+      "GRÜNE": 12.1,
+      "SPD": 25.1
+    }
+  },
+  "1995-10-22_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1995",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.4,
+      "FDP": 2.5,
+      "GRÜNE": 13.2,
+      "LINKE": 14.6,
+      "SPD": 23.6
+    }
+  },
+  "1995-05-14_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1995",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.7,
+      "FDP": 4.0,
+      "GRÜNE": 10.0,
+      "SPD": 46.0
+    }
+  },
+  "1995-05-14_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1995",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 32.6,
+      "FDP": 3.4,
+      "GRÜNE": 13.1,
+      "LINKE": 2.4,
+      "Sonstige": 2.5,
+      "SPD": 33.4
+    }
+  },
+  "1995-02-19_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1995",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 39.2,
+      "FDP": 7.4,
+      "GRÜNE": 11.2,
+      "SPD": 38.0
+    }
+  },
+  "1994-10-16_TH": {
+    "election_type": "state",
+    "state": "TH",
+    "election_name": "Landtagswahl TH 1994",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 42.6,
+      "FDP": 3.2,
+      "GRÜNE": 4.5,
+      "LINKE": 16.6,
+      "SPD": 29.6
+    }
+  },
+  "1994-10-16_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 1994",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 38.6,
+      "FDP": 2.1,
+      "GRÜNE": 5.5,
+      "SPD": 49.4
+    }
+  },
+  "1994-10-16_MV": {
+    "election_type": "state",
+    "state": "MV",
+    "election_name": "Landtagswahl MV 1994",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.7,
+      "FDP": 3.8,
+      "GRÜNE": 3.7,
+      "LINKE": 22.7,
+      "Sonstige": 0.1,
+      "SPD": 29.5
+    }
+  },
+  "1994-10-16": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1994",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 41.5,
+      "FDP": 6.9,
+      "GRÜNE": 7.3,
+      "LINKE": 4.4,
+      "SPD": 36.4
+    }
+  },
+  "1994-09-25_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1994",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 52.8,
+      "FDP": 2.8,
+      "GRÜNE": 6.1,
+      "SPD": 30.0
+    }
+  },
+  "1994-09-11_SN": {
+    "election_type": "state",
+    "state": "SN",
+    "election_name": "Landtagswahl SN 1994",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 58.1,
+      "FDP": 1.7,
+      "GRÜNE": 4.1,
+      "LINKE": 16.5,
+      "SPD": 16.6
+    }
+  },
+  "1994-09-11_BB": {
+    "election_type": "state",
+    "state": "BB",
+    "election_name": "Landtagswahl BB 1994",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 18.7,
+      "FDP": 2.2,
+      "GRÜNE": 2.9,
+      "LINKE": 18.7,
+      "SPD": 54.1
+    }
+  },
+  "1994-06-26_ST": {
+    "election_type": "state",
+    "state": "ST",
+    "election_name": "Landtagswahl ST 1994",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 34.4,
+      "FDP": 3.6,
+      "GRÜNE": 5.1,
+      "LINKE": 19.9,
+      "SPD": 34.0
+    }
+  },
+  "1994-03-13_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1994",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 36.4,
+      "FDP": 4.4,
+      "GRÜNE": 7.4,
+      "SPD": 44.3
+    }
+  },
+  "1993-09-19_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1993",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 25.1,
+      "FDP": 4.2,
+      "GRÜNE": 13.5,
+      "LINKE": 0.5,
+      "SPD": 40.4
+    }
+  },
+  "1992-04-05_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1992",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 33.8,
+      "FDP": 5.6,
+      "GRÜNE": 5.0,
+      "SPD": 46.2
+    }
+  },
+  "1992-04-05_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1992",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 39.6,
+      "FDP": 5.9,
+      "GRÜNE": 9.5,
+      "Sonstige": 0.9,
+      "SPD": 29.4
+    }
+  },
+  "1991-09-29_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1991",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 30.7,
+      "FDP": 9.5,
+      "GRÜNE": 11.4,
+      "Sonstige": 6.2,
+      "SPD": 38.8
+    }
+  },
+  "1991-06-02_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1991",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 35.1,
+      "FDP": 5.4,
+      "GRÜNE": 7.2,
+      "LINKE": 0.5,
+      "SPD": 48.0
+    }
+  },
+  "1991-04-21_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1991",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 38.7,
+      "FDP": 6.9,
+      "GRÜNE": 6.5,
+      "SPD": 44.8
+    }
+  },
+  "1991-01-20_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1991",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 40.2,
+      "FDP": 7.4,
+      "GRÜNE": 8.8,
+      "SPD": 40.8
+    }
+  },
+  "1990-12-02_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1990",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 40.4,
+      "FDP": 7.1,
+      "GRÜNE": 9.4,
+      "LINKE": 9.2,
+      "SPD": 30.4
+    }
+  },
+  "1990-12-02": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1990",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 43.8,
+      "FDP": 11.1,
+      "GRÜNE": 5.0,
+      "LINKE": 2.4,
+      "SPD": 33.5
+    }
+  },
+  "1990-10-14_TH": {
+    "election_type": "state",
+    "state": "TH",
+    "election_name": "Landtagswahl TH 1990",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 45.4,
+      "FDP": 9.3,
+      "GRÜNE": 6.5,
+      "LINKE": 9.7,
+      "SPD": 22.8
+    }
+  },
+  "1990-10-14_ST": {
+    "election_type": "state",
+    "state": "ST",
+    "election_name": "Landtagswahl ST 1990",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 39.0,
+      "FDP": 13.5,
+      "GRÜNE": 5.3,
+      "LINKE": 12.0,
+      "Sonstige": 0.1,
+      "SPD": 26.0
+    }
+  },
+  "1990-10-14_SN": {
+    "election_type": "state",
+    "state": "SN",
+    "election_name": "Landtagswahl SN 1990",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 53.8,
+      "FDP": 5.3,
+      "GRÜNE": 5.6,
+      "LINKE": 10.2,
+      "Sonstige": 0.7,
+      "SPD": 19.1
+    }
+  },
+  "1990-10-14_MV": {
+    "election_type": "state",
+    "state": "MV",
+    "election_name": "Landtagswahl MV 1990",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 38.3,
+      "FDP": 5.5,
+      "LINKE": 15.7,
+      "Sonstige": 0.2,
+      "SPD": 27.0
+    }
+  },
+  "1990-10-14_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1990",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 54.9,
+      "FDP": 5.2,
+      "GRÜNE": 6.4,
+      "SPD": 26.0
+    }
+  },
+  "1990-10-14_BB": {
+    "election_type": "state",
+    "state": "BB",
+    "election_name": "Landtagswahl BB 1990",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 29.4,
+      "FDP": 6.6,
+      "LINKE": 13.4,
+      "SPD": 38.2
+    }
+  },
+  "1990-05-13_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1990",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 36.7,
+      "FDP": 5.8,
+      "GRÜNE": 5.0,
+      "SPD": 50.0
+    }
+  },
+  "1990-05-13_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1990",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 42.0,
+      "FDP": 6.0,
+      "GRÜNE": 5.5,
+      "SPD": 44.2
+    }
+  },
+  "1990-01-28_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 1990",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 33.4,
+      "FDP": 5.6,
+      "GRÜNE": 2.6,
+      "Sonstige": 0.2,
+      "SPD": 54.4
+    }
+  },
+  "1989-01-29_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1989",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.7,
+      "FDP": 3.9,
+      "GRÜNE": 11.8,
+      "SPD": 37.3
+    }
+  },
+  "1988-05-08_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1988",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 33.3,
+      "FDP": 4.4,
+      "GRÜNE": 2.9,
+      "SPD": 54.8
+    }
+  },
+  "1988-03-20_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1988",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 49.0,
+      "FDP": 5.9,
+      "GRÜNE": 7.9,
+      "Sonstige": 2.1,
+      "SPD": 32.0
+    }
+  },
+  "1987-09-13_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1987",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 42.6,
+      "FDP": 5.2,
+      "GRÜNE": 3.9,
+      "SPD": 45.2
+    }
+  },
+  "1987-09-13_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1987",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 23.4,
+      "FDP": 10.0,
+      "GRÜNE": 10.2,
+      "Sonstige": 3.4,
+      "SPD": 50.5
+    }
+  },
+  "1987-05-17_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1987",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 45.1,
+      "FDP": 7.3,
+      "GRÜNE": 5.9,
+      "SPD": 38.8
+    }
+  },
+  "1987-05-17_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1987",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 40.5,
+      "FDP": 6.5,
+      "GRÜNE": 7.0,
+      "SPD": 45.0
+    }
+  },
+  "1987-04-05_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1987",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 42.1,
+      "FDP": 7.8,
+      "GRÜNE": 9.4,
+      "SPD": 40.2
+    }
+  },
+  "1987-01-25": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1987",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.3,
+      "FDP": 9.1,
+      "GRÜNE": 8.3,
+      "Sonstige": 0.6,
+      "SPD": 37.2
+    }
+  },
+  "1986-11-09_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1986",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 41.9,
+      "FDP": 4.8,
+      "GRÜNE": 10.4,
+      "SPD": 41.7
+    }
+  },
+  "1986-10-12_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1986",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 55.8,
+      "FDP": 3.8,
+      "GRÜNE": 7.5,
+      "SPD": 27.5
+    }
+  },
+  "1986-06-15_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1986",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.3,
+      "FDP": 6.0,
+      "GRÜNE": 7.1,
+      "SPD": 42.1
+    }
+  },
+  "1985-05-12_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1985",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 36.5,
+      "FDP": 6.0,
+      "GRÜNE": 4.6,
+      "SPD": 52.1
+    }
+  },
+  "1985-03-10_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 1985",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.3,
+      "FDP": 10.0,
+      "GRÜNE": 2.5,
+      "Sonstige": 0.7,
+      "SPD": 49.2
+    }
+  },
+  "1985-03-10_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1985",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 46.4,
+      "FDP": 8.5,
+      "GRÜNE": 10.6,
+      "SPD": 32.4
+    }
+  },
+  "1984-03-25_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1984",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 51.9,
+      "FDP": 7.2,
+      "GRÜNE": 8.0,
+      "SPD": 32.4
+    }
+  },
+  "1983-09-25_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1983",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 39.4,
+      "FDP": 7.6,
+      "GRÜNE": 5.9,
+      "SPD": 46.2
+    }
+  },
+  "1983-09-25_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1983",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 33.3,
+      "FDP": 4.6,
+      "GRÜNE": 5.4,
+      "SPD": 51.3
+    }
+  },
+  "1983-03-13_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1983",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 49.0,
+      "FDP": 2.2,
+      "GRÜNE": 3.6,
+      "SPD": 43.7
+    }
+  },
+  "1983-03-06_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1983",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 51.9,
+      "FDP": 3.5,
+      "GRÜNE": 4.5,
+      "SPD": 39.6
+    }
+  },
+  "1983-03-06": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1983",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 48.8,
+      "FDP": 7.0,
+      "GRÜNE": 5.6,
+      "Sonstige": 0.2,
+      "SPD": 38.2
+    }
+  },
+  "1982-12-19_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1982",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 38.6,
+      "FDP": 2.6,
+      "GRÜNE": 6.8,
+      "SPD": 51.3
+    }
+  },
+  "1982-10-10_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1982",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 58.3,
+      "FDP": 3.5,
+      "GRÜNE": 4.6,
+      "SPD": 31.9
+    }
+  },
+  "1982-09-26_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1982",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 45.6,
+      "FDP": 3.1,
+      "GRÜNE": 8.0,
+      "SPD": 42.8
+    }
+  },
+  "1982-06-06_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1982",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 43.2,
+      "FDP": 4.9,
+      "GRÜNE": 7.7,
+      "SPD": 42.7
+    }
+  },
+  "1982-03-21_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1982",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 50.7,
+      "FDP": 5.9,
+      "GRÜNE": 6.5,
+      "SPD": 36.5
+    }
+  },
+  "1981-05-10_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1981",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 48.0,
+      "FDP": 5.6,
+      "GRÜNE": 7.2,
+      "SPD": 38.4
+    }
+  },
+  "1980-10-05": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1980",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.5,
+      "FDP": 10.6,
+      "GRÜNE": 1.5,
+      "SPD": 42.9
+    }
+  },
+  "1980-05-11_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1980",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 43.2,
+      "FDP": 5.0,
+      "GRÜNE": 3.0,
+      "SPD": 48.4
+    }
+  },
+  "1980-04-27_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 1980",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.0,
+      "FDP": 6.9,
+      "GRÜNE": 2.9,
+      "SPD": 45.4
+    }
+  },
+  "1980-03-16_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1980",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 53.4,
+      "FDP": 8.3,
+      "GRÜNE": 5.3,
+      "SPD": 32.5
+    }
+  },
+  "1979-10-07_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1979",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 31.9,
+      "FDP": 10.8,
+      "GRÜNE": 5.1,
+      "Sonstige": 0.4,
+      "SPD": 49.4
+    }
+  },
+  "1979-04-29_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1979",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 48.3,
+      "FDP": 5.7,
+      "GRÜNE": 2.4,
+      "SPD": 41.7
+    }
+  },
+  "1979-03-18_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1979",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 50.1,
+      "FDP": 6.4,
+      "SPD": 42.3
+    }
+  },
+  "1979-03-18_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1979",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.4,
+      "FDP": 8.1,
+      "GRÜNE": 3.7,
+      "SPD": 42.7
+    }
+  },
+  "1978-10-15_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1978",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 59.1,
+      "FDP": 6.2,
+      "GRÜNE": 1.8,
+      "SPD": 31.4
+    }
+  },
+  "1978-10-08_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1978",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 46.0,
+      "FDP": 6.6,
+      "GRÜNE": 2.0,
+      "Sonstige": 0.4,
+      "SPD": 44.3
+    }
+  },
+  "1978-06-04_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1978",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 48.7,
+      "FDP": 4.2,
+      "GRÜNE": 3.9,
+      "SPD": 42.2
+    }
+  },
+  "1978-06-04_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1978",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.6,
+      "FDP": 4.8,
+      "GRÜNE": 4.5,
+      "SPD": 51.5
+    }
+  },
+  "1976-10-03": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1976",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 48.7,
+      "FDP": 7.9,
+      "Sonstige": 0.3,
+      "SPD": 42.6
+    }
+  },
+  "1976-04-04_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1976",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 56.7,
+      "FDP": 7.8,
+      "Sonstige": 0.9,
+      "SPD": 33.3
+    }
+  },
+  "1975-09-28_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1975",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 33.8,
+      "FDP": 13.0,
+      "Sonstige": 1.1,
+      "SPD": 48.8
+    }
+  },
+  "1975-05-04_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 1975",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 49.1,
+      "FDP": 7.4,
+      "Sonstige": 0.7,
+      "SPD": 41.8
+    }
+  },
+  "1975-05-04_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1975",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 47.1,
+      "FDP": 6.7,
+      "Sonstige": 0.4,
+      "SPD": 45.1
+    }
+  },
+  "1975-04-13_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1975",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 50.4,
+      "FDP": 7.1,
+      "SPD": 40.1
+    }
+  },
+  "1975-03-09_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1975",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 53.9,
+      "FDP": 5.6,
+      "SPD": 38.5
+    }
+  },
+  "1975-03-02_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1975",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 43.9,
+      "FDP": 7.1,
+      "SPD": 42.6
+    }
+  },
+  "1974-10-27_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1974",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 47.3,
+      "FDP": 7.4,
+      "Sonstige": 1.0,
+      "SPD": 43.2
+    }
+  },
+  "1974-10-27_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1974",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 62.1,
+      "FDP": 5.2,
+      "SPD": 30.2
+    }
+  },
+  "1974-06-09_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1974",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 48.8,
+      "FDP": 7.0,
+      "SPD": 43.1
+    }
+  },
+  "1974-03-03_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1974",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 40.6,
+      "FDP": 10.9,
+      "SPD": 45.0
+    }
+  },
+  "1972-11-19": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1972",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.9,
+      "FDP": 8.4,
+      "Sonstige": 0.6,
+      "SPD": 45.8
+    }
+  },
+  "1972-04-23_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1972",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 52.9,
+      "FDP": 8.9,
+      "SPD": 37.6
+    }
+  },
+  "1971-10-10_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1971",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 31.6,
+      "FDP": 7.1,
+      "Sonstige": 2.8,
+      "SPD": 55.3
+    }
+  },
+  "1971-04-25_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1971",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 51.9,
+      "FDP": 3.8,
+      "SPD": 41.0
+    }
+  },
+  "1971-03-21_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1971",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 50.0,
+      "FDP": 5.9,
+      "SPD": 40.5
+    }
+  },
+  "1971-03-14_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1971",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 38.2,
+      "FDP": 8.4,
+      "SPD": 50.4
+    }
+  },
+  "1970-11-20_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1970",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 56.4,
+      "FDP": 5.5,
+      "SPD": 33.3
+    }
+  },
+  "1970-11-08_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1970",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 39.7,
+      "FDP": 10.1,
+      "Sonstige": 3.0,
+      "SPD": 45.9
+    }
+  },
+  "1970-06-14_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 1970",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 47.8,
+      "FDP": 4.4,
+      "Sonstige": 3.4,
+      "SPD": 40.8
+    }
+  },
+  "1970-06-14_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1970",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 46.3,
+      "FDP": 5.5,
+      "Sonstige": 1.1,
+      "SPD": 46.1
+    }
+  },
+  "1970-06-14_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1970",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 45.7,
+      "FDP": 4.4,
+      "SPD": 46.3
+    }
+  },
+  "1970-03-22_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1970",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 32.8,
+      "FDP": 7.1,
+      "SPD": 55.3
+    }
+  },
+  "1969-09-28": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1969",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 46.1,
+      "FDP": 5.8,
+      "Sonstige": 4.3,
+      "SPD": 42.7
+    }
+  },
+  "1968-04-28_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1968",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.2,
+      "FDP": 14.4,
+      "Sonstige": 9.8,
+      "SPD": 29.0
+    }
+  },
+  "1967-10-01_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1967",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 29.5,
+      "FDP": 10.5,
+      "Sonstige": 8.8,
+      "SPD": 46.0
+    }
+  },
+  "1967-06-04_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1967",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 41.7,
+      "FDP": 6.9,
+      "SPD": 43.1
+    }
+  },
+  "1967-04-23_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1967",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 46.0,
+      "FDP": 5.9,
+      "SPD": 39.4
+    }
+  },
+  "1967-04-23_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1967",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 46.7,
+      "FDP": 8.3,
+      "SPD": 36.8
+    }
+  },
+  "1967-03-12_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1967",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 32.9,
+      "FDP": 7.1,
+      "SPD": 56.9
+    }
+  },
+  "1966-11-20_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1966",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 48.1,
+      "FDP": 5.1,
+      "SPD": 35.8
+    }
+  },
+  "1966-11-06_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1966",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 26.4,
+      "FDP": 10.4,
+      "Sonstige": 7.9,
+      "SPD": 51.0
+    }
+  },
+  "1966-07-10_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1966",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 42.8,
+      "FDP": 7.4,
+      "SPD": 49.5
+    }
+  },
+  "1966-03-27_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1966",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 30.0,
+      "FDP": 6.8,
+      "SPD": 59.0
+    }
+  },
+  "1965-09-19": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1965",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 47.8,
+      "FDP": 9.5,
+      "Sonstige": 2.0,
+      "SPD": 39.3
+    }
+  },
+  "1965-06-27_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 1965",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 42.7,
+      "FDP": 8.3,
+      "SPD": 40.7
+    }
+  },
+  "1964-04-26_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1964",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 46.2,
+      "FDP": 13.1,
+      "SPD": 37.3
+    }
+  },
+  "1963-09-29_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1963",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 28.9,
+      "FDP": 8.4,
+      "SPD": 54.7
+    }
+  },
+  "1963-05-19_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1963",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.7,
+      "FDP": 8.8,
+      "Sonstige": 2.7,
+      "SPD": 44.9
+    }
+  },
+  "1963-03-31_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1963",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.4,
+      "FDP": 10.1,
+      "SPD": 40.7
+    }
+  },
+  "1963-02-17_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1963",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 28.8,
+      "FDP": 7.9,
+      "SPD": 61.9
+    }
+  },
+  "1962-11-25_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1962",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 47.5,
+      "FDP": 5.9,
+      "SPD": 35.3
+    }
+  },
+  "1962-11-23_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1962",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 45.0,
+      "FDP": 7.9,
+      "SPD": 39.2
+    }
+  },
+  "1962-11-11_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1962",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 28.8,
+      "FDP": 11.4,
+      "SPD": 50.8
+    }
+  },
+  "1962-07-08_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1962",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 46.4,
+      "FDP": 6.8,
+      "SPD": 43.3
+    }
+  },
+  "1961-11-12_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1961",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 29.1,
+      "FDP": 9.6,
+      "SPD": 57.4
+    }
+  },
+  "1961-09-17": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1961",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 45.4,
+      "FDP": 12.8,
+      "SPD": 36.2
+    }
+  },
+  "1960-12-04_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 1960",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 36.6,
+      "FDP": 13.8,
+      "SPD": 30.0
+    }
+  },
+  "1960-05-15_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1960",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 39.5,
+      "FDP": 15.8,
+      "SPD": 35.3
+    }
+  },
+  "1959-10-11_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1959",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 14.8,
+      "FDP": 7.2,
+      "SPD": 54.9
+    }
+  },
+  "1959-04-19_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1959",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 48.4,
+      "FDP": 9.7,
+      "SPD": 34.9
+    }
+  },
+  "1959-04-19_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1959",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 30.8,
+      "FDP": 5.2,
+      "Sonstige": 12.4,
+      "SPD": 39.5
+    }
+  },
+  "1958-12-07_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1958",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.7,
+      "FDP": 3.8,
+      "SPD": 52.6
+    }
+  },
+  "1958-11-28_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1958",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 44.4,
+      "FDP": 5.4,
+      "SPD": 35.9
+    }
+  },
+  "1958-11-23_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1958",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 32.0,
+      "FDP": 9.5,
+      "SPD": 46.9
+    }
+  },
+  "1958-11-23_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1958",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 45.6,
+      "FDP": 5.6,
+      "SPD": 30.8
+    }
+  },
+  "1958-07-06_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1958",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 50.5,
+      "FDP": 7.1,
+      "SPD": 39.2
+    }
+  },
+  "1957-11-10_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1957",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 32.2,
+      "FDP": 8.6,
+      "SPD": 53.9
+    }
+  },
+  "1957-09-15": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1957",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 50.2,
+      "FDP": 7.7,
+      "SPD": 31.8
+    }
+  },
+  "1956-03-04_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1956",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 42.6,
+      "FDP": 16.6,
+      "SPD": 28.9
+    }
+  },
+  "1955-12-18_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 1955",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 25.4,
+      "FDP": 24.2,
+      "SPD": 14.3
+    }
+  },
+  "1955-10-09_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1955",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 18.0,
+      "FDP": 8.6,
+      "SPD": 47.8
+    }
+  },
+  "1955-05-15_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1955",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 46.8,
+      "FDP": 12.7,
+      "SPD": 31.7
+    }
+  },
+  "1955-04-24_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1955",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 26.6,
+      "FDP": 7.9,
+      "Sonstige": 12.4,
+      "SPD": 35.2
+    }
+  },
+  "1954-12-05_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1954",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 30.4,
+      "FDP": 12.8,
+      "SPD": 44.6
+    }
+  },
+  "1954-11-28_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1954",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 24.1,
+      "FDP": 20.5,
+      "SPD": 42.6
+    }
+  },
+  "1954-11-28_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1954",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 38.0,
+      "FDP": 7.2,
+      "SPD": 28.1
+    }
+  },
+  "1954-09-12_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1954",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 32.2,
+      "FDP": 7.5,
+      "SPD": 33.2
+    }
+  },
+  "1954-06-27_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1954",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 41.3,
+      "FDP": 11.5,
+      "SPD": 34.5
+    }
+  },
+  "1953-11-01_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1953",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 50.0,
+      "SPD": 45.2
+    }
+  },
+  "1953-09-06": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1953",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 45.2,
+      "FDP": 9.5,
+      "SPD": 28.8
+    }
+  },
+  "1952-03-09_BW": {
+    "election_type": "state",
+    "state": "BW",
+    "election_name": "Landtagswahl BW 1952",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 36.0,
+      "FDP": 18.0,
+      "SPD": 28.0
+    }
+  },
+  "1951-10-07_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1951",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 9.1,
+      "FDP": 11.8,
+      "Sonstige": 7.7,
+      "SPD": 39.1
+    }
+  },
+  "1951-05-06_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1951",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 23.7,
+      "FDP": 8.3,
+      "SPD": 33.7
+    }
+  },
+  "1951-04-29_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1951",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 39.2,
+      "FDP": 16.7,
+      "SPD": 34.0
+    }
+  },
+  "1950-12-03_BE": {
+    "election_type": "state",
+    "state": "BE",
+    "election_name": "Landtagswahl BE 1950",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 24.7,
+      "FDP": 23.1,
+      "SPD": 44.7
+    }
+  },
+  "1950-11-26_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1950",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 27.4,
+      "FDP": 7.1,
+      "SPD": 28.0
+    }
+  },
+  "1950-11-19_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1950",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 18.8,
+      "FDP": 31.8,
+      "SPD": 44.4
+    }
+  },
+  "1950-07-09_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1950",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 19.8,
+      "FDP": 7.1,
+      "SPD": 27.5
+    }
+  },
+  "1950-06-18_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1950",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 36.9,
+      "FDP": 12.1,
+      "SPD": 32.3
+    }
+  },
+  "1949-10-16_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1949",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 34.5,
+      "SPD": 42.8
+    }
+  },
+  "1949-08-14": {
+    "election_type": "federal",
+    "election_name": "Bundestagswahl 1949",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 31.0,
+      "FDP": 11.9,
+      "SPD": 29.2
+    }
+  },
+  "1947-10-12_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1947",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 22.0,
+      "FDP": 19.4,
+      "SPD": 41.7
+    }
+  },
+  "1947-10-05_SL": {
+    "election_type": "state",
+    "state": "SL",
+    "election_name": "Landtagswahl SL 1947",
+    "turnout": null,
+    "results": {
+      "FDP": 7.6
+    }
+  },
+  "1947-05-18_RP": {
+    "election_type": "state",
+    "state": "RP",
+    "election_name": "Landtagswahl RP 1947",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 47.2,
+      "FDP": 9.8,
+      "SPD": 34.3
+    }
+  },
+  "1947-04-20_NW": {
+    "election_type": "state",
+    "state": "NW",
+    "election_name": "Landtagswahl NW 1947",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 37.6,
+      "FDP": 5.9,
+      "SPD": 32.0
+    }
+  },
+  "1947-02-20_SH": {
+    "election_type": "state",
+    "state": "SH",
+    "election_name": "Landtagswahl SH 1947",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 34.1,
+      "FDP": 5.0,
+      "SPD": 43.8
+    }
+  },
+  "1947-02-20_NI": {
+    "election_type": "state",
+    "state": "NI",
+    "election_name": "Landtagswahl NI 1947",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 19.9,
+      "FDP": 8.8,
+      "Sonstige": 17.9,
+      "SPD": 43.4
+    }
+  },
+  "1946-12-01_HE": {
+    "election_type": "state",
+    "state": "HE",
+    "election_name": "Landtagswahl HE 1946",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 30.9,
+      "FDP": 15.7,
+      "SPD": 42.7
+    }
+  },
+  "1946-12-01_BY": {
+    "election_type": "state",
+    "state": "BY",
+    "election_name": "Landtagswahl BY 1946",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 52.3,
+      "FDP": 5.6,
+      "SPD": 28.6
+    }
+  },
+  "1946-10-13_HH": {
+    "election_type": "state",
+    "state": "HH",
+    "election_name": "Landtagswahl HH 1946",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 26.7,
+      "FDP": 18.2,
+      "SPD": 43.1
+    }
+  },
+  "1946-10-13_HB": {
+    "election_type": "state",
+    "state": "HB",
+    "election_name": "Landtagswahl HB 1946",
+    "turnout": null,
+    "results": {
+      "CDU/CSU": 18.9,
+      "FDP": 18.3,
+      "SPD": 47.6
+    }
+  }
+}
