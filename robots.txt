@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://zweitstimme.org/sitemap.xml
